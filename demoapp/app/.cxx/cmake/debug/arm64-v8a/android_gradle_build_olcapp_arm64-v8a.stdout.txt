@@ -1,0 +1,4 @@
+ninja: Entering directory `/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/debug/arm64-v8a'
+[1/3] Building CXX object CMakeFiles/olcapp.dir/run.cpp.o
+[2/3] Building CXX object CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o
+[3/3] Linking CXX shared library /Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so

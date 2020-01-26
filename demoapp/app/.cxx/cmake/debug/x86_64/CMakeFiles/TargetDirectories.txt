@@ -1,0 +1,3 @@
+/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir

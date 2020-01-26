@@ -1,0 +1,261 @@
+#version 330 core
+
+#define BLUR false
+#define MAXSPRITES 32
+
+precision highp float;
+
+
+// texture sampler
+uniform sampler2D glbuffer;
+uniform sampler2D spritebuffer0, spritebuffer1, spritebuffer2, spritebuffer3, spritebuffer4, spritebuffer5,spritebuffer6,spritebuffer7;
+
+out vec4 FragColor;
+
+in vec3 ourColor;
+in vec2 TexCoord;
+
+uniform highp vec2 iResolution;				// sceen resolution in px
+uniform highp int  iSpriteSheets;			// number of sprite sheets
+
+// sheetwidth, sheetheight, numspr_x, numspr_y
+uniform highp vec4 iSpriteSheet0, iSpriteSheet1, iSpriteSheet2, iSpriteSheet3, iSpriteSheet4, iSpriteSheet5, iSpriteSheet6, iSpriteSheet7, iSpriteSheet8;
+// Sprite positions array
+uniform highp vec4 iSpritePos0[MAXSPRITES], iSpritePos1[MAXSPRITES], iSpritePos2[MAXSPRITES], iSpritePos3[MAXSPRITES], iSpritePos4[MAXSPRITES], iSpritePos5[MAXSPRITES], iSpritePos6[MAXSPRITES], iSpritePos7[MAXSPRITES];
+// Sprite status (on/off) array
+uniform highp int  iSpriteDef0[MAXSPRITES], iSpriteDef1[MAXSPRITES], iSpriteDef2[MAXSPRITES], iSpriteDef3[MAXSPRITES], iSpriteDef4[MAXSPRITES], iSpriteDef5[MAXSPRITES], iSpriteDef6[MAXSPRITES], iSpriteDef7[MAXSPRITES];
+
+// uniform highp vec2 iLightPosition;
+// uniform highp vec2 iSkyColor;
+
+vec2 iLightPosition=vec2(1,1.8);
+vec3 iSkyColor=vec3(1,1,1); // vec3(0.59, 0.77, 1.0);
+vec2 iResoHoriz=iResolution; // vec2(iResolution.x, iResolution.y-20);
+const float zenithOffset = 0.58;
+
+// spritesheet: calulations
+
+bool hasImage(int sprite) {
+    return sprite != -1;
+}
+
+// generic 2d rotate
+mat2 rotate2d(float _angle){
+    return mat2(cos(_angle), -sin(_angle),
+    sin(_angle), cos(_angle));
+}
+
+vec2 rotateDimensions(vec2 target, float angle) {
+    target = rotate2d(angle) * target;
+    target.x = abs(target.x);
+    target.y = abs(target.y);
+    return target;
+}
+
+vec4 blur5(sampler2D image, vec2 uv, vec2 resolution, vec2 direction) {
+    vec4 color = vec4(0.0);
+    vec2 off1 = vec2(1.3333333333333333) * direction;
+    color += texture(image, uv) * 0.29411764705882354;
+    color += texture(image, uv + (off1 / resolution)) * 0.35294117647058826;
+    color += texture(image, uv - (off1 / resolution)) * 0.35294117647058826;
+    return color;
+}
+
+// imageVector: x,y,scale,rotation
+vec4 drawImage(vec4 spriteSheet, vec2 uv, vec4 imageVector, sampler2D source, int spriteIndex, bool blur) {
+
+	vec2 __spriteSize =  spriteSheet.xy/spriteSheet.zw;
+
+    if (hasImage(spriteIndex)) {
+		
+		// x,y cell in spritesheet
+		vec2 sprite = vec2(spriteIndex%int(spriteSheet.z), spriteIndex/int(spriteSheet.z));
+
+		// offset in sprite sheet
+		vec2 __spsheetoff = sprite*__spriteSize * imageVector.z;
+
+        float t = 0.0;
+        vec4 fincolor = vec4(0,0,0,0);
+
+        vec2 pos = iResolution.xy * vec2(imageVector.xy) ;
+        vec2 ssize = __spriteSize / iResolution.xy; // vec2(imageVector.zw);
+
+        vec2 dimens = ssize * iResolution.xy * imageVector.z;
+		float angle = imageVector.w;
+
+		// rotate if needed
+        if (angle != 0.) {
+
+            // image rotation r/center
+            uv -= vec2(pos.x, pos.y);
+
+            // angle = abs(angle);
+            uv = rotate2d(angle) *  uv;
+
+            uv.y = 1. - uv.y;
+
+            uv += vec2(pos.x, pos.y);
+            dimens = rotateDimensions(dimens, angle);
+
+        }
+
+        if ((uv.x > pos.x - dimens.x / 2.0) && (uv.x < pos.x + dimens.x / 2.0)
+        && (uv.y > pos.y - dimens.y / 2.0) && (uv.y < pos.y +  dimens.y / 2.0)) {
+
+            // point belongs inside the rectangle: render the sprite
+
+            t = 1.0;
+
+            // DIMENS dimensiones del agujero con las dimensiones de la cara
+            // image rescale factor "fit xy"
+            // adjustaremos desde fuera xa q ese FITXY sea justo el tamano del bitmap
+            // en lugar del tamano de la cara
+
+            // position in texture
+            vec2 textpos = vec2(uv.x-(pos.x - dimens.x / 2.0), uv.y-(pos.y -  dimens.y / 2.0));
+
+			// add offset in sheet
+			textpos += __spsheetoff;
+
+			// divide by number of sprites
+			textpos /= spriteSheet.zw;
+
+			// final texture coordinates
+            vec2 textcoord =  textpos / dimens;
+
+			if (blur)
+				fincolor = blur5(source, textcoord, __spriteSize.xy, normalize(vec2(1.,1.)));
+			else
+				fincolor = texture(source, textcoord);
+
+        }
+
+        return fincolor;
+
+    } else return vec4(0, 0, 0, 0);
+
+}
+
+vec4 mixSprite(in vec4 spritesheet, in vec2 fragCoord, in vec4 imageVector, in sampler2D channel, in vec4 destinationLayer, in int sprite, bool blur) {
+
+    if (hasImage(sprite)) {
+    
+        vec4 faceColor = drawImage(spritesheet, fragCoord, imageVector, channel, sprite, blur);
+        return mix(destinationLayer, faceColor, faceColor.a);
+        
+    } else return destinationLayer;
+
+}
+
+/*
+
+	Non physical based atmospheric scattering made by robobo1221
+	Site: http://www.robobo1221.net/shaders
+	Shadertoy: http://www.shadertoy.com/user/robobo1221
+
+*/
+
+const float pi = 3.14159265359;
+const float invPi = 1.0 / pi;
+
+const float multiScatterPhase = 0.1;
+const float density = 0.7;
+
+const float anisotropicIntensity = 1.0; //Higher numbers result in more anisotropic scattering
+
+vec3 skyColor = iSkyColor * (1.0 + anisotropicIntensity); //Make sure one of the conponents is never 0.0
+
+#define smooth(x) x*x*(3.0-2.0*x)
+#define zenithDensity(x) density / pow(max(x - zenithOffset, 0.35e-2), 0.75)
+
+vec3 getSkyAbsorption(vec3 x, float y){
+	
+	vec3 absorption = x * -y;
+	     absorption = exp2(absorption) * 2.0;
+	
+	return absorption;
+}
+
+float getSunPoint(vec2 p, vec2 lp){
+	return smoothstep(0.03, 0.026, distance(p, lp)) * 50.0;
+}
+
+float getRayleigMultiplier(vec2 p, vec2 lp){
+	return 1.0 + pow(1.0 - clamp(distance(p, lp), 0.0, 1.0), 2.0) * pi * 0.5;
+}
+
+float getMie(vec2 p, vec2 lp){
+	float disk = clamp(1.0 - pow(distance(p, lp), 0.1), 0.0, 1.0);
+	
+	return disk*disk*(3.0 - 2.0 * disk) * 2.0 * pi;
+}
+
+vec3 getAtmosphericScattering(vec2 p, vec2 lp){
+	vec2 correctedLp = lp / max(iResoHoriz.x, iResoHoriz.y) * iResoHoriz.xy;
+		
+	float zenith = zenithDensity(p.y);
+	float sunPointDistMult =  clamp(length(max(correctedLp.y + multiScatterPhase - zenithOffset, 0.0)), 0.0, 1.0);
+	
+	float rayleighMult = getRayleigMultiplier(p, correctedLp);
+	
+	vec3 absorption = getSkyAbsorption(skyColor, zenith);
+    vec3 sunAbsorption = getSkyAbsorption(skyColor, zenithDensity(correctedLp.y + multiScatterPhase));
+	vec3 sky = skyColor * zenith * rayleighMult;
+	vec3 sun = getSunPoint(p, correctedLp) * absorption;
+	vec3 mie = getMie(p, correctedLp) * sunAbsorption;
+	
+	vec3 totalSky = mix(sky * absorption, sky / (sky + 0.5), sunPointDistMult);
+         totalSky += sun + mie;
+	     totalSky *= sunAbsorption * 0.5 + 0.5 * length(sunAbsorption);
+	
+	return totalSky;
+}
+
+vec3 jodieReinhardTonemap(vec3 c){
+    float l = dot(c, vec3(0.2126, 0.7152, 0.0722));
+    vec3 tc = c / (c + 1.0);
+
+    return mix(c / (l + 1.0), tc, tc);
+}
+
+vec4 atmosColor(vec4 incolor, vec2 position, vec2 lightPosition) {
+
+//	vec2 lightPosition = lightPos / iResolution.xy * 2.0 + ((lightPos.x + lightPos.y) == 0.0 ? vec2(1.0, 0.4) : vec2(0.0));
+	vec3 color = getAtmosphericScattering(position, lightPosition) * pi;
+	color = jodieReinhardTonemap(color);
+	color = pow(color, vec3(2.2)); //Back to linear
+	return incolor * vec4(color,1.0);
+}
+
+/**/
+
+
+void main() {
+
+	vec4 face = vec4(texture(glbuffer, TexCoord).rgb, 1.0);
+	vec2 fragCoord = vec2(TexCoord*iResolution.xy);
+
+	if (iSpriteSheets>0)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet0, fragCoord, iSpritePos0[i], spritebuffer0, face, iSpriteDef0[i], BLUR);
+	else if (iSpriteSheets>1)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet1, fragCoord, iSpritePos1[i], spritebuffer1, face, iSpriteDef1[i], BLUR);
+	else if (iSpriteSheets>2)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet2, fragCoord, iSpritePos2[i], spritebuffer2, face, iSpriteDef2[i], BLUR);
+	else if (iSpriteSheets>3)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet3, fragCoord, iSpritePos3[i], spritebuffer3, face, iSpriteDef3[i], BLUR);
+	else if (iSpriteSheets>4)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet4, fragCoord, iSpritePos4[i], spritebuffer4, face, iSpriteDef4[i], BLUR);
+	else if (iSpriteSheets>5)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet5, fragCoord, iSpritePos5[i], spritebuffer5, face, iSpriteDef5[i], BLUR);
+	else if (iSpriteSheets>6)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet6, fragCoord, iSpritePos6[i], spritebuffer6, face, iSpriteDef6[i], BLUR);
+	else if (iSpriteSheets>7)
+		for (int i=0; i<MAXSPRITES; i++) face = mixSprite(iSpriteSheet7, fragCoord, iSpritePos7[i], spritebuffer7, face, iSpriteDef7[i], BLUR);
+
+	vec2 position = vec2(fragCoord.x, 1-fragCoord.y) /  iResolution.x * 2.0;
+
+	FragColor = atmosColor(face, position, iLightPosition);
+//	FragColor = face;
+}
+
+

@@ -1,0 +1,47 @@
+{
+  "stringTable": {
+    "0": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dolcapp_EXPORTS -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/include -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/include/libpng -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Volumes/git.root/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "olcapp-Release-x86_64": {
+      "buildCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/.cxx/cmake/release/x86_64\" olcapp",
+      "buildType": "release",
+      "toolchain": "1002305126",
+      "abi": "x86_64",
+      "artifactName": "olcapp",
+      "files": [
+        {
+          "src": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/run.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/src/main/cpp/app/demo/DemoEngine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/build/intermediates/cmake/release/obj/x86_64/libolcapp.so"
+    }
+  },
+  "toolchains": {
+    "1002305126": {
+      "cppCompilerExecutable": "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
