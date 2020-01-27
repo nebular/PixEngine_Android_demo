@@ -1,4 +1,0 @@
-# ninja log v5
-0	1353	1580074672	CMakeFiles/olcapp.dir/run.cpp.o	fc0d2723c38fc5f
-1	1612	1580074672	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	e3af92ba70acd4be
-1612	1664	1580074673	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/demoapp/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so	7657d5b4119fcf9b
