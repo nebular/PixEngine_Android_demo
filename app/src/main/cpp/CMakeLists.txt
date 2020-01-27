@@ -40,15 +40,11 @@ set_target_properties(olcPGE_portable PROPERTIES IMPORTED_LOCATION
 
 #target_include_directories(androidolc PUBLIC ${CMAKE_SOURCE_DIR}/../include)
 
-
-# Make olcpixelengine headers visible to your program
-# include_directories(lib/olcPGE_portable/src)
-# include_directories(lib/olcPGE_portable/src/arch/android)
-
 # Add your application source code
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/app)
-include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# Make olcpixelengine headers visible to your program
 include_directories(olcPGE_headers/libpng)
 include_directories(olcPGE_headers)
 
