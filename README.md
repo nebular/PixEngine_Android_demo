@@ -28,8 +28,7 @@ Support
 -------
 If you've found an error in these samples, please [file an issue] (https://github.com/nebular/olcPGE_Android/issues/new).
 
-Patches are encouraged, and may be submitted by [forking this project](https://github.com/nebular/olcPGE_Android/fork) and
-submitting a pull request through GitHub.
+Patches are encouraged, and may be submitted by [forking this project](https://github.com/nebular/olcPGE_Android/fork) and submitting a pull request through GitHub.
 
 License
 -------
