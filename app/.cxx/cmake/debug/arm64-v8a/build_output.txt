@@ -1,3 +1,2 @@
-/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
-HOLA
+OLC/Android - Rodolfo Lopez Pintor 2020
 Configuring done

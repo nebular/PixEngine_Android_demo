@@ -1,0 +1,13 @@
+# ninja log v5
+0	5	0	clean	c4ad5cb393780fc9
+0	839	1580187410	CMakeFiles/olcapp.dir/run.cpp.o	22c77eae3a767402
+1	841	1580187410	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	acd43d2c825f9d9e
+841	881	1580187410	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	a89da07080ba0b2b
+0	5	0	clean	c4ad5cb393780fc9
+1	749	1580187662	CMakeFiles/olcapp.dir/run.cpp.o	22c77eae3a767402
+1	767	1580187662	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	acd43d2c825f9d9e
+768	794	1580187662	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	a89da07080ba0b2b
+0	5	0	clean	c4ad5cb393780fc9
+1	757	1580187931	CMakeFiles/olcapp.dir/run.cpp.o	22c77eae3a767402
+2	762	1580187931	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	acd43d2c825f9d9e
+762	790	1580187931	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	a89da07080ba0b2b

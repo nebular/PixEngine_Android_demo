@@ -18,7 +18,7 @@
           package="tv.nebular.olcpxe.samples">
   <uses-feature android:glEsVersion="0x00030000"/>
   <application>
-    <activity android:name="tv.nebular.olcpxe.android.gles3jni.GLES3JNIActivity"
+    <activity android:name="tv.nebular.olcpge.android.pgerunner.PgeRunner"
               android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
               android:launchMode="singleTask"
               android:screenOrientation="landscape"

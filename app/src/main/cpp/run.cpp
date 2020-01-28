@@ -11,15 +11,13 @@
 // Thanks to this dirty trick, the JNI launcher, and the OLC  libs,
 // are independent shared libraries that have their own CMAKE, so it is really
 // easy to link them into new projects, package, distribute, etc ... vs. manually
-// having to craft a bif CMAKE everytime.
+// having to craft a big CMAKE everytime.
 
-
-
-struct LoneKart {
-	LoneKart() {
+struct OneLoneDemo {
+	OneLoneDemo() {
 		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
 	}
 };
 
-LoneKart rules;
+OneLoneDemo rules;
 

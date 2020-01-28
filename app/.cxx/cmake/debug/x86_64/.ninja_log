@@ -1,0 +1,27 @@
+# ninja log v5
+0	810	1580177496	CMakeFiles/olcapp.dir/run.cpp.o	3afc83dd2125ad67
+0	812	1580177496	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	fb99bebf4ba789c9
+812	852	1580177496	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	43d63a30ed1b5f65
+1	32	1580180884	build.ninja	9016fba7c1c4087d
+0	4	0	clean	c4ad5cb393780fc9
+2	839	1580180889	CMakeFiles/olcapp.dir/run.cpp.o	a33ebea5558cb453
+2	840	1580180889	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	b08660cf764cf2ab
+840	928	1580180889	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	749410e16e12df66
+0	5	0	clean	c4ad5cb393780fc9
+0	36	1580186078	build.ninja	9016fba7c1c4087d
+0	4	0	clean	c4ad5cb393780fc9
+1	873	1580186083	CMakeFiles/olcapp.dir/run.cpp.o	a33ebea5558cb453
+1	873	1580186083	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	b08660cf764cf2ab
+873	913	1580186083	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	749410e16e12df66
+0	4	0	clean	c4ad5cb393780fc9
+1	865	1580187411	CMakeFiles/olcapp.dir/run.cpp.o	a33ebea5558cb453
+1	866	1580187411	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	b08660cf764cf2ab
+866	905	1580187411	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	749410e16e12df66
+0	5	0	clean	c4ad5cb393780fc9
+1	760	1580187663	CMakeFiles/olcapp.dir/run.cpp.o	a33ebea5558cb453
+2	771	1580187663	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	b08660cf764cf2ab
+771	797	1580187663	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	749410e16e12df66
+0	5	0	clean	c4ad5cb393780fc9
+1	769	1580187932	CMakeFiles/olcapp.dir/run.cpp.o	a33ebea5558cb453
+1	772	1580187932	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	b08660cf764cf2ab
+772	796	1580187932	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	749410e16e12df66

@@ -60,22 +60,12 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"OLC/Android - Rodolfo Lopez Pintor 2020","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
-CMAKE SERVER: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
-CMAKE SERVER: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
-CMAKE SERVER: 
-
-CMAKE SERVER: [== "CMake Server" ==[
-
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"HOLA","type":"message"}
-
-CMAKE SERVER: ]== "CMake Server" ==]
-
-CMAKE SERVER: HOLA
-CMAKE SERVER: HOLA
+CMAKE SERVER: OLC/Android - Rodolfo Lopez Pintor 2020
+CMAKE SERVER: OLC/Android - Rodolfo Lopez Pintor 2020
 CMAKE SERVER: 
 
 CMAKE SERVER: [== "CMake Server" ==[
@@ -157,7 +147,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/armeabi-v7a","name":"Project","sourceDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","targets":[{"artifacts":["/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/armeabi-v7a/libolcapp.so"],"buildDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -Oz -DNDEBUG  -fPIC  ","defines":["olcapp_EXPORTS"],"includePath":[{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers/libpng"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers"}],"isGenerated":false,"language":"CXX","sources":["run.cpp","app/demo/DemoEngine.cpp"]}],"fullName":"libolcapp.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack","linkLibraries":"-landroid /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libandroidolc.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcPGE_portable.so -latomic -lm","linkerLanguage":"CXX","name":"olcapp","sourceDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","sysroot":"/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/armeabi-v7a","name":"Project","sourceDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","targets":[{"artifacts":["/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/armeabi-v7a/libolcapp.so"],"buildDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -Oz -DNDEBUG  -fPIC  ","defines":["olcapp_EXPORTS"],"includePath":[{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp"},{"path":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app"}],"isGenerated":false,"language":"CXX","sources":["run.cpp","app/demo/DemoEngine.cpp"]}],"fullName":"libolcapp.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack","linkLibraries":"-landroid /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_portable.so -latomic -lm","linkerLanguage":"CXX","name":"olcapp","sourceDirectory":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","sysroot":"/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 

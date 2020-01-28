@@ -11,12 +11,14 @@ cmake_minimum_required(VERSION 3.4.1)
 #           OLC header files will be recognized in the ide.
 #           To instantiate your Main Engine class, take a look at the file run.cpp.
 #
-# This script works in conjunction with build.gradle. Build.Gradle unpacks the .so libraries
-# and header files that we need here, and publishes them so are available to your source files.
-# Beware that the header files are not the ones used by the engine, just headers packed for linking and developent.
-# If you need to update the olcPixelEngine.h the place to do it is the root project. Your modifications there
-# will automagically propagate here as soon as you replace the release .AAR file into the olcpge_android filder.
+# This script works in combination with build.gradle. Build.Gradle unpacks the .so libraries
+# and header files that we need here, and publishes the headers them so are available to your source files.
+# Beware that the header files are not the ones used by the engine, just convenience headers packed for linking
+# and development.
 #
+# If you need to update the olcPixelEngine.h, the place to do it is the core project. Your modifications there
+# will automagically propagate here as soon as you replace the release .AAR file into the olcpge_android folder
+# in this project.
 #
 
 # Main C & C++ flags
@@ -31,7 +33,6 @@ if (${ANDROID_PLATFORM_LEVEL} LESS 12)
 
 elseif (${ANDROID_PLATFORM_LEVEL} LESS 18)
     add_definitions("-DDYNAMIC_ES3")
-    set(GL3STUB_SRC opengl/gl3stub.c)
     set(OPENGL_LIB GLESv2)
 
 else ()
@@ -75,7 +76,7 @@ add_library(olcapp SHARED
         app/demo/DemoEngine.cpp
         )
 
-# And finally, ink you application with Android SDK and AndroidOLC pre-compiled libraries
+# And finally, link you application with Android SDK and AndroidOLC pre-compiled libraries
 target_link_libraries(olcapp
         android
         olcPGE_android

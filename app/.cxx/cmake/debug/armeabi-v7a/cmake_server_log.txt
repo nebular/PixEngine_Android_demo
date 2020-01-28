@@ -60,22 +60,12 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"OLC/Android - Rodolfo Lopez Pintor 2020","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
-CMAKE SERVER: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
-CMAKE SERVER: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
-CMAKE SERVER: 
-
-CMAKE SERVER: [== "CMake Server" ==[
-
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"HOLA","type":"message"}
-
-CMAKE SERVER: ]== "CMake Server" ==]
-
-CMAKE SERVER: HOLA
-CMAKE SERVER: HOLA
+CMAKE SERVER: OLC/Android - Rodolfo Lopez Pintor 2020
+CMAKE SERVER: OLC/Android - Rodolfo Lopez Pintor 2020
 CMAKE SERVER: 
 
 CMAKE SERVER: [== "CMake Server" ==[
