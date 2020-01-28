@@ -8,11 +8,14 @@
 #include "DemoEngine.h"
 
 bool DemoEngine::OnUserCreate() {
-	Clear(olc::YELLOW);
+	Clear(olc::BLUE);
 	return true;
 }
 
 bool DemoEngine::OnUserUpdate(float fElapsedTime) {
-	DrawString(100,100,"HELLO ANDROID", olc::RED, 6.0);
+	DrawString(100,100,"HELLO OLC PGE!", olc::GREEN, 4.0);
+	olc::Sprite *s = new olc::Sprite("android.png");
+	SetPixelMode(olc::Pixel::ALPHA);
+	DrawSprite(160,200,s, 1);
 	return true;
 }

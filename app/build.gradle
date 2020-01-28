@@ -7,7 +7,7 @@ def platformVersion = 24      // openGLES 3.2 min api level
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId 'tv.nebular.olcpxe.android.gles3jni'
+        applicationId 'tv.nebular.olcpxe.samples'
         minSdkVersion "${platformVersion}"
         targetSdkVersion 28
         externalNativeBuild {
