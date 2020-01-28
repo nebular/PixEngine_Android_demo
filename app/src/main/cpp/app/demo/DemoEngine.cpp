@@ -1,9 +1,17 @@
 //
+// OneLoneCoder Pixel Game Engine Android Template
+// Author: Rodolfo Lopez Pintor <rlp@nebular.tv>
+//
+// License: Creative commons CC-BY
 // Created by rodo on 2020-01-24.
+//
+// On the project tree you have "olcpge_android" as a module with the release version of
+// the android/PixelGameEngine library. You may need to update that file for newer versions.
+// You can also build the project yourself, just clone https://github.com/nebular/olcPGE_Android
+// and build your customized launcher
 //
 
 #include "olcPixelGameEngine.h"
-#include <jni.h>
 
 #include "DemoEngine.h"
 
