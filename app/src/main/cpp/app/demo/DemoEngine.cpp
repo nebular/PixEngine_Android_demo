@@ -25,5 +25,6 @@ bool DemoEngine::OnUserUpdate(float fElapsedTime) {
 	olc::Sprite *s = new olc::Sprite("android.png");
 	SetPixelMode(olc::Pixel::ALPHA);
 	DrawSprite(160,200,s, 1);
+	Draw
 	return true;
 }
