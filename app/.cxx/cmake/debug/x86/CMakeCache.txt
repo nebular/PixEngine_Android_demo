@@ -204,8 +204,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=24
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -220,7 +220,7 @@ Project_BINARY_DIR:STATIC=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/ap
 Project_SOURCE_DIR:STATIC=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
 
 //Dependencies for the target
-olcapp_LIB_DEPENDS:STATIC=general;android;general;androidolc;general;olcPGE_portable;
+olcapp_LIB_DEPENDS:STATIC=general;android;general;olcPGE_android;general;olcPGE_portable;
 
 
 ########################

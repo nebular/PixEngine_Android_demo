@@ -6,7 +6,6 @@
 
 #include "DemoEngine.h"
 
-
 bool DemoEngine::OnUserCreate() {
 	Clear(olc::YELLOW);
 	return true;

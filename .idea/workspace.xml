@@ -5,527 +5,310 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f8442d-83ff-4460-89ab-109b4d8e8275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__artifacts_olcpge_android_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build_model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/json_generation_record.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/libs/olcPGE_Android-1.0.0-debug.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/olcpge_android.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/olcpge_android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheepcheep-beach.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.clouds.old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.spl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.heights.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.last.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.heights.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/gc-yoshicircuit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/koopabeach-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.HEIGHTS.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.last.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.spl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.horiz.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.spl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4:horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/peach-gardens.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.heights.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.spl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2 copy.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.cir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.heights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.heights.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.horiz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.spl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/items-spr.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/mario-50.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/mario.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7-vertex.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.es2.fragment.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.es2.vertex.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.fragment.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.opt.fragment.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.opt.vertex.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/atmos-shader.gl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/atmos-vertex.gl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/normal.fragment.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/normal.vertex.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/snow-shader.gl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/snow-vertex.gl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/font.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/items-spr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/mario-50-copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/mario-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandroidolc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_server_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcPGE_portable.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcapplication.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcapplication.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcPGE_portable.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcapplication.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcPGE_portable.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcapplication.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheepcheep-beach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.last.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/gc-yoshicircuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/koopabeach-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.HEIGHTS.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.last.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4:horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/peach-gardens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2 copy.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/items-spr.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/mario-50.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/mario.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7-vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-shader.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-vertex.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-shader.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-vertex.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/items-spr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stderr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stderr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stdout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/arm64-v8a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stderr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stderr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stdout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/debug/x86_64/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/arm64-v8a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/build_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/cmake/release/x86_64/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/.cxx/ndk_locator_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/ndk_locator_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/generated/not_namespaced_r_class_sources/debug/r/tv/nebular/olcpxe/android/gles3jni/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/tv/nebular/olcpxe/android/gles3jni/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/generated/source/buildConfig/androidTest/debug/tv/nebular/olcpxe/android/gles3jni/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/tv/nebular/olcpxe/android/gles3jni/test/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/generated/source/buildConfig/debug/tv/nebular/olcpxe/android/gles3jni/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tv/nebular/olcpxe/android/gles3jni/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MWJIyc2EpgOYoN9C8TngGvJ8ozc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/0KjnpXU065ZDpc6zOXIikf1vvmM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/UDkOIAihNNE5PEzv3vC7TK6YC3w=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$mipmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libandroidolc.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libandroidolc.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcapplication.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/arm64-v8a/libolcapplication.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libandroidolc.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libandroidolc.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcapplication.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libolcapplication.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86/libandroidolc.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libandroidolc.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcapplication.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86/libolcapplication.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libandroidolc.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libandroidolc.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcapplication.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcapplication.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheepcheep-beach.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheepcheep-beach.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.old.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.old.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.spl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/cheeseland.spl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.heights.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.last.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.last.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/chocoisland-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.heights.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/delfino-square.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/gc-yoshicircuit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/gc-yoshicircuit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/koopabeach-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/koopabeach-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.HEIGHTS.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.HEIGHTS.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.last.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.last.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/luigicircuit.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.spl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk1.spl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.heights.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.horiz.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.spl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4.spl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4:horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/mk4:horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/peach-gardens.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/peach-gardens.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.heights.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.spl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/shyguybeach.spl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/skygarden.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2 copy.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2 copy.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.cir" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.cir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.heights.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.horiz.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.horiz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.spl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/circuits/vanillalake-2.spl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/items-spr.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/items-spr.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/mario-50.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/mario-50.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/mario.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/mario.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7-vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7-vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.fragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.es2.vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.fragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.fragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/mode7.opt.vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-shader.gl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-shader.gl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-vertex.gl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/atmos-vertex.gl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.fragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/normal.vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-shader.gl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-shader.gl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-vertex.gl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/opengl/tests/snow-vertex.gl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/sprites/font.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/font.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/sprites/items-spr.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/items-spr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50-copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50-copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_assets/debug/out/lonekart/sprites/mario-50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/signing_config/debug/out/signing-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/signing_config/debug/out/signing-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/BuildConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$mipmap.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/outputs/aar/app-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/aar/app-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/outputs/apk/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/arch/android/android.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/arch/android/androidapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/png.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pngconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pngdebug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pnglibconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pngprefix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pngpriv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/libpng/pngstruct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/olcPGEX_Graphics3D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/olcPixelGameEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/plugins/lonescreenkey.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/olcPGE_headers/plugins/lonesensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/olcPGE_Android-1.0.0-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheepcheep-beach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.clouds.old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/cheeseland.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.last.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/chocoisland-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/delfino-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/gc-yoshicircuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/koopabeach-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.HEIGHTS.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/lightning-cheepcheepisland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.last.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/luigicircuit.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk1.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.horiz.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/mk4:horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/peach-gardens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/shyguybeach.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/skygarden.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2 copy.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.cir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.heights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.heights.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.horiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/circuits/vanillalake-2.spl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/items-spr.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/mario-50.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/mario.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7-vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.es2.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.es2.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.opt.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/mode7.opt.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/atmos-shader.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/atmos-vertex.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/normal.fragment.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/normal.vertex.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/snow-shader.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/opengl/tests/snow-vertex.gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/items-spr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/mario-50-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_assets/debug/out/lonekart/sprites/mario-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandroidolc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libandroidolc.so" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -549,8 +332,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="312">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -558,8 +341,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="1482">
               <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -577,7 +369,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="228">
               <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
@@ -586,38 +378,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar!/tv/nebular/olcpxe/android/gles3jni/GLES3JNILib.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="361">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="88" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/run.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="e#36#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -641,11 +403,11 @@
       <list>
         <option value="$PROJECT_DIR$/demoapp/app/src/main/cpp/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/run.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" />
       </list>
     </option>
@@ -693,6 +455,14 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -701,7 +471,18 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -869,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580089054080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MILESTONE: Template Project I">
+      <created>1580180677408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580180677408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -892,7 +680,7 @@
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32939634" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.32939634" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -907,17 +695,51 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Refactored to simpler structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored to simpler structure" />
+    <MESSAGE value="MILESTONE: Template Project I" />
+    <option name="LAST_COMMIT_MESSAGE" value="MILESTONE: Template Project I" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demoapp/app/src/main/cpp/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/run.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#36#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar!/tv/nebular/olcpxe/android/gles3jni/GLES3JNILib.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -935,46 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="88" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar!/tv/nebular/olcpxe/android/gles3jni/GLES3JNILib.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="312">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>

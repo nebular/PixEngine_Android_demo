@@ -3,16 +3,22 @@ cmake_minimum_required(VERSION 3.4.1)
 #
 # OLC/Android user application CMAKE
 #
-# - Just add subdirectory "lib" and link your code with "androidolc"
-# - create the "run.cpp" file to instantiate your class
-# - your class will then be started by the launcher
+# (C) 2020 Rodolfo Lopez Pintor.
+# License: Creative Commons Attribution
+#
+# - Read through the comments.
+# - TL/DR : add your cpp files to the library at the bottomm OLC header files will be available
+#           To instantiate your Main Engine class, take a look at the file run.cpp
+#
+# This script works in conjunction with build.gradle. Build.Gradle unpacks the .so libraries
+# and header files that we need here.
 #
 
 # Main C & C++ flags
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -frtti -fexceptions -g -O0 -Wall")
 
-# OpenGL for Android, select ES2 or ES3 if available
+# OpenGL for Android, autoselect ES2 or ES3 if available
 if (${ANDROID_PLATFORM_LEVEL} LESS 12)
     message(FATAL_ERROR "OpenGL 2 is not supported before API level 11 \
                       (currently using ${ANDROID_PLATFORM_LEVEL}).")
@@ -28,8 +34,16 @@ else ()
 
 endif (${ANDROID_PLATFORM_LEVEL} LESS 12)
 
-message( ${CMAKE_CURRENT_SOURCE_DIR} )
-message("HOLA")
+message("OLC/Android - Rodolfo Lopez Pintor 2020")
+
+# Declare the OLC libaries. These libraries come packaged inside the AAR
+# The Build.Gradle script contains logic to unzip the libraries
+# and place them in jniLibs so we can use them here. This has been a time
+# consuming investigation as there are a lot of stones in the road if you
+# need to manipulate or access the AAR *before* CMAKE invocation with the new
+# versions of the gradle plugin that are a little paranoid about dependencies
+# visibility. This should really be automatic, but unfortunately support of .so in
+# library projects is mostly designed for JAVA rather than CMAKE
 
 add_library(olcPGE_android SHARED IMPORTED GLOBAL)
 set_target_properties(olcPGE_android PROPERTIES IMPORTED_LOCATION
@@ -38,23 +52,25 @@ add_library(olcPGE_portable SHARED IMPORTED GLOBAL)
 set_target_properties(olcPGE_portable PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libolcPGE_portable.so)
 
-# Make olcpixelengine headers visible to your program
+# Likewise, the headers come packaged in the AAR under /res/raw and the GRADLE
+# script conveniently unpacks them. So we make them visible to your program with
+# the right namespaces
+
 include_directories(../headers/arch/android/libpng)
 include_directories(../headers/arch/android)
 include_directories(../headers)
 
-
-# Add your application source code
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/app)
 
-# Pack your application files together with the "run.cpp" static intiializer
+# Now, just add your application source code together with the "run.cpp" to launch the main class.
+# The library name has to be "olcapp" as this is hardcoded into the JAVA launcher.
 add_library(olcapp SHARED
         run.cpp
         app/demo/DemoEngine.cpp
         )
 
-# Link you application with Android SDK and AndroidOLC shared Library
+# And finally, ink you application with Android SDK and AndroidOLC pre-compiled libraries
 target_link_libraries(olcapp
         android
         olcPGE_android

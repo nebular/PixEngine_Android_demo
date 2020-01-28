@@ -8,3 +8,11 @@
 1	1019	1580180622	CMakeFiles/olcapp.dir/run.cpp.o	3739f4014ec2255a
 1	1053	1580180622	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	c587e57d210506a1
 1053	1083	1580180622	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so	e7fb211e893fba01
+0	6	0	clean	c4ad5cb393780fc9
+1	798	1580180887	CMakeFiles/olcapp.dir/run.cpp.o	3739f4014ec2255a
+1	798	1580180887	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	c587e57d210506a1
+799	830	1580180887	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so	e7fb211e893fba01
+0	5	0	clean	c4ad5cb393780fc9
+1	796	1580180907	CMakeFiles/olcapp.dir/run.cpp.o	3739f4014ec2255a
+2	796	1580180907	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	c587e57d210506a1
+797	829	1580180907	/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so	e7fb211e893fba01

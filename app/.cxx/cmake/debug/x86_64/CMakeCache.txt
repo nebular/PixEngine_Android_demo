@@ -220,7 +220,7 @@ Project_BINARY_DIR:STATIC=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/ap
 Project_SOURCE_DIR:STATIC=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
 
 //Dependencies for the target
-olcapp_LIB_DEPENDS:STATIC=general;android;general;androidolc;general;olcPGE_portable;
+olcapp_LIB_DEPENDS:STATIC=general;android;general;olcPGE_android;general;olcPGE_portable;
 
 
 ########################

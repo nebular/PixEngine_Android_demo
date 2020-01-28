@@ -60,14 +60,14 @@ build CMakeFiles/olcapp.dir/run.cpp.o: CXX_COMPILER__olcapp /Volumes/git.root/pr
   DEFINES = -Dolcapp_EXPORTS
   DEP_FILE = CMakeFiles/olcapp.dir/run.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG  -fPIC
-  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers
+  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app
   OBJECT_DIR = CMakeFiles/olcapp.dir
   OBJECT_FILE_DIR = CMakeFiles/olcapp.dir
 build CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o: CXX_COMPILER__olcapp /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.cpp || cmake_object_order_depends_target_olcapp
   DEFINES = -Dolcapp_EXPORTS
   DEP_FILE = CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG  -fPIC
-  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers
+  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app
   OBJECT_DIR = CMakeFiles/olcapp.dir
   OBJECT_FILE_DIR = CMakeFiles/olcapp.dir/app/demo
 
@@ -78,10 +78,10 @@ build CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o: CXX_COMPILER__olcapp /Vol
 #############################################
 # Link the shared library /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/x86_64/libolcapp.so
 
-build /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/x86_64/libolcapp.so: CXX_SHARED_LIBRARY_LINKER__olcapp CMakeFiles/olcapp.dir/run.cpp.o CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o | /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/x86_64/libandroidolc.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcPGE_portable.so
+build /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/x86_64/libolcapp.so: CXX_SHARED_LIBRARY_LINKER__olcapp CMakeFiles/olcapp.dir/run.cpp.o CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o | /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/x86_64/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/x86_64/libolcPGE_portable.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
-  LINK_LIBRARIES = -landroid /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/x86_64/libandroidolc.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../../../build/intermediates/library_and_local_jars_jni/debug/x86_64/libolcPGE_portable.so -latomic -lm
+  LINK_LIBRARIES = -landroid /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/x86_64/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/x86_64/libolcPGE_portable.so -latomic -lm
   OBJECT_DIR = CMakeFiles/olcapp.dir
   POST_BUILD = :
   PRE_LINK = :
