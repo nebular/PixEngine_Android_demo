@@ -1,11 +1,9 @@
 PixelGameEngine Demo
 ====================
 
-This is a template Android Studio project that you can use to create your OLC/PGE based
-applications.
+This is a template Android Studio project that you can use to create your OLC/PGE based applications.
 
-It includes the OLC/Android core as an AAR, and all build scripts and CMAKE configurations
-so you just can deploy one class, hit build and play the application.
+It includes the OLC/Android core as an AAR, and all build scripts and CMAKE configurations so you just can deploy one class, hit build and play the application.
 
 Please refer to the root project OLC/Android https://github.com/nebular/olcPGE_Android for technical details.
 
