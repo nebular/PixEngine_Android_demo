@@ -31,6 +31,8 @@ Start Developing
 
 Screenshots
 -----------
+![screenshot](doc/screen2.png)
+
 ![screenshot](doc/screen1.png)
 
 Support
