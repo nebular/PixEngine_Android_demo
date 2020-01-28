@@ -1,0 +1,5 @@
+.idea
+.cxx
+.gradle
+jniLibs
+headers
