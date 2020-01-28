@@ -4,14 +4,19 @@ cmake_minimum_required(VERSION 3.4.1)
 # OLC/Android user application CMAKE
 #
 # (C) 2020 Rodolfo Lopez Pintor.
-# License: Creative Commons Attribution
+# License: Creative Commons CC-BY
 #
 # - Read through the comments.
-# - TL/DR : add your cpp files to the library at the bottomm OLC header files will be available
-#           To instantiate your Main Engine class, take a look at the file run.cpp
+# - TL/DR : add your cpp files to the library at the bottom
+#           OLC header files will be recognized in the ide.
+#           To instantiate your Main Engine class, take a look at the file run.cpp.
 #
 # This script works in conjunction with build.gradle. Build.Gradle unpacks the .so libraries
-# and header files that we need here.
+# and header files that we need here, and publishes them so are available to your source files.
+# Beware that the header files are not the ones used by the engine, just headers packed for linking and developent.
+# If you need to update the olcPixelEngine.h the place to do it is the root project. Your modifications there
+# will automagically propagate here as soon as you replace the release .AAR file into the olcpge_android filder.
+#
 #
 
 # Main C & C++ flags
