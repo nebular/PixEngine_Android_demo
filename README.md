@@ -16,7 +16,16 @@ Pre-requisites
 
 Getting Started
 ---------------
-1. Open the sample project.
+1. Clone this project
+
+`git clone https://github.com/nebular/olcPGE_Android_demos.git
+`
+1. Open it in Android Studio
+
+1. Press Play
+
+Start Developing
+---------------
 1. Place your application code in *app/src/main/cpp*
 1. Place your application assets in *app/src/main/assets*
 1. Instantiate your main class in the file *run.cpp*
