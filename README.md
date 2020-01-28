@@ -27,10 +27,10 @@ Getting Started
 
 ![screenshot](doc/screen1.png)
 
-What it does / What it does not do yet
+What works / What  does not work yet
 --------------------------------------
 
-In general I just got all this running, but it is all in a very early stage, so there are some rough edges.
+In general I just got all this running these days, and the hard pat is done. Expect a lot of finetunning these days!
 What works:
 
 - graohics layer: everything from olc:PGE. PGEX3d is included in the so libraries, but not tested yet, I guess it should work.
@@ -41,14 +41,15 @@ What works:
     events from Java to C++ is done, and the MotionEvent is serialized to the C++ layer, so you
     have all the xoordinates and pointer info to inject them how it makes sense into olc mouse events.
 
-- keys emulation: with a provided "lonekey" class you can add rectangles on screen that generate
+- Keys:  Emulation: with a provided easy "lonekey" class you can add rectangles on screen that generate
   olc::Keys (correctly, bHeld, bPressed, etc) and with 2 touch support.
   
-- gyroscope sensor data is provided as a courtesy of the Java layer. a "LoneSensor" class is provided
-  so you can use it as an (analog)  Joystick 
+- gyroscope sensor data is provided as a courtesy of the Java layer. At the moment a "LoneSensor" class is provided
+  so you can use it as an (analog) Joystick/
   
-    --> working on this, ideas and contributions welcome.   
-
+    --> working on further integrating this
+    
+- So please feel free to contribute!
 
 
 Start Developing
@@ -61,7 +62,7 @@ Start Developing
 
 Support
 -------
-If you've found an error in these samples, please [file an issue] (https://github.com/nebular/olcPGE_Android/issues/new).
+If you've found an error please [file an issue] (https://github.com/nebular/olcPGE_Android/issues/new).
 
 Patches are encouraged, and may be submitted by [forking this project](https://github.com/nebular/olcPGE_Android/fork) and submitting a pull request through GitHub.
 
