@@ -1,7 +1,7 @@
 PixelGameEngine Demo
 ====================
 
-![screenshot](doc/screen1.png)
+![screenshot](doc/screen2.png)
 
 This is a template Android Studio project that you can use to create your OLC/PGE based applications and add an additional layer of fun to the teachings of @javidx9 !
 
@@ -25,7 +25,7 @@ Getting Started
 1. Press Play
 
 
-![screenshot](doc/screen2.png)
+![screenshot](doc/screen1.png)
 
 What it does / What it does not do yet
 --------------------------------------
