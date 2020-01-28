@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':olcpge_android'
+include ':olcPGECore'
+project(':olcPGECore').projectDir=new File('..\\UnityProject\\androidBuild\\unityLibrary')

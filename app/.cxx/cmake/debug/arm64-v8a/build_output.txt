@@ -1,0 +1,3 @@
+/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp
+HOLA
+Configuring done

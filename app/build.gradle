@@ -6,7 +6,6 @@ def platformVersion = 24      // openGLES 3.2 min api level
 
 android {
     compileSdkVersion 29
-
     defaultConfig {
         applicationId 'tv.nebular.olcpxe.android.gles3jni'
         minSdkVersion "${platformVersion}"
@@ -17,14 +16,14 @@ android {
             }
         }
     }
-
     buildTypes {
         release {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt'),
-                          'proguard-rules.pro'
+                    'proguard-rules.pro'
         }
     }
+
     externalNativeBuild {
         cmake {
             version '3.10.2'
@@ -32,7 +31,55 @@ android {
         }
     }
 
-    dependencies {
-        implementation "tv.nebular.olcpge:olcpge_android:1.0"
-    }
 }
+
+task extractSo(type: Copy) {
+    println 'Extracting *.so file(s)....'
+    from zipTree("${project.rootDir}/olcpge_android/olcpge_android.aar")
+    into "${project.rootDir}/${project.name}/src/main/jniLibs/"
+    include "jni/**/*.so"
+    eachFile {
+        def segments = it.getRelativePath().getSegments() as List
+        println segments
+        it.setPath(segments.tail().join("/"))
+        return it
+    }
+    includeEmptyDirs = false
+}
+
+
+
+task extractSoHeaders(type: Copy) {
+    println 'Extracting header file(s)....'
+    from zipTree("${project.rootDir}/olcpge_android/olcpge_android.aar")
+    into "${project.buildDir}/headers/"
+    include "res/raw/*.zip"
+    eachFile {
+        def segments = it.getRelativePath().getSegments() as List
+        println segments
+        it.setPath(segments.tail().join("/"))
+        return it
+    }
+    includeEmptyDirs = false
+}
+
+task unpackSoHeaders(type: Copy) {
+    println 'Unpacking header file(s)....'
+    from zipTree("${project.buildDir}/headers/raw/olcpge_headers.zip")
+    into "${project.rootDir}/${project.name}/src/main/headers/"
+    include "*.h"
+    include "**/*.h"
+    include "**/**/*.h"
+
+    includeEmptyDirs = false
+}
+
+dependencies {
+    implementation project(path: ':olcpge_android')
+}
+
+
+unpackSoHeaders.dependsOn extractSoHeaders
+extractSoHeaders.dependsOn extractSo
+preBuild.dependsOn unpackSoHeaders
+

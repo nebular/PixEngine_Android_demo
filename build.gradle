@@ -1,7 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        mavenLocal()
         google()
         jcenter()
     }
@@ -10,10 +9,14 @@ buildscript {
     }
 }
 
+
 allprojects {
     repositories {
-        mavenLocal()
         google()
         jcenter()
+        flatDir {
+            dirs project(':olcpge_android').file('aars')
+        }
+
     }
 }

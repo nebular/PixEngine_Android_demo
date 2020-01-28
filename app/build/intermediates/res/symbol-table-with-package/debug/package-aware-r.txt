@@ -1,0 +1,4 @@
+tv.nebular.olcpxe.android.gles3jni
+mipmap ic_launcher
+raw olcpge_headers
+string gles3jni_activity

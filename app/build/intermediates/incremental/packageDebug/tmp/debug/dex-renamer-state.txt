@@ -1,0 +1,7 @@
+#Tue Jan 28 04:03:42 CET 2020
+base.0=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+path.1=classes_0.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex

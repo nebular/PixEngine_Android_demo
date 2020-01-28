@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UnityProject/androidBuild/unityLibrary/olcPGECore.iml" filepath="$PROJECT_DIR$/../UnityProject/androidBuild/unityLibrary/olcPGECore.iml" />
       <module fileurl="file://$PROJECT_DIR$/olcPGE_Android_demos.iml" filepath="$PROJECT_DIR$/olcPGE_Android_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olcpge_android/olcpge_android.iml" filepath="$PROJECT_DIR$/olcpge_android/olcpge_android.iml" />
     </modules>
   </component>
 </project>

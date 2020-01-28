@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/x86_64",
+  "command": "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dolcapp_EXPORTS -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles/olcapp.dir/run.cpp.o -c /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/run.cpp",
+  "file": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/run.cpp"
+},
+
+{
+  "directory": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/x86_64",
+  "command": "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dolcapp_EXPORTS -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/olcPGE_headers  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o -c /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.cpp",
+  "file": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.cpp"
+}
+]

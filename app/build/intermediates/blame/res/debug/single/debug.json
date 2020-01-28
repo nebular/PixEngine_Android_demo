@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/res/merged/debug/raw_olcpge_headers.zip.flat",
+        "source": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/res/raw/olcpge_headers.zip"
+    },
+    {
+        "merged": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

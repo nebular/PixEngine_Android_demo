@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:olcpge_android:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

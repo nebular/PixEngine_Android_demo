@@ -31,22 +31,22 @@ endif (${ANDROID_PLATFORM_LEVEL} LESS 12)
 message( ${CMAKE_CURRENT_SOURCE_DIR} )
 message("HOLA")
 
-add_library(androidolc SHARED IMPORTED GLOBAL)
-set_target_properties(androidolc PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../../../build/intermediates/library_and_local_jars_jni/debug/${ANDROID_ABI}/libandroidolc.so)
+add_library(olcPGE_android SHARED IMPORTED GLOBAL)
+set_target_properties(olcPGE_android PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libolcPGE_android.so)
 add_library(olcPGE_portable SHARED IMPORTED GLOBAL)
 set_target_properties(olcPGE_portable PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../../../build/intermediates/library_and_local_jars_jni/debug/${ANDROID_ABI}/libolcPGE_portable.so)
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libolcPGE_portable.so)
 
-#target_include_directories(androidolc PUBLIC ${CMAKE_SOURCE_DIR}/../include)
+# Make olcpixelengine headers visible to your program
+include_directories(../headers/arch/android/libpng)
+include_directories(../headers/arch/android)
+include_directories(../headers)
+
 
 # Add your application source code
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/app)
-
-# Make olcpixelengine headers visible to your program
-include_directories(olcPGE_headers/libpng)
-include_directories(olcPGE_headers)
 
 # Pack your application files together with the "run.cpp" static intiializer
 add_library(olcapp SHARED
@@ -57,7 +57,7 @@ add_library(olcapp SHARED
 # Link you application with Android SDK and AndroidOLC shared Library
 target_link_libraries(olcapp
         android
-        androidolc
+        olcPGE_android
         olcPGE_portable
         )
 
