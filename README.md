@@ -11,7 +11,7 @@ Please refer to the root project OLC/Android https://github.com/nebular/olcPGE_A
 
 Pre-requisites
 --------------
-- Android Studio 3.5.2+
+- Android Studio 3.5.2+ (lower may work)
 - (not sure if you also need to install the NDK, easy anyways:  [NDK] (https://developer.android.com/ndk/) bundle.
 
 Getting Started
