@@ -1,0 +1,11 @@
+PLACE YOUR ASSETS HERE
+
+This folder will be copied recursively to the application internal storage on
+every application start.
+
+additionally, olc::PixelEngine::ROOTPATH contain this path, you might need it.
+
+The engine methods that deal with files (olc::Sprite::load...) are aware of that,
+so it will "just work" if you do Sprite.load("images/lollipop.png") and place the
+images/ folder here, etc.
+
