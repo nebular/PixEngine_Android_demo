@@ -2,8 +2,8 @@
 // Created by rodo on 2020-01-24.
 //
 
-#ifndef GLES3JNI_DEMOENGINE_H
-#define GLES3JNI_DEMOENGINE_H
+#ifndef DEMOENGINE_H
+#define DEMOENGINE_H
 
 #include "olcPixelGameEngine.h"
 
