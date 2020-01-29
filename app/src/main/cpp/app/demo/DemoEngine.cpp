@@ -134,6 +134,41 @@ bool DemoGyro::OnUserCreate() {
 	return true;
 }
 
+void DemoGyro::DrawWireFrameModel( const std::vector<std::pair<float, float>> &vecModelCoordinates, float x, float y, float r, float s, std::vector<olc::Pixel> col)
+{
+	// pair.first = x coordinate
+	// pair.second = y coordinate
+
+	// Create translated model vector of coordinate pairs
+	std::vector<std::pair<float, float>> vecTransformedCoordinates;
+	long verts = vecModelCoordinates.size();
+	vecTransformedCoordinates.resize(verts);
+
+	// Rotate
+	for (int i = 0; i < verts; i++)
+	{
+		vecTransformedCoordinates[i].first = vecModelCoordinates[i].first * cosf(r) - vecModelCoordinates[i].second * sinf(r);
+		vecTransformedCoordinates[i].second = vecModelCoordinates[i].first * sinf(r) + vecModelCoordinates[i].second * cosf(r);
+
+		// Scale
+		vecTransformedCoordinates[i].first = vecTransformedCoordinates[i].first * s;
+		vecTransformedCoordinates[i].second = vecTransformedCoordinates[i].second * s;
+
+		// Translate
+		vecTransformedCoordinates[i].first = vecTransformedCoordinates[i].first + x;
+		vecTransformedCoordinates[i].second = vecTransformedCoordinates[i].second + y;
+	}
+
+	// Draw Closed Polygon
+	for (int i = 0; i < verts + 1; i++)
+	{
+		int j = (i + 1);
+		DrawLine((int)vecTransformedCoordinates[i % verts].first, (int)vecTransformedCoordinates[i % verts].second,
+				 (int)vecTransformedCoordinates[j % verts].first, (int)vecTransformedCoordinates[j % verts].second, col[i%col.size()]);
+	}
+}
+
+
 bool DemoGyro::OnUserUpdate(float fElapsedTime) {
 
 	auto todeg = [](float rad) { return rad * 180 / 3.14159265; };
@@ -145,14 +180,22 @@ bool DemoGyro::OnUserUpdate(float fElapsedTime) {
 	float azimuth = tCurrentEvent.vector.azimuth;
 	float pich = tCurrentEvent.vector.pitch;
 
-	DrawString(50,170,"ROLL", olc::RED, 2.0);
-	DrawString(250,170,"AZIMUTH", olc::RED, 2.0);
-	DrawString(450,170,"PITCH", olc::RED, 2.0);
-	DrawString(50,200,std::to_string(todeg(roll)), olc::YELLOW, 2.0);
-	DrawString(250,200,std::to_string(todeg(azimuth)), olc::YELLOW, 2.0);
-	DrawString(450,200,std::to_string(todeg(pich)), olc::YELLOW, 2.0);
+	DrawString(50, 270,"ROLL", olc::RED, 2.0);
+	DrawString(250,270,"AZIMUTH", olc::RED, 2.0);
+	DrawString(450,270,"PITCH", olc::RED, 2.0);
+	DrawString(50, 300,std::to_string(todeg(roll)), olc::YELLOW, 2.0);
+	DrawString(250,300,std::to_string(todeg(azimuth)), olc::YELLOW, 2.0);
+	DrawString(450,300,std::to_string(todeg(pich)), olc::YELLOW, 2.0);
 
-//	SetPixelMode(olc::Pixel::ALPHA);
+	DrawLine(500,50,500,200,olc::WHITE);
+	FillCircle(500, 50 + 75 + 75 * sin(-pich), 5.0, olc::YELLOW);
+
+	DrawLine(250, 125, 400, 125,olc::WHITE);
+	FillCircle(250 + 75 + 75 * sin(azimuth), 125, 5.0, olc::YELLOW);
+
+	DrawWireFrameModel(stVecModelCar,100, 125, -roll, 20.0, {olc::YELLOW});
+
+	//	SetPixelMode(olc::Pixel::ALPHA);
 //	DrawSprite(nX, nY, pSprite, 1);
 
 return true;

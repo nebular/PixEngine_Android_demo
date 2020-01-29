@@ -25,9 +25,12 @@ class DemoControls : public olc::PixelGameEngine {
 class DemoGyro : public olc::PixelGameEngine {
 	olc::Sprite *pSprite;
 	int nX, nY;
+	const std::vector<std::pair<float, float>> stVecModelCar = { { 1,1 },{ 1,3 },{ 3,0 },{ 0,-3 },{ -3,0 },{ -1, 3 },{ -1,1 } };
 
 	bool OnUserCreate();
 	bool OnUserUpdate(float fElapsedTime);
+	void DrawWireFrameModel( const std::vector<std::pair<float, float>> &vecModelCoordinates, float x, float y, float r, float s, std::vector<olc::Pixel> col);
+
 };
 
 #endif //GLES3JNI_DEMOENGINE_H

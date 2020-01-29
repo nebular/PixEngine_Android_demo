@@ -65,8 +65,10 @@ Keep in mind in the mouse click detections radiuses have to be coarser as the fi
 `
 
  
-- gyroscope sensor data is provided as a courtesy of the Java layer. An object tCurrentSensorEvent is available.
-  
+- gyroscope sensor data is provided as a courtesy of the Java layer. An object tCurrentSensorEvent is available in the update loop.
+
+  ![screenshot](doc/screen7.png)
+
     - At the moment the gyroscope is "always on", that consumes a lot of battery, will add methods to start and stop.
     
 - So please feel free to contribute!
