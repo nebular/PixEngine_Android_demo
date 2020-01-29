@@ -74,8 +74,10 @@ include_directories(${CMAKE_SOURCE_DIR}/app)
 add_library(olcapp SHARED
         run.cpp
         app/demo/DemoEngine.cpp
+        app/videos/OneLoneCoder_PGE_Balls2.h
+        app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp
+        app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp
         )
-
 # And finally, link you application with Android SDK and AndroidOLC pre-compiled libraries
 target_link_libraries(olcapp
         android

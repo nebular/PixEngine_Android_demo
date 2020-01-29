@@ -6,12 +6,28 @@
 #define DEMOENGINE_H
 
 #include "olcPixelGameEngine.h"
+#include "plugins/lonescreenkey.h"
 
 class DemoEngine : public olc::PixelGameEngine {
 
+	olc::Sprite *pSprite;
 	bool OnUserCreate();
 	bool OnUserUpdate(float fElapsedTime);
 };
 
+class DemoControls : public olc::PixelGameEngine {
+	olc::Sprite *pSprite;
+	int nX, nY;
+
+	bool OnUserCreate();
+	bool OnUserUpdate(float fElapsedTime);
+};
+class DemoGyro : public olc::PixelGameEngine {
+	olc::Sprite *pSprite;
+	int nX, nY;
+
+	bool OnUserCreate();
+	bool OnUserUpdate(float fElapsedTime);
+};
 
 #endif //GLES3JNI_DEMOENGINE_H

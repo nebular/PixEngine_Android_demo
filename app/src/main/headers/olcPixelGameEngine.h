@@ -733,10 +733,14 @@ namespace olc // All OneLoneCoder stuff will now exist in the "olc" namespace
 
 		void olca_on_motionevent(MotionEvent_t event);
 
+	protected:
+		ASensorEvent	tCurrentEvent;			// current sensor event
+
 	private:
 		LoneScreenKey 	*cLoneKeys;				// screenkeys helper class
 		LoneSensor		*pLoneSensor;			// gyroscope joystick helper class
-		ASensorEvent	tCurrentEvent;			// current sensor event
+		MotionEvent_t	tCurrentMotionEvent;
+		bool			bButtons[8];			// track 8 fingers
 #elif LINUX
 		// Non-Windows specific window handling
 		Display*				olc_Display = nullptr;
@@ -1854,10 +1858,11 @@ namespace olc {
 			y -= nViewY;
 		}
 
-		nMousePosXcache = (int32_t) (((float) x / (float) (nWindowWidth - (nViewX * 2)) *
+		nMousePosXcache = (int32_t) (( (float) x / (float) (nWindowWidth - (nViewX * 2)) *
 									  (float) nScreenWidth));
 		nMousePosYcache = (int32_t) (((float) y / (float) (nWindowHeight - (nViewY * 2)) *
 									  (float) nScreenHeight));
+
 
 		if (nMousePosXcache >= (int32_t) nScreenWidth)
 			nMousePosXcache = nScreenWidth - 1;

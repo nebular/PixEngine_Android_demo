@@ -1,6 +1,9 @@
 // #include "olcPixelGameEngine.h"
 
 #include "demo/DemoEngine.h"
+#include "videos/OneLoneCoder_PGE_Balls2.h"
+#include "videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp"
+#include "videos/OneLoneCoder_PGE_PolygonCollisions1.cpp"
 #include "olcPixelGameEngine.h"
 
 
@@ -16,7 +19,13 @@
 struct OneLoneDemo {
 	OneLoneDemo() {
 		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
+//		olc::PixelGameEngine::BOOTINSTANCE = new DemoControls();
+//		olc::PixelGameEngine::BOOTINSTANCE = new DemoGyro();
+//		olc::PixelGameEngine::BOOTINSTANCE = new CirclePhysics();
+//		olc::PixelGameEngine::BOOTINSTANCE = new PolygonCollisions();
+//		olc::PixelGameEngine::BOOTINSTANCE = new PathFinding_FlowFields();
 	}
+
 };
 
 OneLoneDemo rules;

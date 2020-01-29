@@ -5,211 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f8442d-83ff-4460-89ab-109b4d8e8275" name="Default Changelist" comment="Fixed example">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_olcapp_x86.command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_olcapp_x86.stderr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_olcapp_x86.stdout.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_olcapp_x86_64.command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_olcapp_x86_64.stderr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_olcapp_x86_64.stdout.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/tv/nebular/olcpxe/samples/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/headers/raw/olcpge_headers.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$raw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/samples/R$mipmap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/samples/R$raw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/samples/R$string.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/samples/R.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/out/android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/raw_olcpge_headers.zip.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcapp.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$raw.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/samples/BuildConfig.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/samples/R$mipmap.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/samples/R$raw.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/samples/R$string.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/samples/R.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/android.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/androidapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/png.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pngconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pngdebug.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pnginfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pnglibconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pngprefix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pngpriv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/libpng/pngstruct.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonescreenkey.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonesensor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/olcPGEX_Graphics3D.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/0ed21eed93b5786dd362bd1895ae9fa4.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/0ed21eed93b5786dd362bd1895ae9fa4/classes/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/12004293630dee291f7c18ee64b35d3b.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/13074a3df96ed59a21741277810364c2.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/13074a3df96ed59a21741277810364c2/classes/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/17575ce9948a2ccb1c29bb19840935a4.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/17575ce9948a2ccb1c29bb19840935a4/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/22b70c2668b1cb0cc49191632ff1274a.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/arm64-v8a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/x86/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/x86/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/x86_64/libolcPGE_android.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jni/x86_64/libolcPGE_portable.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/4e851cb3daa1cb7641a97aef89dfab4c.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/52ae9374f6ef9812ff66ed5c45def08c.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/74b0dc435f0555914f2b8bdfcb5a064c.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/92f4a778aed2cee29722f675b9db4f8e.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/998eaba243a2aeaa32e521b2dd027d2b.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/998eaba243a2aeaa32e521b2dd027d2b/olcpge_android-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/9e5d0533940a5d8cda3ec5c8d2c0369f.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/a69097702266e9037a6318f753fc1c23.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/c9aa8818523f827acdf4d33816dc07db.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/daaa1e1b38ef933a1973de24896435a3.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olcpge_android/build/.transforms/f13b47455338d977eadcc22bdb722432.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_8BitsImProc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_IsometricTiles.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Polymorphism.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_RobotArm1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_ShadowCasting2D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_SoundTest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_SpriteTransforms.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_olcEngine3D.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_olcapp_arm64-v8a.stdout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_olcapp_armeabi-v7a.stdout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/run.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_olcapp_x86.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/android_gradle_build_olcapp_x86.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/build_output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86/json_generation_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/cmake_server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/cmake_server_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/tv/nebular/olcpxe/android/gles3jni/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/tv/nebular/olcpxe/android/gles3jni/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/tv/nebular/olcpxe/android/gles3jni/test/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tv/nebular/olcpxe/android/gles3jni/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tv/nebular/olcpxe/samples/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/run.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/CMakeFiles/olcapp.dir/run.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_olcapp_x86_64.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/android_gradle_build_olcapp_x86_64.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/headers/raw/olcpge_headers.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/headers/raw/olcpge_headers.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LWvaB44iQg2s7LUG8mpDmO_7yAA=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/UDkOIAihNNE5PEzv3vC7TK6YC3w=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/UDkOIAihNNE5PEzv3vC7TK6YC3w=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/samples/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$mipmap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/tv/nebular/olcpxe/android/gles3jni/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcapp.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$mipmap.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/tv/nebular/olcpxe/android/gles3jni/R.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/debug/out/x86_64/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/raw_olcpge_headers.zip.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/raw_olcpge_headers.zip.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcapp.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libolcapp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/run.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/run.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/headers/arch/android/android.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/android.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonescreenkey.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonescreenkey.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libolcPGE_portable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_android.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_android.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_portable.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libolcPGE_portable.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/olcpge_android/olcpge_android.aar" beforeDir="false" afterPath="$PROJECT_DIR$/olcpge_android/olcpge_android.aar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -221,7 +122,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="9f6992a3" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10.2.58.80:5555" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -232,74 +133,74 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="339">
+              <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/run.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#36#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+              <folding>
+                <element signature="e#2276#2307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_IsometricTiles.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3725" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="52" selection-start-line="48" selection-end-line="52" />
+              <folding>
+                <element signature="e#705#736#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="2137" selection-start-line="2137" selection-end-line="2137" />
+              <caret line="420" column="41" selection-start-line="420" selection-end-line="421" />
+              <folding>
+                <element signature="e#2576#2607#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="2233" selection-start-line="2233" selection-end-line="2233" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/jars/classes.jar!/tv/nebular/olcpxe/android/gles3jni/GLES3JNILib.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-1751">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -307,22 +208,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+            <state relative-caret-position="363">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#84#115#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -332,7 +222,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rgb</find>
+      <find>updateMouse</find>
+      <find>pointerscount</find>
       <find>pixelmode</find>
+      <find>clear</find>
+      <find>lone</find>
+      <find>lones</find>
+      <find>update</find>
+      <find>error</find>
+      <find>getk</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -342,30 +240,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demoapp/app/src/main/cpp/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/run.cpp" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h" />
         <option value="$PROJECT_DIR$/app/src/main/assets/README" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" />
         <option value="$PROJECT_DIR$/olcpge_android/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonescreenkey.h" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h" />
+        <option value="$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_ShootEmUp.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/run.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
     <option name="y" value="23" />
-    <option name="width" value="1385" />
+    <option name="width" value="1600" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -381,26 +286,59 @@
               <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olcPGE_Android_demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="olcPGE_Android_demos" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="olcPGE_Android_demos" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="cpp" type="9a30073f:AndroidJniFolderNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -412,7 +350,50 @@
             <path>
               <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="doc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="headers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="olcPGE_Android_demos" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="olcpge_android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -429,12 +410,16 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/cpp/app/videos" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/cpp/app/videos" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/libs" />
     </key>
@@ -646,15 +631,108 @@
       <option name="project" value="LOCAL" />
       <updated>1580188226112</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed example">
+      <created>1580188479887</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580188479887</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated images">
+      <created>1580188831147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580188831147</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed example">
+      <created>1580188905639</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580188905639</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Documentatino">
+      <created>1580189321518</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580189321518</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated CMAKE comments">
+      <created>1580189911879</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580189911879</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed example">
+      <created>1580190041453</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580190041453</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Screenshot">
+      <created>1580190097348</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580190097348</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed example">
+      <created>1580190244557</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1580190244558</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated example with core refactorizations">
+      <created>1580229147476</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580229147476</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added doc">
+      <created>1580234112635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1580234112635</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated Readme">
+      <created>1580234205124</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580234205124</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Readme">
+      <created>1580234514804</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1580234514804</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19383825" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3575096" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -662,16 +740,17 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Build Variants" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32939634" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.38582677" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32939634" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5006418" side_tool="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32939634" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49935815" weight="0.32939634" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32939634" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Build" order="9" weight="0.32939634" />
+      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.32939634" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
@@ -681,17 +760,92 @@
       <window_info anchor="right" id="Gradle" order="6" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Refactored to simpler structure" />
     <MESSAGE value="MILESTONE: Template Project I" />
     <MESSAGE value="Refactor and docs" />
+    <MESSAGE value="Updated images" />
+    <MESSAGE value="Documentatino" />
+    <MESSAGE value="Updated CMAKE comments" />
+    <MESSAGE value="Screenshot" />
     <MESSAGE value="Fixed example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed example" />
+    <MESSAGE value="Updated example with core refactorizations" />
+    <MESSAGE value="Added doc" />
+    <MESSAGE value="Updated Readme" />
+    <MESSAGE value="Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp</url>
+          <line>139</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pLoneKeys.input(2,2)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pLoneKeys.input(0,0)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pLoneKeys.input(0,0())</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pLoneKeys</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetMouseX()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>olc::PixelGameEngine::ROOTPATH</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -701,13 +855,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demoapp/app/src/main/cpp/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/run.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -719,13 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -743,73 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="2233" selection-start-line="2233" selection-end-line="2233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="2137" selection-start-line="2137" selection-end-line="2137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="543" column="25" selection-start-line="543" selection-start-column="25" selection-end-line="543" selection-end-column="25" />
-          <folding>
-            <element signature="e#23256#52936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -831,6 +908,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="2137" selection-start-line="2137" selection-end-line="2137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="2233" selection-start-line="2233" selection-end-line="2233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-246">
+            <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/screen1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/headers/arch/android/android.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/headers/arch/android/plugins/lonescreenkey.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/headers/olcPixelGameEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="727" column="10" selection-start-line="727" selection-start-column="10" selection-end-line="727" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
+          <folding>
+            <element signature="e#2438#2457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_ExtensionTestGFX2D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#84#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_ShootEmUp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7334">
+          <caret line="457" column="52" selection-start-line="457" selection-start-column="52" selection-end-line="457" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1751">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Polymorphism.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_RobotArm1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_8BitsImProc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="420" column="41" selection-start-line="420" selection-end-line="421" />
+          <folding>
+            <element signature="e#2576#2607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/demo/DemoEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="52" selection-start-line="48" selection-end-line="52" />
+          <folding>
+            <element signature="e#705#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+          <folding>
+            <element signature="e#2276#2307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/app/videos/OneLoneCoder_PGE_IsometricTiles.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/run.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#36#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,7 +12,8 @@
 #include "plugins/lonesensor.h"
 #include "plugins/lonescreenkey.h"
 typedef struct sMotionEvent {
-	int PointersCount, Action, X0, Y0, X1, Y1;
+	int PointersCount, Action, PointerId, RawAction;
+	int32_t X0, Y0, X1, Y1;
 } MotionEvent_t;
 
 void close_window();

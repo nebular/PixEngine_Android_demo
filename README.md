@@ -35,11 +35,11 @@ What works:
 
 - graohics layer: everything from olc:PGE. PGEX3d is included in the so libraries, but not tested yet, I guess it should work.
 
-- primitive Mouse events: GetMouse() will be the touch position, and MouseButtons the number of fingers
+- Mouse events: Very early state !!! GetMouse() will be the touch position, and MouseButtons the number of fingers
 
     --> I will create a proper touch controller next days, or so can you. The layer that sends the touch
     events from Java to C++ is done, and the MotionEvent is serialized to the C++ layer, so you
-    have all the xoordinates and pointer info to inject them how it makes sense into olc mouse events.
+    have all the xoordinates and pointer info to inject them how it makes sense into olc mouse events
 
 - Keys:  Emulation: with a provided easy "lonekey" class you can add rectangles on screen that generate
   olc::Keys (correctly, bHeld, bPressed, etc) and with 2 touch support.
