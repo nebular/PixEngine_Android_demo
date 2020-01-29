@@ -29,7 +29,6 @@ Getting Started
 
 ![screenshot](doc/screen4.png)
 ![screenshot](doc/screen5.png)
-![screenshot](doc/screen6.png)
 
 What works / How it works / What does not work yet
 --------------------------------------
@@ -52,9 +51,13 @@ press with the other finger. This way you will be able to click/drag/move with p
 predictably. In order to support gestures, etc.. I'd go with an extension to properly support touch separate from the mouse. 
 Keep in mind in the mouse click detections radiuses have to be coarser as the fingers are less precise than the mouse. I have found a *2-*3 ratio is OK.
 
-- Keys Events: You can easily add virtual keys anywhere on the screen and build control clusters:
+![screenshot](doc/screen6.png)
+
+- Keys Events: You can easily add virtual keys anywhere on the screen and build control clusters (look at the boxes near the top corners):
+
 
 `		
+
         LoneScreenKey::currentInstance->add({olc::Key::W,    540,   0, 100, 50});
 
 		LoneScreenKey::currentInstance->add({olc::Key::A,    540,  50,  50, 50});
