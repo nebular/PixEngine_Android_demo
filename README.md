@@ -31,15 +31,19 @@ Getting Started
 ![screenshot](doc/screen5.png)
 ![screenshot](doc/screen6.png)
 
-What works / What  does not work yet
+What works / How it works / What does not work yet
 --------------------------------------
 
-- graphics: there not seems to be problems in this area, other than some Android peculiarities 
-(to be expanded) man of which is, your OnUserCreate() can be called several times: When the application
+- You just compile your classes without the "main" function and your application should at least be displayed.
+- In order to send keys and mouse, keep reading below, there are is a helper class to do it. 
+
+- graphics: there not seem to be many problems in this area, other than some Android peculiarities 
+(...) main of which is, your OnUserCreate() can be called several times: When the application
 is sent to background Android destroys the OpenGL context and frees all textures, so when bringing the
 app back into foreground we have to recreate all OpenGL context. You might need to keep this in mind
 in your onUserCreate.
 
+- I haven't tested any extension yet, I guess that complex extensions will better be integrated in the core project.
 
 - Mouse events: I wrote a simple touch emulator. The goal was rather to quickly have something that accurately
 simulates the basic mouse actions (click/drag/move) from touch. After some tests I decided to go with a system where
@@ -50,16 +54,20 @@ Keep in mind in the mouse click detections radiuses have to be coarser as the fi
 
 - Keys Events: You can easily add virtual keys anywhere on the screen and build control clusters:
 
-`		LoneScreenKey::currentInstance->add({olc::Key::W,    540,   0, 100, 50});
+`		
+        LoneScreenKey::currentInstance->add({olc::Key::W,    540,   0, 100, 50});
+
 		LoneScreenKey::currentInstance->add({olc::Key::A,    540,  50,  50, 50});
+		
 		LoneScreenKey::currentInstance->add({olc::Key::D,    590,  50,  50, 50});
+		
 		LoneScreenKey::currentInstance->add({olc::Key::S,    540, 100, 100, 50});
 `
 
  
 - gyroscope sensor data is provided as a courtesy of the Java layer. An object tCurrentSensorEvent is available.
   
-    --> working on further integrating this
+    - At the moment the gyroscope is "always on", that consumes a lot of battery, will add methods to start and stop.
     
 - So please feel free to contribute!
 
