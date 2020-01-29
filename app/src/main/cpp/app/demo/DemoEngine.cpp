@@ -46,6 +46,8 @@ bool DemoEngine::OnUserUpdate(float fElapsedTime) {
 
 bool DemoControls::OnUserCreate() {
 
+	LoneScreenKey::currentInstance->clear();
+	LoneScreenKey::currentInstance->reset();
 	LoneScreenKey::currentInstance->add({olc::Key::UP, 0, 0, 100, 50});
 	LoneScreenKey::currentInstance->add({olc::Key::LEFT, 0, 50, 50, 100});
 	LoneScreenKey::currentInstance->add({olc::Key::RIGHT, 50, 50, 100, 100});
@@ -66,14 +68,20 @@ bool DemoControls::OnUserCreate() {
 bool DemoControls::OnUserUpdate(float fElapsedTime) {
 
 	Clear(olc::BLUE);
-	LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE);
+	LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE, true);
 
 	SetPixelMode(olc::Pixel::ALPHA);
 	DrawSprite(nX, nY, pSprite, 1);
 
 
+	if (GetMouse(0).bPressed) {
+		lastClickX = GetMouseX();
+		lastClickY = GetMouseY();
+	}
+
+
 	DrawString(130, 0,
-			   "Mouse X " + std::to_string(GetMouseX()) + " Y " + std::to_string(GetMouseX()), olc::WHITE, 2);
+			   "Mouse X " + std::to_string(GetMouseX()) + " Y " + std::to_string(GetMouseY()), olc::WHITE, 2);
 	DrawString(130, 20,
 			   "B0 Pres " + std::to_string(GetMouse(0).bPressed)
 			   + " Held " + std::to_string(GetMouse(0).bHeld)
@@ -83,7 +91,10 @@ bool DemoControls::OnUserUpdate(float fElapsedTime) {
 			   + " Held " + std::to_string(GetMouse(1).bHeld)
 			   + " Rels " + std::to_string(GetMouse(1).bReleased), olc::WHITE, 2);
 
-	DrawCircle(GetMouseX(), GetMouseY(), 50.0, olc::RED);
+	DrawString(130, 60,
+			   "B0clk X " + std::to_string(lastClickX)
+			   + " Y " + std::to_string(lastClickY), olc::WHITE, 2);
+
 
 	if (GetKey(olc::Key::LEFT).bHeld) {
 		nX--;

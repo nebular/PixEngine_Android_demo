@@ -18,8 +18,8 @@
 
 struct OneLoneDemo {
 	OneLoneDemo() {
-		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
-//		olc::PixelGameEngine::BOOTINSTANCE = new DemoControls();
+//		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
+		olc::PixelGameEngine::BOOTINSTANCE = new DemoControls();
 //		olc::PixelGameEngine::BOOTINSTANCE = new DemoGyro();
 //		olc::PixelGameEngine::BOOTINSTANCE = new CirclePhysics();
 //		olc::PixelGameEngine::BOOTINSTANCE = new PolygonCollisions();

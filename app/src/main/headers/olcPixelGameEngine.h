@@ -685,6 +685,7 @@ namespace olc // All OneLoneCoder stuff will now exist in the "olc" namespace
 		// If anything sets this flag to false, the engine
 		// "should" shut down gracefully
 		static std::atomic<bool> bAtomActive;
+		static bool bHasWindowFocus;
 
 		// Common initialisation functions
 		void olc_UpdateMouse(int32_t x, int32_t y);
@@ -702,9 +703,12 @@ namespace olc // All OneLoneCoder stuff will now exist in the "olc" namespace
 	public:
 
 		// RLP EngineThread parts
+		virtual unsigned int olc_LoadShader();
 		bool olca_thread_init();
+		bool olca_thread_reinit(int newWidth, int newHeight);
 		bool olca_thread_tick(float fElapsedTime);
 		void olca_thread_deinit();
+		void olca_thread_OnPause(int status);
 
 	private:
 

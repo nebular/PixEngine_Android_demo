@@ -30,10 +30,11 @@ public:
 	int input(int32_t x, int32_t y);
 	int sync(int32_t x0, int32_t y0, int32_t x1, int32_t y1, bool keystats[], bool isUp = false);
 	void add(ScreenKey_t key);
+	void clear();
 	void reset();
 
 	bool GetFakeMouse(int button);
-	void DrawSelf(olc::PixelGameEngine *engine, olc::Pixel color);
+	void DrawSelf(olc::PixelGameEngine *engine, olc::Pixel color, bool mouse = false);
 };
 
 #endif //GLES3JNI_LONESCREENKEY_H

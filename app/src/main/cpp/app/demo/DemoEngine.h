@@ -17,7 +17,7 @@ class DemoEngine : public olc::PixelGameEngine {
 
 class DemoControls : public olc::PixelGameEngine {
 	olc::Sprite *pSprite;
-	int nX, nY;
+	int nX, nY, lastClickX, lastClickY;
 
 	bool OnUserCreate();
 	bool OnUserUpdate(float fElapsedTime);
