@@ -120,9 +120,8 @@ public:
 
 
 		LoneScreenKey::currentInstance->add({olc::Key::Q, 0, 0, 50, 100});
-		LoneScreenKey::currentInstance->add({olc::Key::A, 50, 0, 100, 100});
-		LoneScreenKey::currentInstance->add({0, ScreenWidth()-100, 0, ScreenWidth()-50, 50, true});
-		LoneScreenKey::currentInstance->add({1, ScreenWidth()-50, 0, ScreenWidth(), 50, true});
+		LoneScreenKey::currentInstance->add({olc::Key::A, 50, 0, 50, 100});
+		LoneScreenKey::currentInstance->addMouse(ScreenWidth()-100, 0);
 
 		return true;
 	}

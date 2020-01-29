@@ -15,7 +15,7 @@ namespace  olc {
 
 typedef struct sScreenKey {
 	int code;
-	int x0,y0,x1,y1;
+	int x0,y0,w, h;
 	bool mouse = false;
 } ScreenKey_t;
 
@@ -30,6 +30,8 @@ public:
 	int input(int32_t x, int32_t y);
 	int sync(int32_t x0, int32_t y0, int32_t x1, int32_t y1, bool keystats[], bool isUp = false);
 	void add(ScreenKey_t key);
+	void addCursors(int px, int py);
+	void addMouse(int px, int py);
 	void clear();
 	void reset();
 

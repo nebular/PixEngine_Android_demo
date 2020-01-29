@@ -135,8 +135,7 @@ private:
 public:
 	bool OnUserCreate()
 	{
-		LoneScreenKey::currentInstance->add({0, ScreenWidth()-100, 0, ScreenWidth()-50, 50, true});
-		LoneScreenKey::currentInstance->add({1, ScreenWidth()-50, 0, ScreenWidth(), 50, true});
+		LoneScreenKey::currentInstance->addMouse(ScreenWidth()-100, 0);
 
 		float fBallRadius = 4.0f;
 		for (int i = 0; i <100; i++)
@@ -165,6 +164,9 @@ public:
 
 		auto IsPointInCircle = [](float x1, float y1, float r1, float px, float py)
 		{
+
+			r1 *= 2; // mobile density
+
 			return fabs((x1 - px)*(x1 - px) + (y1 - py)*(y1 - py)) < (r1 * r1);
 		};
 
@@ -453,7 +455,7 @@ public:
 		// Clear Screen
 		FillRect(0, 0, ScreenWidth(), ScreenHeight(), olc::Pixel(0, 0, 0));
 
-		LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE);
+		LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE, true);
 
 		// Draw Lines
 		for (auto line : vecLines)

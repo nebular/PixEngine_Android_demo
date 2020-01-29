@@ -97,23 +97,21 @@ public:
 	bool OnUserCreate() override
 	{
 
-		LoneScreenKey::currentInstance->add({olc::Key::UP, 0, 0, 100, 50});
-		LoneScreenKey::currentInstance->add({olc::Key::LEFT, 0, 50, 50, 100});
-		LoneScreenKey::currentInstance->add({olc::Key::RIGHT, 50, 50, 100, 100});
-		LoneScreenKey::currentInstance->add({olc::Key::DOWN, 0, 100, 100, 150});
+		int PY = 120;
 
-		LoneScreenKey::currentInstance->add({olc::Key::A, 0, 250, 50, 300});
-		LoneScreenKey::currentInstance->add({olc::Key::S, 50, 250, 100, 300});
-		LoneScreenKey::currentInstance->add({olc::Key::D, 100, 250, 150, 300});
-		LoneScreenKey::currentInstance->add({olc::Key::F, 150,250, 200, 300});
+		LoneScreenKey::currentInstance->addCursors(0,120);
+		LoneScreenKey::currentInstance->addMouse(ScreenWidth()-100,0);
 
-		LoneScreenKey::currentInstance->add({olc::Key::F1, 0, 310, 50, 360});
-		LoneScreenKey::currentInstance->add({olc::Key::F2, 50, 310, 100, 360});
-		LoneScreenKey::currentInstance->add({olc::Key::F3, 100, 310, 150, 360});
-		LoneScreenKey::currentInstance->add({olc::Key::F4, 150,310, 200, 360});
+		LoneScreenKey::currentInstance->add({olc::Key::W,    540, PY+  0, 100, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::A,    540, PY+ 50,  50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::D,    590, PY+ 50,  50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::S,    540, PY+100, 100, 50});
 
-		LoneScreenKey::currentInstance->add({0, ScreenWidth()-100, 0, ScreenWidth()-50, 50, true});
-		LoneScreenKey::currentInstance->add({1, ScreenWidth()-50, 0, ScreenWidth(), 50, true});
+		LoneScreenKey::currentInstance->add({olc::Key::F1, 0, 310, 50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::F2, 50, 310, 50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::F3, 100, 310, 50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::F4, 150,310, 50, 50});
+
 
 
 		// Create Pentagon

@@ -26,8 +26,7 @@
 
 bool DemoEngine::OnUserCreate() {
 	Clear(olc::BLUE);
-	pSprite = new olc::Sprite(
-			"android.png");                // root of assets folder, subdirs are also ok
+	pSprite = new olc::Sprite("android.png");                // root of assets folder, subdirs are also ok
 	return true;
 }
 
@@ -48,16 +47,10 @@ bool DemoControls::OnUserCreate() {
 
 	LoneScreenKey::currentInstance->clear();
 	LoneScreenKey::currentInstance->reset();
-	LoneScreenKey::currentInstance->add({olc::Key::UP, 0, 0, 100, 50});
-	LoneScreenKey::currentInstance->add({olc::Key::LEFT, 0, 50, 50, 100});
-	LoneScreenKey::currentInstance->add({olc::Key::RIGHT, 50, 50, 100, 100});
-	LoneScreenKey::currentInstance->add({olc::Key::DOWN, 0, 100, 100, 150});
+	LoneScreenKey::currentInstance->addCursors(0,120);
+	LoneScreenKey::currentInstance->addMouse(ScreenWidth()-100,0);
 
-	LoneScreenKey::currentInstance->add({0, ScreenWidth()-100, 0, ScreenWidth()-50, 50, true});
-	LoneScreenKey::currentInstance->add({1, ScreenWidth()-50, 0, ScreenWidth(), 50, true});
-
-	pSprite = new olc::Sprite(
-			"android.png");                // root of assets folder, subdirs are also ok
+	pSprite = new olc::Sprite("android.png");                // root of assets folder, subdirs are also ok
 
 	nX = 160;
 	nY = 200;

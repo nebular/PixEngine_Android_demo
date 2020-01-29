@@ -70,6 +70,20 @@ build CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o: CXX_COMPILER__olcapp /Vol
   INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app
   OBJECT_DIR = CMakeFiles/olcapp.dir
   OBJECT_FILE_DIR = CMakeFiles/olcapp.dir/app/demo
+build CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp.o: CXX_COMPILER__olcapp /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp || cmake_object_order_depends_target_olcapp
+  DEFINES = -Dolcapp_EXPORTS
+  DEP_FILE = CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -Oz -DNDEBUG  -fPIC
+  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app
+  OBJECT_DIR = CMakeFiles/olcapp.dir
+  OBJECT_FILE_DIR = CMakeFiles/olcapp.dir/app/videos
+build CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp.o: CXX_COMPILER__olcapp /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp || cmake_object_order_depends_target_olcapp
+  DEFINES = -Dolcapp_EXPORTS
+  DEP_FILE = CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -Oz -DNDEBUG  -fPIC
+  INCLUDES = -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers/arch/android -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app
+  OBJECT_DIR = CMakeFiles/olcapp.dir
+  OBJECT_FILE_DIR = CMakeFiles/olcapp.dir/app/videos
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target olcapp
@@ -78,7 +92,7 @@ build CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o: CXX_COMPILER__olcapp /Vol
 #############################################
 # Link the shared library /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/armeabi-v7a/libolcapp.so
 
-build /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/armeabi-v7a/libolcapp.so: CXX_SHARED_LIBRARY_LINKER__olcapp CMakeFiles/olcapp.dir/run.cpp.o CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o | /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_portable.so
+build /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/armeabi-v7a/libolcapp.so: CXX_SHARED_LIBRARY_LINKER__olcapp CMakeFiles/olcapp.dir/run.cpp.o CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp.o CMakeFiles/olcapp.dir/app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp.o | /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_portable.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++17 -frtti -fexceptions -g -O0 -Wall -Oz -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
   LINK_LIBRARIES = -landroid /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_android.so /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/../jniLibs/armeabi-v7a/libolcPGE_portable.so -latomic -lm

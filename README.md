@@ -27,25 +27,37 @@ Getting Started
 
 ![screenshot](doc/screen1.png)
 
+![screenshot](doc/screen4.png)
+![screenshot](doc/screen5.png)
+![screenshot](doc/screen6.png)
+
 What works / What  does not work yet
 --------------------------------------
 
-In general I just got all this running these days, and the hard pat is done. Expect a lot of finetunning these days!
-What works:
+- graphics: there not seems to be problems in this area, other than some Android peculiarities 
+(to be expanded) man of which is, your OnUserCreate() can be called several times: When the application
+is sent to background Android destroys the OpenGL context and frees all textures, so when bringing the
+app back into foreground we have to recreate all OpenGL context. You might need to keep this in mind
+in your onUserCreate.
 
-- graohics layer: everything from olc:PGE. PGEX3d is included in the so libraries, but not tested yet, I guess it should work.
 
-- Mouse events: Very early state !!! GetMouse() will be the touch position, and MouseButtons the number of fingers
+- Mouse events: I wrote a simple touch emulator. The goal was rather to quickly have something that accurately
+simulates the basic mouse actions (click/drag/move) from touch. After some tests I decided to go with a system where
+you use one finger to point anywhere, then there are 2 virtual buttons on screen you can
+press with the other finger. This way you will be able to click/drag/move with primary and secondary button
+predictably. In order to support gestures, etc.. I'd go with an extension to properly support touch separate from the mouse. 
+Keep in mind in the mouse click detections radiuses have to be coarser as the fingers are less precise than the mouse. I have found a *2-*3 ratio is OK.
 
-    --> I will create a proper touch controller next days, or so can you. The layer that sends the touch
-    events from Java to C++ is done, and the MotionEvent is serialized to the C++ layer, so you
-    have all the xoordinates and pointer info to inject them how it makes sense into olc mouse events
+- Keys Events: You can easily add virtual keys anywhere on the screen and build control clusters:
 
-- Keys:  Emulation: with a provided easy "lonekey" class you can add rectangles on screen that generate
-  olc::Keys (correctly, bHeld, bPressed, etc) and with 2 touch support.
-  
-- gyroscope sensor data is provided as a courtesy of the Java layer. At the moment a "LoneSensor" class is provided
-  so you can use it as an (analog) Joystick/
+`		LoneScreenKey::currentInstance->add({olc::Key::W,    540,   0, 100, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::A,    540,  50,  50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::D,    590,  50,  50, 50});
+		LoneScreenKey::currentInstance->add({olc::Key::S,    540, 100, 100, 50});
+`
+
+ 
+- gyroscope sensor data is provided as a courtesy of the Java layer. An object tCurrentSensorEvent is available.
   
     --> working on further integrating this
     

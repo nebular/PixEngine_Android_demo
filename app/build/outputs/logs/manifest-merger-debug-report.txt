@@ -2,28 +2,28 @@
 manifest
 ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:17:1-32:12
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:17:1-32:12
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:17:1-41:12
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:2:1-26:12
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:17:1-32:12
 	package
-		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:18:11-55
+		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:18:11-46
 		INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:17:11-69
 uses-feature#0x00030000
 ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:19:3-51
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:24:5-54
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:24:5-54
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:9:5-54
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:9:5-54
 	android:glEsVersion
 		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:19:17-49
 application
 ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:20:3-31:17
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:26:5-39:19
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:26:5-39:19
-activity#tv.nebular.olcpxe.android.gles3jni.GLES3JNIActivity
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:11:5-24:19
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:11:5-24:19
+activity#tv.nebular.olcpge.android.pgerunner.PgeRunner
 ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:5-30:16
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:27:9-38:20
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:27:9-38:20
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:12:9-23:20
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:12:9-23:20
 	android:screenOrientation
 		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:24:15-52
 	android:launchMode
@@ -33,7 +33,7 @@ MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demo
 	android:theme
 		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:22:15-73
 	android:name
-		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:15-46
+		ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:15-75
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:26:7-29:23
 action#android.intent.action.MAIN
@@ -48,8 +48,8 @@ uses-sdk
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:20:5-22:41
-MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:20:5-22:41
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:5:5-7:41
+MERGED from [:olcpge_android] /Volumes/git.root/projs/gaming/olcPGE_Android_demos/olcpge_android/build/.transforms/4e0bff04e72409f1366e60192dfdb2da/olcpge_android/AndroidManifest.xml:5:5-7:41
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

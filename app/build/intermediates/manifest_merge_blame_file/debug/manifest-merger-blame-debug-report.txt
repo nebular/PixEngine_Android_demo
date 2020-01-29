@@ -15,7 +15,7 @@
 15     limitations under the License.
 16-->
 17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-18    package="tv.nebular.olcpxe.android.gles3jni" >
+18    package="tv.nebular.olcpxe.samples" >
 19
 20    <uses-sdk
 21        android:minSdkVersion="24"
@@ -27,31 +27,33 @@
 24-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:19:3-51
 24-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:19:17-49
 25
-26    <application android:debuggable="true" >
+26    <application
 26-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:20:3-31:17
-27        <activity
-27-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:5-30:16
-28            android:name="tv.nebular.olcpxe.android.gles3jni.GLES3JNIActivity"
-28-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:15-46
-29            android:configChanges="orientation|keyboardHidden"
-29-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:25:15-65
-30            android:launchMode="singleTask"
-30-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:23:15-46
-31            android:screenOrientation="landscape"
-31-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:24:15-52
-32            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-32-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:22:15-73
-33            <intent-filter>
-33-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:26:7-29:23
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:27:9-61
-34-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:27:17-58
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:28:17-77
-36-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:28:27-74
-37            </intent-filter>
-38        </activity>
-39    </application>
-40
-41</manifest>
+27        android:debuggable="true"
+28        android:testOnly="true" >
+29        <activity
+29-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:5-30:16
+30            android:name="tv.nebular.olcpge.android.pgerunner.PgeRunner"
+30-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:21:15-75
+31            android:configChanges="orientation|keyboardHidden"
+31-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:25:15-65
+32            android:launchMode="singleTask"
+32-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:23:15-46
+33            android:screenOrientation="landscape"
+33-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:24:15-52
+34            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+34-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:22:15-73
+35            <intent-filter>
+35-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:26:7-29:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:27:9-61
+36-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:27:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:28:17-77
+38-->/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>
