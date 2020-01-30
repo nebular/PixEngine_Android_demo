@@ -42,7 +42,7 @@ is sent to background Android destroys the OpenGL context and frees all textures
 app back into foreground we have to recreate all OpenGL context. You might need to keep this in mind
 in your onUserCreate.
 
-- I haven't tested any extension yet, I guess that complex extensions will better be integrated in the core project.
+- I haven't tested any extension yet, I guess that complex extensions will better be integrated in the core project. You are encouraged to fork the root project and submit pull requests with your extensions!
 
 - Mouse events: I wrote a simple touch emulator. The goal was rather to quickly have something that accurately
 simulates the basic mouse actions (click/drag/move) from touch. After some tests I decided to go with a system where
