@@ -1,19 +1,19 @@
 The target system is: Android - 1 - i686
 The host system is: Darwin - 18.7.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_08d68"
-[1/2] Building C object CMakeFiles/cmTC_08d68.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_08d68
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_17bdd"
+[1/2] Building C object CMakeFiles/cmTC_17bdd.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_17bdd
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_46ef0"
-[1/2] Building C object CMakeFiles/cmTC_46ef0.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_46ef0
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_16865"
+[1/2] Building C object CMakeFiles/cmTC_16865.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_16865
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android24
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: /Volumes/git.root/sdk/ndk-bundle/toolchains/ll
 Selected GCC installation: /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_46ef0 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_46ef0.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o
+ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_16865 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_16865.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_46ef0"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_46ef0.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_46ef0]
+  ignore line: [Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_16865"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_16865.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_16865]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android24]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_46ef0 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_46ef0.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o]
+  link line: [ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_16865 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_16865.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o]
     arg [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -58,7 +58,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_46ef0] ==> ignore
+    arg [cmTC_16865] ==> ignore
     arg [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o] ==> ignore
     arg [-L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -76,7 +76,7 @@ Parsed C implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_46ef0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_16865.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -97,11 +97,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8c649"
-[1/2] Building C object CMakeFiles/cmTC_8c649.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_8c649
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_27168"
+[1/2] Building C object CMakeFiles/cmTC_27168.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_27168
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -111,11 +111,11 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d0b9a"
-[1/2] Building C object CMakeFiles/cmTC_d0b9a.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_d0b9a
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_539bb"
+[1/2] Building C object CMakeFiles/cmTC_539bb.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_539bb
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -125,11 +125,11 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_db770"
-[1/2] Building C object CMakeFiles/cmTC_db770.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_db770
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_023d9"
+[1/2] Building C object CMakeFiles/cmTC_023d9.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_023d9
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -137,19 +137,19 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d8214"
-[1/2] Building CXX object CMakeFiles/cmTC_d8214.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_d8214
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cdbec"
+[1/2] Building CXX object CMakeFiles/cmTC_cdbec.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_cdbec
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_665e3"
-[1/2] Building CXX object CMakeFiles/cmTC_665e3.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_665e3
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f147d"
+[1/2] Building CXX object CMakeFiles/cmTC_f147d.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_f147d
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android24
 Thread model: posix
@@ -159,16 +159,16 @@ Found candidate GCC installation: /Volumes/git.root/sdk/ndk-bundle/toolchains/ll
 Selected GCC installation: /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_665e3 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_665e3.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o
+ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f147d /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_f147d.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_665e3"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_665e3.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_665e3]
+  ignore line: [Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f147d"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f147d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_f147d]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android24]
   ignore line: [Thread model: posix]
@@ -180,7 +180,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_665e3 /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_665e3.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o]
+  link line: [ "/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f147d /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24 -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_f147d.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtend_android.o]
     arg [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -194,7 +194,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_665e3] ==> ignore
+    arg [cmTC_f147d] ==> ignore
     arg [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/24/crtbegin_dynamic.o] ==> ignore
     arg [-L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_665e3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f147d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -237,11 +237,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e5c5b"
-[1/2] Building CXX object CMakeFiles/cmTC_e5c5b.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_e5c5b
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_39dda"
+[1/2] Building CXX object CMakeFiles/cmTC_39dda.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_39dda
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -304,11 +304,11 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_79d07"
-[1/2] Building CXX object CMakeFiles/cmTC_79d07.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_79d07
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_774d0"
+[1/2] Building CXX object CMakeFiles/cmTC_774d0.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_774d0
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -371,11 +371,11 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_afb41"
-[1/2] Building CXX object CMakeFiles/cmTC_afb41.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_afb41
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_39aa3"
+[1/2] Building CXX object CMakeFiles/cmTC_39aa3.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_39aa3
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -438,11 +438,11 @@ Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a7a28"
-[1/2] Building CXX object CMakeFiles/cmTC_a7a28.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a7a28
+Run Build Command:"/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a5cb3"
+[1/2] Building CXX object CMakeFiles/cmTC_a5cb3.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_a5cb3
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

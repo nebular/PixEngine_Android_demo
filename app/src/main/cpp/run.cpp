@@ -1,10 +1,7 @@
 // #include "olcPixelGameEngine.h"
 
 #include "demo/DemoEngine.h"
-#include "videos/OneLoneCoder_PGE_Balls2.h"
-#include "videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp"
-#include "videos/OneLoneCoder_PGE_PolygonCollisions1.cpp"
-#include "olcPixelGameEngine.h"
+#include "arch/android/androidlayer.hpp"
 
 
 // trick to make this code executed as Android loads the library, before anything
@@ -18,9 +15,17 @@
 
 struct OneLoneDemo {
 	OneLoneDemo() {
+//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoEngine();
+		rgl::PixEngineAndroid::BOOTINSTANCE = new Demo1();
+//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoGyro2();
+//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoGyro();
+//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoControls();
+//
+
+
 //		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
 //		olc::PixelGameEngine::BOOTINSTANCE = new DemoControls();
-		olc::PixelGameEngine::BOOTINSTANCE = new DemoGyro();
+//		olc::PixelGameEngine::BOOTINSTANCE = new DemoGyro();
 //		olc::PixelGameEngine::BOOTINSTANCE = new CirclePhysics();
 
 //		olc::PixelGameEngine::BOOTINSTANCE = new PolygonCollisions();

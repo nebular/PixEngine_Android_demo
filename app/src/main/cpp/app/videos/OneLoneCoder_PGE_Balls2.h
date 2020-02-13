@@ -70,7 +70,7 @@ David Barr, aka javidx9, ©OneLoneCoder 2018
 using namespace std;
 
 #define OLC_PGE_APPLICATION
-#include "olcPixelGameEngine.h"
+#include "PixEngine.hpp"
 
 struct sBall
 {

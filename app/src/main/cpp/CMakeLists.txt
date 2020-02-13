@@ -40,7 +40,7 @@ else ()
 
 endif (${ANDROID_PLATFORM_LEVEL} LESS 12)
 
-message("OLC/Android - Rodolfo Lopez Pintor 2020")
+message("PIXengine/Android - Rodolfo Lopez Pintor 2020")
 
 # Declare the OLC libaries. These libraries come packaged inside the AAR
 # The Build.Gradle script contains logic to unzip the libraries
@@ -51,19 +51,21 @@ message("OLC/Android - Rodolfo Lopez Pintor 2020")
 # visibility. This should really be automatic, but unfortunately support of .so in
 # library projects is mostly designed for JAVA rather than CMAKE
 
-add_library(olcPGE_android SHARED IMPORTED GLOBAL)
-set_target_properties(olcPGE_android PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libolcPGE_android.so)
-add_library(olcPGE_portable SHARED IMPORTED GLOBAL)
-set_target_properties(olcPGE_portable PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libolcPGE_portable.so)
+add_library(pixEngine_launcher SHARED IMPORTED GLOBAL)
+set_target_properties(pixEngine_launcher PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixEngine_launcher.so)
+add_library(pixEngine_core SHARED IMPORTED GLOBAL)
+set_target_properties(pixEngine_core PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixEngine_core.so)
 
 # Likewise, the headers come packaged in the AAR under /res/raw and the GRADLE
 # script conveniently unpacks them. So we make them visible to your program with
 # the right namespaces
 
 include_directories(../headers/arch/android/libpng)
-include_directories(../headers/arch/android)
+include_directories(../headers/core)
+include_directories(../headers/input)
+include_directories(../headers/items)
 include_directories(../headers)
 
 include_directories(${CMAKE_SOURCE_DIR})
@@ -71,18 +73,20 @@ include_directories(${CMAKE_SOURCE_DIR}/app)
 
 # Now, just add your application source code together with the "run.cpp" to launch the main class.
 # The library name has to be "olcapp" as this is hardcoded into the JAVA launcher.
-add_library(olcapp SHARED
+add_library(pixapp
+        SHARED
         run.cpp
         app/demo/DemoEngine.cpp
-        app/videos/OneLoneCoder_PGE_Balls2.h
-        app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp
-        app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp
+#       app/videos/OneLoneCoder_PGE_Balls2.h
+#       app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp
+#       app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp
         )
 # And finally, link you application with Android SDK and AndroidOLC pre-compiled libraries
-target_link_libraries(olcapp
+target_link_libraries(pixapp
         android
-        olcPGE_android
-        olcPGE_portable
+        log
+        pixEngine_core
+        pixEngine_launcher
         )
 
 # Enjoy !

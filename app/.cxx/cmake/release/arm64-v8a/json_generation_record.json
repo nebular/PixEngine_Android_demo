@@ -5,35 +5,7 @@
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:"
-  },
-  {
-    "level": "INFO",
-    "message": "- a dependent build file changed"
-  },
-  {
-    "level": "INFO",
-    "message": "  - /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/CMakeLists.txt"
-  },
-  {
-    "level": "INFO",
-    "message": "keeping json folder \u0027/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a\u0027 but regenerating project"
-  },
-  {
-    "level": "INFO",
-    "message": "executing cmake Executable : /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp\n-B/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003d/Volumes/git.root/sdk/ndk-bundle\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/Volumes/git.root/sdk/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja\n-DANDROID_STL\u003dc++_static\njvmArgs : \n\n"
-  },
-  {
-    "level": "INFO",
-    "message": "done executing cmake"
-  },
-  {
-    "level": "INFO",
-    "message": "write build output /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a/build_output.txt"
-  },
-  {
-    "level": "INFO",
-    "message": "write command file /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a/build_command.txt"
+    "message": "JSON \u0027/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json\u0027 was up-to-date"
   },
   {
     "level": "INFO",

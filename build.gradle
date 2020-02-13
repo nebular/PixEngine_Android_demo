@@ -9,13 +9,13 @@ buildscript {
     }
 }
 
-
+/* ya  */
 allprojects {
     repositories {
         google()
         jcenter()
         flatDir {
-            dirs project(':olcpge_android').file('aars')
+            dirs project(':pixengine_android').file('aars')
         }
 
     }

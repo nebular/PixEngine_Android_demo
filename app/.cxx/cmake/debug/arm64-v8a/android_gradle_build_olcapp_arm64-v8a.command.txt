@@ -1,7 +1,7 @@
 Executable : /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
 -C
-/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/arm64-v8a
+/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/arm64-v8a
 olcapp
 jvmArgs : 
 

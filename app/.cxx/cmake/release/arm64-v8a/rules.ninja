@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__olcapp
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp -B/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/release/arm64-v8a
+  command = /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/src/main/cpp -B/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/release/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

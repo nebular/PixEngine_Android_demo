@@ -1,2 +1,2 @@
-OLC/Android - Rodolfo Lopez Pintor 2020
+PIXengine/Android - Rodolfo Lopez Pintor 2020
 Configuring done

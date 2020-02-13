@@ -1,14 +1,2 @@
-ninja: Entering directory `/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/.cxx/cmake/debug/armeabi-v7a'
-[1/2] Building CXX object CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o
-In file included from /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.cpp:19:
-/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.h:26:15: warning: private field 'pSprite' is not used [-Wunused-private-field]
-        olc::Sprite *pSprite;
-                     ^
-/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.h:27:6: warning: private field 'nX' is not used [-Wunused-private-field]
-        int nX, nY;
-            ^
-/Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/src/main/cpp/app/demo/DemoEngine.h:27:10: warning: private field 'nY' is not used [-Wunused-private-field]
-        int nX, nY;
-                ^
-3 warnings generated.
-[2/2] Linking CXX shared library /Volumes/git.root/projs/gaming/olcPGE_Android_demos/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libolcapp.so
+ninja: Entering directory `/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

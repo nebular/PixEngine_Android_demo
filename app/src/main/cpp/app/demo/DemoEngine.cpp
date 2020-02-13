@@ -14,96 +14,143 @@
 // and locks landscape mode. The next version will allow you to select a resolution and orientation.
 
 
-#include "olcPixelGameEngine.h"
+#include "PixEngine.hpp"
 
 #include "DemoEngine.h"
-#include "plugins/lonescreenkey.h"
-
+#include "arch/android/androidapi.h"
+#include "arch/android/androidlayer.hpp"
+#include "arch/android/plugins/lonescreenkey.h"
+#include "items/Font.hpp"
+#include "input/Mouse.hpp"
+#include "input/Keyboard.hpp"
+#include "input/GyroController.hpp"
 
 /**
  * HELLO PGE WORLD
  */
 
-bool DemoEngine::OnUserCreate() {
-	Clear(olc::BLUE);
-	pSprite = new olc::Sprite("android.png");                // root of assets folder, subdirs are also ok
+
+
+Demo1::Demo1() : PixEngine(new rgl::PixEngineAndroid()) {};
+
+bool Demo1::onUserCreate() {
+	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
 	return true;
 }
 
-bool DemoEngine::OnUserUpdate(float fElapsedTime) {
-	DrawString(100, 100, "HELLO OLC PGE!", olc::GREEN, 4.0);
-	SetPixelMode(olc::Pixel::ALPHA);
-	DrawSprite(160, 200, pSprite, 1);
+bool Demo1::onUserUpdate(float fElapsedTime) {
+	pop += fElapsedTime;
+
+	pCanvas->clear(rgl::Pixel(255 * sinf(pop), 255 * cosf(pop), 255 * sinf(pop), 255));
+/*
+	pCanvas->fillCircle(screenWidth() / 2, screenHeight() / 2, screenWidth() / 2 * sinf(pop),
+						rgl::Pixel(0, 0, 255, 255));
+*/
+	pCanvas->drawString(10, 250 + 50 * sinf(pop), "PixEngine 1.0", rgl::Pixel(0, 255, 0, 255), 6);
+
+	pCanvas->fillCircle(rgl::Mouse::x(), rgl::Mouse::y(), 30,
+						rgl::Mouse::isHeld(0) ? rgl::Pixel(255, 0, 0, 255) : rgl::Pixel(255, 255,
+																						255, 255));
+
+	float fpsec = 1 / fElapsedTime;
+	pCanvas->drawString(10,10,std::to_string((int)fpsec)+" fps", rgl::Colors::MAGENTA, 2);
 
 	return true;
 }
+
+
+
+bool DemoEngine::onUserCreate() {
+
+	ALOGV("ONUSERCREATE");
+
+	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
+	pCanvas->clear(rgl::Colors::BLUE);
+
+//	pSprite = new olc::Sprite("android.png");                // root of assets folder, subdirs are also ok
+	return true;
+}
+
+bool DemoEngine::onUserUpdate(float fElapsedTime) {
+	pCanvas->drawString(100, 100, "HELLO PIXENGINE!", rgl::Colors::GREEN, 4.0);
+//	SetPixelMode(olc::Pixel::ALPHA);
+//	DrawSprite(160, 200, pSprite, 1);
+
+	return true;
+}
+
+DemoEngine::DemoEngine() : PixEngine(new rgl::PixEngineAndroid()) {}
 
 
 /**
  * HELLO CONTROLS
  */
 
-bool DemoControls::OnUserCreate() {
+DemoControls::DemoControls() : PixEngine(new rgl::PixEngineAndroid()) {}
 
-	LoneScreenKey::currentInstance->clear();
-	LoneScreenKey::currentInstance->reset();
-	LoneScreenKey::currentInstance->addCursors(0,120);
-	LoneScreenKey::currentInstance->addMouse(ScreenWidth()-100,0);
+bool DemoControls::onUserCreate() {
 
-	pSprite = new olc::Sprite("android.png");                // root of assets folder, subdirs are also ok
+	rgl::LoneScreenKey::currentInstance->clear();
+	rgl::LoneScreenKey::currentInstance->reset();
+	rgl::LoneScreenKey::currentInstance->addCursors(0, 120);
+	rgl::LoneScreenKey::currentInstance->addMouse(screenWidth() - 100, 0);
 
 	nX = 160;
 	nY = 200;
 
+	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
+
 	return true;
 }
 
-bool DemoControls::OnUserUpdate(float fElapsedTime) {
+bool DemoControls::onUserUpdate(float fElapsedTime) {
 
-	Clear(olc::BLUE);
-	LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE, true);
+	pCanvas->clear(rgl::Colors::BLUE);
 
-	SetPixelMode(olc::Pixel::ALPHA);
-	DrawSprite(nX, nY, pSprite, 1);
+	rgl::LoneScreenKey::currentInstance->DrawSelf(pCanvas, rgl::Colors::WHITE, true);
 
+	pCanvas->fillCircle(nX, nY, 14, rgl::Colors::CYAN);
 
-	if (GetMouse(0).bPressed) {
-		lastClickX = GetMouseX();
-		lastClickY = GetMouseY();
+	if (rgl::Mouse::isPressed(0)) {
+		lastClickX = rgl::Mouse::x();
+		lastClickY = rgl::Mouse::y();
 	}
 
 
-	DrawString(130, 0,
-			   "Mouse X " + std::to_string(GetMouseX()) + " Y " + std::to_string(GetMouseY()), olc::WHITE, 2);
-	DrawString(130, 20,
-			   "B0 Pres " + std::to_string(GetMouse(0).bPressed)
-			   + " Held " + std::to_string(GetMouse(0).bHeld)
-			   + " Rels " + std::to_string(GetMouse(0).bReleased), olc::WHITE, 2);
-	DrawString(130, 40,
-			   "B1 Pres " + std::to_string(GetMouse(1).bPressed)
-			   + " Held " + std::to_string(GetMouse(1).bHeld)
-			   + " Rels " + std::to_string(GetMouse(1).bReleased), olc::WHITE, 2);
+	pCanvas->drawString(130, 0,
+						"Mouse X " + std::to_string(rgl::Mouse::x()) + " Y " +
+						std::to_string(rgl::Mouse::y()), rgl::Colors::WHITE, 2);
+	pCanvas->drawString(130, 20,
+						"B0 Pres " + std::to_string(rgl::Mouse::isPressed(0))
+						+ " Held " + std::to_string(rgl::Mouse::isHeld(0))
+						+ " Rels " + std::to_string(rgl::Mouse::isReleased(0)), rgl::Colors::WHITE,
+						2);
+	pCanvas->drawString(130, 40,
+						"B1 Pres " + std::to_string(rgl::Mouse::isPressed(1))
+						+ " Held " + std::to_string(rgl::Mouse::isHeld(1))
+						+ " Rels " + std::to_string(rgl::Mouse::isReleased(1)), rgl::Colors::WHITE,
+						2);
 
-	DrawString(130, 60,
-			   "B0clk X " + std::to_string(lastClickX)
-			   + " Y " + std::to_string(lastClickY), olc::WHITE, 2);
+	pCanvas->drawString(130, 60,
+						"B0clk X " + std::to_string(lastClickX)
+						+ " Y " + std::to_string(lastClickY), rgl::Colors::WHITE, 2);
 
 
-	if (GetKey(olc::Key::LEFT).bHeld) {
+	if (rgl::Keyboard::isHeld(rgl::Keys::LEFT)) {
 		nX--;
 		if (nX < 0) nX = 0;
 	}
-	if (GetKey(olc::Key::RIGHT).bHeld) {
+	if (rgl::Keyboard::isHeld(rgl::Keys::RIGHT)) {
 		nX++;
-		if (nX > ScreenWidth() - 200) nX = ScreenWidth() - 200;
+		if (nX > screenWidth() - 200) nX = screenWidth() - 200;
 	}
-	if (GetKey(olc::Key::UP).bHeld) {
+	if (rgl::Keyboard::isHeld(rgl::Keys::UP)) {
 		nY--;
 		if (nY < 0) nY = 0;
 	}
-	if (GetKey(olc::Key::DOWN).bHeld) {
+	if (rgl::Keyboard::isHeld(rgl::Keys::DOWN)) {
 		nY++;
-		if (nY > ScreenHeight() - 100) nY = ScreenHeight() - 100;
+		if (nY > screenHeight() - 100) nY = screenHeight() - 100;
 	}
 
 
@@ -115,88 +162,89 @@ bool DemoControls::OnUserUpdate(float fElapsedTime) {
  * HELLO GYROSCOPE
  */
 
-bool DemoGyro::OnUserCreate() {
-/*
-	LoneScreenKey::currentInstance->add({olc::Key::UP, 0, 0, 100, 50});
-	LoneScreenKey::currentInstance->add({olc::Key::LEFT, 0, 50, 50, 100});
-	LoneScreenKey::currentInstance->add({olc::Key::RIGHT, 50, 50, 100, 100});
-	LoneScreenKey::currentInstance->add({olc::Key::DOWN, 0, 100, 100, 150});
+DemoGyro::DemoGyro() : PixEngine(new rgl::PixEngineAndroid()) {
+	rgl::GyroController::enable(100,100);
+	addInputDevice(rgl::GyroController::currentInstance());
+}
 
-	LoneScreenKey::currentInstance->add({0, ScreenWidth()-100, 0, ScreenWidth()-50, 50, true});
-	LoneScreenKey::currentInstance->add({1, ScreenWidth()-50, 0, ScreenWidth(), 50, true});
 
-	pSprite = new olc::Sprite(
-			"android.png");                // root of assets folder, subdirs are also ok
+bool DemoGyro::onUserCreate() {
+
+	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
 
 	nX = 160;
 	nY = 200;
-*/
+
 	return true;
 }
 
-void DemoGyro::DrawWireFrameModel( const std::vector<std::pair<float, float>> &vecModelCoordinates, float x, float y, float r, float s, std::vector<olc::Pixel> col)
-{
-	// pair.first = x coordinate
-	// pair.second = y coordinate
-
-	// Create translated model vector of coordinate pairs
-	std::vector<std::pair<float, float>> vecTransformedCoordinates;
-	long verts = vecModelCoordinates.size();
-	vecTransformedCoordinates.resize(verts);
-
-	// Rotate
-	for (int i = 0; i < verts; i++)
-	{
-		vecTransformedCoordinates[i].first = vecModelCoordinates[i].first * cosf(r) - vecModelCoordinates[i].second * sinf(r);
-		vecTransformedCoordinates[i].second = vecModelCoordinates[i].first * sinf(r) + vecModelCoordinates[i].second * cosf(r);
-
-		// Scale
-		vecTransformedCoordinates[i].first = vecTransformedCoordinates[i].first * s;
-		vecTransformedCoordinates[i].second = vecTransformedCoordinates[i].second * s;
-
-		// Translate
-		vecTransformedCoordinates[i].first = vecTransformedCoordinates[i].first + x;
-		vecTransformedCoordinates[i].second = vecTransformedCoordinates[i].second + y;
-	}
-
-	// Draw Closed Polygon
-	for (int i = 0; i < verts + 1; i++)
-	{
-		int j = (i + 1);
-		DrawLine((int)vecTransformedCoordinates[i % verts].first, (int)vecTransformedCoordinates[i % verts].second,
-				 (int)vecTransformedCoordinates[j % verts].first, (int)vecTransformedCoordinates[j % verts].second, col[i%col.size()]);
-	}
-}
-
-
-bool DemoGyro::OnUserUpdate(float fElapsedTime) {
+bool DemoGyro::onUserUpdate(float fElapsedTime) {
 
 	auto todeg = [](float rad) { return rad * 180 / 3.14159265; };
 
-	Clear(olc::BLUE);
-//	LoneScreenKey::currentInstance->DrawSelf(this, olc::WHITE);
+	pCanvas->clear(rgl::Colors::BLUE);
+	rgl::LoneScreenKey::currentInstance->DrawSelf(pCanvas, rgl::Colors::WHITE);
 
-	float roll = tCurrentEvent.vector.roll;
-	float azimuth = tCurrentEvent.vector.azimuth;
+	ASensorEvent tCurrentEvent = rgl::GyroController::currentInstance()->raw();
+	float roll =  tCurrentEvent.vector.roll;
+	float azimuth =  tCurrentEvent.vector.azimuth;
 	float pich = tCurrentEvent.vector.pitch;
 
-	DrawString(50, 270,"ROLL", olc::RED, 2.0);
-	DrawString(250,270,"AZIMUTH", olc::RED, 2.0);
-	DrawString(450,270,"PITCH", olc::RED, 2.0);
-	DrawString(50, 300,std::to_string(todeg(roll)), olc::YELLOW, 2.0);
-	DrawString(250,300,std::to_string(todeg(azimuth)), olc::YELLOW, 2.0);
-	DrawString(450,300,std::to_string(todeg(pich)), olc::YELLOW, 2.0);
+	pCanvas->drawString(50, 270, "ROLL", rgl::Colors::RED, 2.0);
+	pCanvas->drawString(250, 270, "AZIMUTH", rgl::Colors::RED, 2.0);
+	pCanvas->drawString(530, 270, "PITCH", rgl::Colors::RED, 2.0);
+	pCanvas->drawString(50, 300, std::to_string(todeg(roll)), rgl::Colors::YELLOW, 2.0);
+	pCanvas->drawString(250, 300, std::to_string(todeg(azimuth)), rgl::Colors::YELLOW, 2.0);
+	pCanvas->drawString(450, 300, std::to_string(todeg(pich)), rgl::Colors::YELLOW, 2.0);
 
-	DrawLine(500,50,500,200,olc::WHITE);
-	FillCircle(500, 50 + 75 + 75 * sin(-pich), 5.0, olc::YELLOW);
+	pCanvas->drawWireFrameModel(stVecModelCar, 100, 125, -roll, 20.0, {rgl::Colors::YELLOW});
 
-	DrawLine(250, 125, 400, 125,olc::WHITE);
-	FillCircle(250 + 75 + 75 * sin(azimuth), 125, 5.0, olc::YELLOW);
+	rgl::GyroController::currentInstance()->drawSelf(pCanvas, rgl::Colors::CYAN);
 
-	DrawWireFrameModel(stVecModelCar,100, 125, -roll, 20.0, {olc::YELLOW});
+	return true;
+}
 
-	//	SetPixelMode(olc::Pixel::ALPHA);
-//	DrawSprite(nX, nY, pSprite, 1);
 
-return true;
+
+DemoGyro2::DemoGyro2() : PixEngine(new rgl::PixEngineAndroid()) {
+	rgl::GyroController::enable(100,100);
+	addInputDevice(rgl::GyroController::currentInstance());
+}
+
+
+bool DemoGyro2::onUserCreate() {
+
+	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
+
+	return true;
+}
+
+bool DemoGyro2::onUserUpdate(float fElapsedTime) {
+
+	auto todeg = [](float rad) { return rad * 180 / 3.14159265; };
+
+	pCanvas->clear(rgl::Colors::BLUE);
+
+
+	float xn = rgl::GyroController::currentInstance()->xNorm();
+	float yn = rgl::GyroController::currentInstance()->yNorm();
+
+	fAngle += xn*fElapsedTime*10;
+
+	fPosX -= yn*cosf(fAngle)*fElapsedTime*100;
+	fPosY -= yn*sinf(fAngle)*fElapsedTime*100;
+
+	fPosX = fmod(fPosX, screenWidth());
+	fPosY = fmod(fPosY, screenHeight());
+
+	pCanvas->drawString(50, 270, "xn", rgl::Colors::RED, 2.0);
+	pCanvas->drawString(250, 270, "yn", rgl::Colors::RED, 2.0);
+	pCanvas->drawString(50, 300, std::to_string(xn), rgl::Colors::YELLOW, 2.0);
+	pCanvas->drawString(250, 300, std::to_string(yn), rgl::Colors::YELLOW, 2.0);
+
+	pCanvas->drawWireFrameModel(stVecModelCar, fPosX, fPosY, fAngle, 20.0, {rgl::Colors::YELLOW});
+
+	rgl::GyroController::currentInstance()->drawSelf(pCanvas, rgl::Colors::CYAN);
+
+	return true;
 }
