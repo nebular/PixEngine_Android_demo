@@ -5,19 +5,7 @@
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository."
-  },
-  {
-    "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/Volumes/git.root/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
-  },
-  {
-    "level": "INFO",
     "message": "rebuilding JSON /Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json due to:"
-  },
-  {
-    "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder"
   },
   {
     "level": "INFO",
@@ -25,15 +13,11 @@
   },
   {
     "level": "INFO",
-    "message": "  - /Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/src/main/cpp/CMakeLists.txt"
+    "message": "  - /Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/CMakeLists.txt"
   },
   {
     "level": "INFO",
-    "message": "removing stale contents from \u0027/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/armeabi-v7a\u0027"
-  },
-  {
-    "level": "INFO",
-    "message": "created folder \u0027/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/armeabi-v7a\u0027"
+    "message": "keeping json folder \u0027/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/armeabi-v7a\u0027 but regenerating project"
   },
   {
     "level": "INFO",

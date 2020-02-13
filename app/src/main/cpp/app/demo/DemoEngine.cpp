@@ -30,8 +30,6 @@
  * HELLO PGE WORLD
  */
 
-
-
 Demo1::Demo1() {};
 
 bool Demo1::onUserCreate() {

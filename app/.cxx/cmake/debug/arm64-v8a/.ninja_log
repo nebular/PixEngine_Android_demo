@@ -9,3 +9,14 @@
 1	687	1581614801	CMakeFiles/pixapp.dir/run.cpp.o	a8c17e90b324bc0f
 1	877	1581614802	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	7116af2fcc90a3f9
 877	923	1581614802	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpixapp.so	889c4bc3e0c2470f
+2	1902	1581619610	CMakeFiles/pixapp.dir/run.cpp.o	a8c17e90b324bc0f
+3	2503	1581619611	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	7116af2fcc90a3f9
+2504	2576	1581619611	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpixapp.so	889c4bc3e0c2470f
+1	69	1581619879	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpixapp.so	889c4bc3e0c2470f
+0	6	0	clean	c4ad5cb393780fc9
+1	1402	1581623520	CMakeFiles/pixapp.dir/run.cpp.o	a8c17e90b324bc0f
+1	1027	1581623561	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	7116af2fcc90a3f9
+1027	1076	1581623561	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpixapp.so	889c4bc3e0c2470f
+1	1222	1581623670	CMakeFiles/pixapp.dir/run.cpp.o	a8c17e90b324bc0f
+3	1472	1581623671	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	7116af2fcc90a3f9
+1472	1530	1581623671	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpixapp.so	889c4bc3e0c2470f
