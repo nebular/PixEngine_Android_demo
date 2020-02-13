@@ -1,8 +1,0 @@
-# ninja log v5
-0	653	1581614248	CMakeFiles/pixapp.dir/run.cpp.o	75f0fa0df7fadba9
-1	837	1581614249	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	ffdb2957177e90d7
-837	886	1581614249	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so	33b4eb03d263bf7
-0	5	0	clean	c4ad5cb393780fc9
-1	582	1581614802	CMakeFiles/pixapp.dir/run.cpp.o	75f0fa0df7fadba9
-1	880	1581614802	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	ffdb2957177e90d7
-880	913	1581614803	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so	33b4eb03d263bf7

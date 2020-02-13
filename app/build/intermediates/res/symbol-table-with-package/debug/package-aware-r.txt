@@ -1,4 +1,4 @@
 tv.nebular.olcpxe.samples
 mipmap ic_launcher
-raw olcpge_headers
+raw pixfu_headers
 string gles3jni_activity

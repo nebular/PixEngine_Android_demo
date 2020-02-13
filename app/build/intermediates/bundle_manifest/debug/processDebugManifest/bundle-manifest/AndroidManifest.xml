@@ -27,7 +27,7 @@
         android:debuggable="true"
         android:testOnly="true" >
         <activity
-            android:name="tv.nebular.olcpge.android.pgerunner.PgeRunner"
+            android:name="tv.nebular.pixFu.launcher.Runner"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="landscape"

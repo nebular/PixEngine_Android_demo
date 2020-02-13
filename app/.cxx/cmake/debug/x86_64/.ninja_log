@@ -6,3 +6,7 @@
 1	722	1581614803	CMakeFiles/pixapp.dir/run.cpp.o	68453ba85937d28d
 1	882	1581614803	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	9dbb7d1f0388e1b6
 882	914	1581614803	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	c87a2c18eabb287b
+1	2089	1581619615	CMakeFiles/pixapp.dir/run.cpp.o	68453ba85937d28d
+2	2529	1581619616	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	9dbb7d1f0388e1b6
+2530	2575	1581619616	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	c87a2c18eabb287b
+0	6	0	clean	c4ad5cb393780fc9

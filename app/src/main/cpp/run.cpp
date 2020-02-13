@@ -1,7 +1,7 @@
 // #include "olcPixelGameEngine.h"
 
 #include "demo/DemoEngine.h"
-#include "arch/android/androidlayer.hpp"
+#include "arch/android/platform_android.hpp"
 
 
 // trick to make this code executed as Android loads the library, before anything
@@ -13,26 +13,22 @@
 // easy to link them into new projects, package, distribute, etc ... vs. manually
 // having to craft a big CMAKE everytime.
 
-struct OneLoneDemo {
-	OneLoneDemo() {
-//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoEngine();
-		rgl::PixEngineAndroid::BOOTINSTANCE = new Demo1();
-//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoGyro2();
-//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoGyro();
-//		rgl::PixEngineAndroid::BOOTINSTANCE = new DemoControls();
-//
+struct PixFuDemos {
 
+	PixFuDemos() {
 
-//		olc::PixelGameEngine::BOOTINSTANCE = new DemoEngine();
-//		olc::PixelGameEngine::BOOTINSTANCE = new DemoControls();
-//		olc::PixelGameEngine::BOOTINSTANCE = new DemoGyro();
-//		olc::PixelGameEngine::BOOTINSTANCE = new CirclePhysics();
+		rgl::PixFu *engine = new DemoEngine();
 
-//		olc::PixelGameEngine::BOOTINSTANCE = new PolygonCollisions();
-//		olc::PixelGameEngine::BOOTINSTANCE = new PathFinding_FlowFields();
+//		rgl::PixFu *engine = new Demo1();
+//		rgl::PixFu *engine = new DemoGyro2();
+//		rgl::PixFu *engine = new DemoGyro();
+//		rgl::PixFu *engine = new DemoControls();
+
+		rgl::PixFuPlatform::init(new rgl::PixFuPlatformAndroid(engine));
+
 	}
 
 };
 
-OneLoneDemo rules;
+PixFuDemos rules;
 

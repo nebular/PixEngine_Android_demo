@@ -1,11 +1,11 @@
 //
-// OneLoneCoder Pixel Game Engine Android Template
+// PixFU Android Template
 // Author: Rodolfo Lopez Pintor <rlp@nebular.tv>
 //
 // License: Creative commons CC-BY
 // Created by rodo on 2020-01-24.
 //
-// On the project tree you have "olcpge_android" as a module with the release version of
+// On the project tree you have "PixFu" as a module with the release version of
 // the android/PixelGameEngine library. You may need to update that file for newer versions.
 // You can also build the project yourself, just clone https://github.com/nebular/olcPGE_Android
 // and build your customized launcher
@@ -17,9 +17,10 @@
 #include "PixFu.hpp"
 
 #include "DemoEngine.h"
-#include "arch/android/androidapi.h"
-#include "arch/android/androidlayer.hpp"
+
+#include "arch/android/platform_android.hpp"
 #include "arch/android/plugins/lonescreenkey.h"
+
 #include "items/Font.hpp"
 #include "input/Mouse.hpp"
 #include "input/Keyboard.hpp"
@@ -31,7 +32,7 @@
 
 
 
-Demo1::Demo1() : PixFu(new rgl::PixEngineAndroid()) {};
+Demo1::Demo1() {};
 
 bool Demo1::onUserCreate() {
 	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
@@ -61,7 +62,6 @@ bool Demo1::onUserUpdate(float fElapsedTime) {
 
 bool DemoEngine::onUserCreate() {
 
-	ALOGV("ONUSERCREATE");
 
 	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
 	pCanvas->clear(rgl::Colors::BLUE);
@@ -78,14 +78,14 @@ bool DemoEngine::onUserUpdate(float fElapsedTime) {
 	return true;
 }
 
-DemoEngine::DemoEngine() : PixFu(new rgl::PixEngineAndroid()) {}
+DemoEngine::DemoEngine() {}
 
 
 /**
  * HELLO CONTROLS
  */
 
-DemoControls::DemoControls() : PixFu(new rgl::PixEngineAndroid()) {}
+DemoControls::DemoControls() {}
 
 bool DemoControls::onUserCreate() {
 
@@ -161,7 +161,7 @@ bool DemoControls::onUserUpdate(float fElapsedTime) {
  * HELLO GYROSCOPE
  */
 
-DemoGyro::DemoGyro() : PixFu(new rgl::PixEngineAndroid()) {
+DemoGyro::DemoGyro() {
 	rgl::GyroController::enable(100, 100);
 	addInputDevice(rgl::GyroController::currentInstance());
 }
@@ -204,7 +204,7 @@ bool DemoGyro::onUserUpdate(float fElapsedTime) {
 }
 
 
-DemoGyro2::DemoGyro2() : PixFu(new rgl::PixEngineAndroid()) {
+DemoGyro2::DemoGyro2() {
 	rgl::GyroController::enable(100, 100);
 	addInputDevice(rgl::GyroController::currentInstance());
 }
