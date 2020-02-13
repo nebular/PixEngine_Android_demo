@@ -1,10 +1,10 @@
 Executable : /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/src/main/cpp
--B/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/.cxx/cmake/debug/x86_64
+-H/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp
+-B/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/debug/x86_64
 -DANDROID_ABI=x86_64
 -DANDROID_PLATFORM=android-24
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Volumes/git.root/sdk/ndk-bundle
 -DCMAKE_SYSTEM_NAME=Android

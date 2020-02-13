@@ -1,13 +1,8 @@
 # ninja log v5
-0	969	1581552912	CMakeFiles/olcapp.dir/run.cpp.o	578f9e11f1776021
-0	1253	1581552913	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	7c61708becedb37f
-1253	1289	1581552913	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	1aee9cded60469e6
-1	996	1581553547	CMakeFiles/olcapp.dir/run.cpp.o	578f9e11f1776021
-6	1223	1581553548	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	7c61708becedb37f
-1223	1256	1581553548	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	1aee9cded60469e6
-2	589	1581554946	CMakeFiles/olcapp.dir/run.cpp.o	578f9e11f1776021
-2	643	1581554946	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	7c61708becedb37f
-643	690	1581554946	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	1aee9cded60469e6
-1	639	1581568814	CMakeFiles/olcapp.dir/run.cpp.o	578f9e11f1776021
-1	829	1581568814	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	7c61708becedb37f
-829	861	1581568815	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libolcapp.so	1aee9cded60469e6
+0	653	1581614248	CMakeFiles/pixapp.dir/run.cpp.o	75f0fa0df7fadba9
+1	837	1581614249	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	ffdb2957177e90d7
+837	886	1581614249	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so	33b4eb03d263bf7
+0	5	0	clean	c4ad5cb393780fc9
+1	582	1581614802	CMakeFiles/pixapp.dir/run.cpp.o	75f0fa0df7fadba9
+1	880	1581614802	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	ffdb2957177e90d7
+880	913	1581614803	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so	33b4eb03d263bf7

@@ -1,0 +1,3 @@
+[submodule "PixFu_Android"]
+	path = PixFu_Android
+	url = https://github.com/nebular/PixFu_Android

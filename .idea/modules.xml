@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PixEngine_Android_demos.iml" filepath="$PROJECT_DIR$/PixEngine_Android_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PixFu_Android_demos.iml" filepath="$PROJECT_DIR$/PixFu_Android_demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pixengine_android/pixengine_android.iml" filepath="$PROJECT_DIR$/pixengine_android/pixengine_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PixFu_Android/pixFu_android.iml" filepath="$PROJECT_DIR$/PixFu_Android/pixFu_android.iml" />
     </modules>
   </component>
 </project>

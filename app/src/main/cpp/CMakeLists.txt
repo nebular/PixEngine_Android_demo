@@ -51,12 +51,12 @@ message("PIXengine/Android - Rodolfo Lopez Pintor 2020")
 # visibility. This should really be automatic, but unfortunately support of .so in
 # library projects is mostly designed for JAVA rather than CMAKE
 
-add_library(pixEngine_launcher SHARED IMPORTED GLOBAL)
-set_target_properties(pixEngine_launcher PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixEngine_launcher.so)
-add_library(pixEngine_core SHARED IMPORTED GLOBAL)
-set_target_properties(pixEngine_core PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixEngine_core.so)
+add_library(pixFu_launcher SHARED IMPORTED GLOBAL)
+set_target_properties(pixFu_launcher PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixFu_launcher.so)
+add_library(pixFu SHARED IMPORTED GLOBAL)
+set_target_properties(pixFu PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixFu.so)
 
 # Likewise, the headers come packaged in the AAR under /res/raw and the GRADLE
 # script conveniently unpacks them. So we make them visible to your program with
@@ -85,8 +85,8 @@ add_library(pixapp
 target_link_libraries(pixapp
         android
         log
-        pixEngine_core
-        pixEngine_launcher
+        pixFu
+        pixFu_launcher
         )
 
 # Enjoy !

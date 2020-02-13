@@ -1,18 +1,8 @@
 # ninja log v5
-0	11	0	clean	c4ad5cb393780fc9
-0	1487	1581543063	CMakeFiles/olcapp.dir/run.cpp.o	1e9192f83e4e55fd
-1	1804	1581543064	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	75c296a0c26fe5ec
-1804	1855	1581543064	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	5b88acfc3e4d444a
-1	128	1581546744	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	5b88acfc3e4d444a
-1	1069	1581552914	CMakeFiles/olcapp.dir/run.cpp.o	1e9192f83e4e55fd
-1	1119	1581552914	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	75c296a0c26fe5ec
-1119	1157	1581552914	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	f97d04faf6570cc2
-1	1020	1581553549	CMakeFiles/olcapp.dir/run.cpp.o	1e9192f83e4e55fd
-2	1130	1581553549	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	75c296a0c26fe5ec
-1130	1167	1581553549	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	f97d04faf6570cc2
-1	559	1581554947	CMakeFiles/olcapp.dir/run.cpp.o	1e9192f83e4e55fd
-1	768	1581554947	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	75c296a0c26fe5ec
-768	798	1581554947	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	f97d04faf6570cc2
-2	688	1581568815	CMakeFiles/olcapp.dir/run.cpp.o	1e9192f83e4e55fd
-2	873	1581568815	CMakeFiles/olcapp.dir/app/demo/DemoEngine.cpp.o	75c296a0c26fe5ec
-873	931	1581568815	/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libolcapp.so	f97d04faf6570cc2
+0	658	1581614249	CMakeFiles/pixapp.dir/run.cpp.o	68453ba85937d28d
+0	825	1581614249	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	9dbb7d1f0388e1b6
+825	855	1581614250	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	c87a2c18eabb287b
+0	4	0	clean	c4ad5cb393780fc9
+1	722	1581614803	CMakeFiles/pixapp.dir/run.cpp.o	68453ba85937d28d
+1	882	1581614803	CMakeFiles/pixapp.dir/app/demo/DemoEngine.cpp.o	9dbb7d1f0388e1b6
+882	914	1581614803	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	c87a2c18eabb287b

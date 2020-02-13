@@ -14,7 +14,7 @@
 // and locks landscape mode. The next version will allow you to select a resolution and orientation.
 
 
-#include "PixEngine.hpp"
+#include "PixFu.hpp"
 
 #include "DemoEngine.h"
 #include "arch/android/androidapi.h"
@@ -31,7 +31,7 @@
 
 
 
-Demo1::Demo1() : PixEngine(new rgl::PixEngineAndroid()) {};
+Demo1::Demo1() : PixFu(new rgl::PixEngineAndroid()) {};
 
 bool Demo1::onUserCreate() {
 	pCanvas = new rgl::Canvas2D(buffer(), new rgl::Font());
@@ -46,18 +46,17 @@ bool Demo1::onUserUpdate(float fElapsedTime) {
 	pCanvas->fillCircle(screenWidth() / 2, screenHeight() / 2, screenWidth() / 2 * sinf(pop),
 						rgl::Pixel(0, 0, 255, 255));
 */
-	pCanvas->drawString(10, 250 + 50 * sinf(pop), "PixEngine 1.0", rgl::Pixel(0, 255, 0, 255), 6);
+	pCanvas->drawString(10, 250 + 50 * sinf(pop), "PixFu 1.0", rgl::Pixel(0, 255, 0, 255), 7);
 
 	pCanvas->fillCircle(rgl::Mouse::x(), rgl::Mouse::y(), 30,
 						rgl::Mouse::isHeld(0) ? rgl::Pixel(255, 0, 0, 255) : rgl::Pixel(255, 255,
 																						255, 255));
 
 	float fpsec = 1 / fElapsedTime;
-	pCanvas->drawString(10,10,std::to_string((int)fpsec)+" fps", rgl::Colors::MAGENTA, 2);
+	pCanvas->drawString(10, 10, std::to_string((int) fpsec) + " fps", rgl::Colors::MAGENTA, 2);
 
 	return true;
 }
-
 
 
 bool DemoEngine::onUserCreate() {
@@ -79,14 +78,14 @@ bool DemoEngine::onUserUpdate(float fElapsedTime) {
 	return true;
 }
 
-DemoEngine::DemoEngine() : PixEngine(new rgl::PixEngineAndroid()) {}
+DemoEngine::DemoEngine() : PixFu(new rgl::PixEngineAndroid()) {}
 
 
 /**
  * HELLO CONTROLS
  */
 
-DemoControls::DemoControls() : PixEngine(new rgl::PixEngineAndroid()) {}
+DemoControls::DemoControls() : PixFu(new rgl::PixEngineAndroid()) {}
 
 bool DemoControls::onUserCreate() {
 
@@ -162,8 +161,8 @@ bool DemoControls::onUserUpdate(float fElapsedTime) {
  * HELLO GYROSCOPE
  */
 
-DemoGyro::DemoGyro() : PixEngine(new rgl::PixEngineAndroid()) {
-	rgl::GyroController::enable(100,100);
+DemoGyro::DemoGyro() : PixFu(new rgl::PixEngineAndroid()) {
+	rgl::GyroController::enable(100, 100);
 	addInputDevice(rgl::GyroController::currentInstance());
 }
 
@@ -186,8 +185,8 @@ bool DemoGyro::onUserUpdate(float fElapsedTime) {
 	rgl::LoneScreenKey::currentInstance->DrawSelf(pCanvas, rgl::Colors::WHITE);
 
 	ASensorEvent tCurrentEvent = rgl::GyroController::currentInstance()->raw();
-	float roll =  tCurrentEvent.vector.roll;
-	float azimuth =  tCurrentEvent.vector.azimuth;
+	float roll = tCurrentEvent.vector.roll;
+	float azimuth = tCurrentEvent.vector.azimuth;
 	float pich = tCurrentEvent.vector.pitch;
 
 	pCanvas->drawString(50, 270, "ROLL", rgl::Colors::RED, 2.0);
@@ -205,9 +204,8 @@ bool DemoGyro::onUserUpdate(float fElapsedTime) {
 }
 
 
-
-DemoGyro2::DemoGyro2() : PixEngine(new rgl::PixEngineAndroid()) {
-	rgl::GyroController::enable(100,100);
+DemoGyro2::DemoGyro2() : PixFu(new rgl::PixEngineAndroid()) {
+	rgl::GyroController::enable(100, 100);
 	addInputDevice(rgl::GyroController::currentInstance());
 }
 
@@ -229,10 +227,10 @@ bool DemoGyro2::onUserUpdate(float fElapsedTime) {
 	float xn = rgl::GyroController::currentInstance()->xNorm();
 	float yn = rgl::GyroController::currentInstance()->yNorm();
 
-	fAngle += xn*fElapsedTime*10;
+	fAngle += xn * fElapsedTime * 10;
 
-	fPosX -= yn*cosf(fAngle)*fElapsedTime*100;
-	fPosY -= yn*sinf(fAngle)*fElapsedTime*100;
+	fPosX -= yn * cosf(fAngle) * fElapsedTime * 100;
+	fPosY -= yn * sinf(fAngle) * fElapsedTime * 100;
 
 	fPosX = fmod(fPosX, screenWidth());
 	fPosY = fmod(fPosY, screenHeight());

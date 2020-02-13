@@ -5,13 +5,13 @@
 #ifndef DEMOENGINE_H
 #define DEMOENGINE_H
 
-#include "PixEngine.hpp"
+#include "PixFu.hpp"
 #include "arch/android/plugins/lonescreenkey.h"
 #include "items/Canvas2D.hpp"
 #include "Font.hpp"
 #include "input/GyroController.hpp"
 
-class DemoEngine : public rgl::PixEngine {
+class DemoEngine : public rgl::PixFu {
 
 //	olc::Sprite *pSprite;
 	rgl::Canvas2D *pCanvas;
@@ -22,7 +22,7 @@ public:
 	bool onUserUpdate(float fElapsedTime);
 };
 
-class DemoControls : public rgl::PixEngine {
+class DemoControls : public rgl::PixFu {
 
 //	olc::Sprite *pSprite;
 	int nX, nY, lastClickX, lastClickY;
@@ -35,7 +35,7 @@ public:
 	bool onUserUpdate(float fElapsedTime);
 };
 
-class DemoGyro : public rgl::PixEngine {
+class DemoGyro : public rgl::PixFu {
 
 public:
 	DemoGyro();
@@ -50,7 +50,7 @@ public:
 
 };
 
-class DemoGyro2 : public rgl::PixEngine {
+class DemoGyro2 : public rgl::PixFu {
 
 public:
 	DemoGyro2();
@@ -67,7 +67,7 @@ public:
 
 
 
-class Demo1 : public rgl::PixEngine {
+class Demo1 : public rgl::PixFu {
 
 	rgl::Canvas2D *pCanvas;
 	float pop = 0;

@@ -35,7 +35,7 @@ android {
 
 task extractSo(type: Copy) {
     println 'Extracting *.so file(s)....'
-    from zipTree("${project.rootDir}/pixengine_android/pixengine-android.aar")
+    from zipTree("${project.rootDir}/pixFu_android/pixFu_android.aar")
     into "${project.rootDir}/${project.name}/src/main/jniLibs/"
     include "jni/**/*.so"
     eachFile {
@@ -51,7 +51,7 @@ task extractSo(type: Copy) {
 
 task extractSoHeaders(type: Copy) {
     println 'Extracting header file(s)....'
-    from zipTree("${project.rootDir}/pixengine_android/pixengine-android.aar")
+    from zipTree("${project.rootDir}/pixFu_android/pixFu_android.aar")
     into "${project.buildDir}/headers/"
     include "res/raw/*.zip"
     eachFile {
@@ -68,7 +68,7 @@ task extractSoHeaders(type: Copy) {
 
 task unpackSoHeaders(type: Copy) {
     println 'Unpacking header file(s)....'
-    from zipTree("${project.buildDir}/headers/raw/pixengine_headers.zip")
+    from zipTree("${project.buildDir}/headers/raw/pixFu_headers.zip")
     into "${project.rootDir}/${project.name}/src/main/headers/"
     include "*.h"
     include "**/*.h"
@@ -81,7 +81,7 @@ task unpackSoHeaders(type: Copy) {
 }
 
 dependencies {
-    implementation project(path: ':pixengine_android')
+    implementation project(path: ':pixFu_android')
 }
 
 

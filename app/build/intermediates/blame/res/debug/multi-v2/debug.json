@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Volumes/git.root/projs/gaming/PixEngine_Android_demos/app/src/main/res/values/strings.xml",
+                    "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "21",
                         "startColumns": "4",
