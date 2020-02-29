@@ -1,13 +1,44 @@
-PixelGameEngine Demo
-====================
+PixFu Template Project and Demos
+================================
 
 ![screenshot](doc/screen2.png)
 
-This is a template Android Studio project that you can use to create your OLC/PGE based applications and add an additional layer of fun to the teachings of @javidx9 !
+What is PixFu
+=============
 
-It includes the OLC PGE/Android core as an AAR, and all build scripts and CMAKE configurations ready so you just can deploy one class, hit build and play the application in your phone.
+PixFu is a minimalistic modular game / realtime system engine. It is 100% written in C++ and OpenGL and runs on Desktop computers and Mobile devices (Android at the moment, IOS coming next).
 
-Please refer to the root project OLC/Android https://github.com/nebular/olcPGE_Android for technical details.
+PixFu core is based on famous engine OneLoneCoder Pixel Game Engine (http://onelonecoder.com) and has a redesigned full modular approach to allow optimizations for mobile devices and embedded platforms.
+
+ Core: OpenGL initialization, platform abstraction, android/ios launchers
+
+ Input Devices: Keyboard, Mouse, Virtual Mouse, Virtual Keyboard, Axis Controller, Gyroscope
+
+ Extensions:
+
+    - Primary Surface: provides a 2D canvas with functions to draw circles, lines, rectangles and multi-font strings. This extension is enabled by default. Source code for this extension comes from OLC PGE core. 
+    
+    - Sprites: OpenGL/powered sprites with scaling, rotation, fx and multi sprite atlas support
+
+    - World: Complete minimalistic 3D world with terrain model, height maps, lighting, camera, and 3D-model object clusters with multi-texture support, optimized for mobile devices. 
+
+Other Features:
+
+    - OLC Pixel Game Engine compatibility layer, provides a base class that mimics the PGE Engine class. You can easily port your PGE modules to PixFu! (Note- Extensions are not supported, and not all functionality is emulated)
+
+    - Includes GLM library, used internally, but also exported so it is ready to use in your project just including it. The library is compiled with FORCE_LEFT_HANDED, so angles are positive clockwise and physics behave as expected.
+    
+    - 100% modular structure allows to enable just the features you need. Even the primary UI surface is an extension that maybe you don't need to enable to get some fps!
+
+How To Start
+=============
+
+
+This is a template Android Studio project that you can use to create your PixFu based applications.
+
+It includes the PixFu/Android core as an AAR, and all build scripts and CMAKE configurations ready so you just can deploy one class, hit build and play the application in your phone.
+
+Please refer to the root project PixFu https://github.com/nebular/PixFu_Android for technical details.
 
 Pre-requisites
 --------------
@@ -18,7 +49,7 @@ Getting Started
 ---------------
 1. Clone this project
 
-`git clone https://github.com/nebular/olcPGE_Android_demos.git
+`git clone https://github.com/nebular/PixFu_Android_demos.git
 `
 1. Open it in Android Studio
 

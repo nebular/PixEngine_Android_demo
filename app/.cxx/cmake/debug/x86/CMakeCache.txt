@@ -220,7 +220,7 @@ Project_BINARY_DIR:STATIC=/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_de
 Project_SOURCE_DIR:STATIC=/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp
 
 //Dependencies for the target
-pixapp_LIB_DEPENDS:STATIC=general;android;general;log;general;pixFu;general;pixFu_launcher;
+pixapp_LIB_DEPENDS:STATIC=general;android;general;log;general;pixFu;general;pixFu_ext;general;pixFu_launcher;
 
 
 ########################

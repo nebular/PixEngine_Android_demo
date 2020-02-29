@@ -1,7 +1,7 @@
 {
   "stringTable": {
     "0": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/x86_64",
-    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpixapp_EXPORTS -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/core -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/input -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/items -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++17 -frtti -fexceptions -g -O0 -Wall -O2 -DNDEBUG -fPIC"
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpixapp_EXPORTS -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/core -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/glm -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/input -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers/items -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/lonekart/headers -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++17 -frtti -fexceptions -Wall -Wno-unknown-pragmas -Ofast -fPIC"
   },
   "buildFiles": [
     "/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
@@ -26,12 +26,27 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/demo/DemoEngine.cpp",
+          "src": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/lonekart/Main.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/lonekart/Arena.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/lonekart/ArenaLevel.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
-      "headers": [],
+      "headers": [
+        {
+          "header": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
       "output": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/release/obj/x86_64/libpixapp.so"
     }
   },

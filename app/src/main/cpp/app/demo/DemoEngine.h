@@ -2,83 +2,40 @@
 // Created by rodo on 2020-01-24.
 //
 
-#ifndef DEMOENGINE_H
-#define DEMOENGINE_H
+#pragma once
 
 #include "PixFu.hpp"
-#include "arch/android/plugins/lonescreenkey.h"
-#include "items/Canvas2D.hpp"
-#include "Font.hpp"
+#include "input/Mouse.hpp"
 #include "input/GyroController.hpp"
 
 class DemoEngine : public rgl::PixFu {
 
-//	olc::Sprite *pSprite;
-	rgl::Canvas2D *pCanvas;
-
-public:
-	DemoEngine();
-	bool onUserCreate();
-	bool onUserUpdate(float fElapsedTime);
-};
-
-class DemoControls : public rgl::PixFu {
-
-//	olc::Sprite *pSprite;
-	int nX, nY, lastClickX, lastClickY;
-	rgl::Canvas2D *pCanvas;
-
-public:
-	DemoControls();
-
-	bool onUserCreate();
-	bool onUserUpdate(float fElapsedTime);
-};
-
-class DemoGyro : public rgl::PixFu {
-
-public:
-	DemoGyro();
-	rgl::Canvas2D *pCanvas;
-
-	//	olc::Sprite *pSprite;
-	int nX, nY;
-	const std::vector<std::pair<float, float>> stVecModelCar = { { 1,1 },{ 1,3 },{ 3,0 },{ 0,-3 },{ -3,0 },{ -1, 3 },{ -1,1 } };
-
-	bool onUserCreate();
-	bool onUserUpdate(float fElapsedTime);
-
-};
-
-class DemoGyro2 : public rgl::PixFu {
-
-public:
-	DemoGyro2();
-	rgl::Canvas2D *pCanvas;
-
-	float fAngle = 0, fPosX=100, fPosY=100;
-
-	const std::vector<std::pair<float, float>> stVecModelCar = { { 1,1 },{ 1,3 },{ 3,0 },{ 0,-3 },{ -3,0 },{ -1, 3 },{ -1,1 } };
-
-	bool onUserCreate();
-	bool onUserUpdate(float fElapsedTime);
-
-};
-
-
-
-class Demo1 : public rgl::PixFu {
-
-	rgl::Canvas2D *pCanvas;
 	float pop = 0;
 
 public:
+	bool onUserCreate(bool restarted) override;
 
-	Demo1();
-
-	bool onUserCreate();
-	bool onUserUpdate(float fElapsedTime);
-
+	bool onUserUpdate(float fElapsedTime) override;
 };
 
-#endif //GLES3JNI_DEMOENGINE_H
+
+inline bool DemoEngine::onUserUpdate(float fElapsedTime) {
+
+	pop += fElapsedTime;
+
+	canvas()->clear(rgl::Pixel(255 * sinf(pop), 255 * cosf(pop), 255 * sinf(pop), 255));
+
+	canvas()->fillCircle(screenWidth() / 2, screenHeight() / 2, screenWidth() / 2 * sinf(pop),
+						 rgl::Pixel(0, 0, 255, 255));
+
+	canvas()->drawString(10, 250 + 50 * sinf(pop), "PixFu 1.0", rgl::Pixel(0, 255, 0, 255), 7);
+
+	canvas()->fillCircle(rgl::Mouse::x(), rgl::Mouse::y(), 30,
+						 rgl::Mouse::isHeld(0) ? rgl::Pixel(255, 0, 0, 255) : rgl::Pixel(255, 255,
+																						 255, 255));
+
+	float fpsec = 1 / fElapsedTime;
+	canvas()->drawString(10, 10, std::to_string((int) fpsec) + " fps", rgl::Colors::MAGENTA, 2);
+
+	return true;
+}

@@ -21,9 +21,12 @@ cmake_minimum_required(VERSION 3.4.1)
 # in this project.
 #
 
+set(CMAKE_CXX_FLAGS_RELEASE "-Ofast")
+set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
+
 # Main C & C++ flags
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -frtti -fexceptions -g -O0 -Wall")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -frtti -fexceptions -Wall -Wno-unknown-pragmas")
 
 # OpenGL for Android, autoselect ES2 or ES3 if available
 if (${ANDROID_PLATFORM_LEVEL} LESS 12)
@@ -54,9 +57,14 @@ message("PIXengine/Android - Rodolfo Lopez Pintor 2020")
 add_library(pixFu_launcher SHARED IMPORTED GLOBAL)
 set_target_properties(pixFu_launcher PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixFu_launcher.so)
+
 add_library(pixFu SHARED IMPORTED GLOBAL)
 set_target_properties(pixFu PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixFu.so)
+
+add_library(pixFu_ext SHARED IMPORTED GLOBAL)
+set_target_properties(pixFu_ext PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libpixFu_ext.so)
 
 # Likewise, the headers come packaged in the AAR under /res/raw and the GRADLE
 # script conveniently unpacks them. So we make them visible to your program with
@@ -64,20 +72,25 @@ set_target_properties(pixFu PROPERTIES IMPORTED_LOCATION
 
 include_directories(../headers/arch/android/libpng)
 include_directories(../headers/core)
+include_directories(../headers/glm)
 include_directories(../headers/input)
 include_directories(../headers/items)
 include_directories(../headers)
 
+
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/app)
+include_directories(${CMAKE_SOURCE_DIR}/app/lonekart/headers)
 
 # Now, just add your application source code together with the "run.cpp" to launch the main class.
 # The library name has to be "olcapp" as this is hardcoded into the JAVA launcher.
 add_library(pixapp
         SHARED
         run.cpp
-        app/demo/DemoEngine.cpp
-#       app/videos/OneLoneCoder_PGE_Balls2.h
+        app/lonekart/Main.cpp
+        app/lonekart/Arena.cpp
+        app/lonekart/ArenaLevel.cpp
+        app/videos/OneLoneCoder_PGE_Balls2.h
 #       app/videos/OneLoneCoder_PGE_PathFinding_WaveProp.cpp
 #       app/videos/OneLoneCoder_PGE_PolygonCollisions1.cpp
         )
@@ -86,6 +99,7 @@ target_link_libraries(pixapp
         android
         log
         pixFu
+        pixFu_ext
         pixFu_launcher
         )
 

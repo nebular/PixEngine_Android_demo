@@ -1,27 +1,24 @@
 // #include "olcPixelGameEngine.h"
 
-#include "demo/DemoEngine.h"
+#include "demo/Demo.h"
+#include "lonekart/headers/Main.hpp"
+#include "videos/OneLoneCoder_PGE_Balls2.h"
 #include "arch/android/platform_android.hpp"
 
+// trick to execute this as Android loads the library, before anything
+// else ("static library init")
 
-// trick to make this code executed as Android loads the library, before anything
-// else. We inject in the static field ROOTINSTANCE of the olcPixelEngine shared library
-// our instantiated PixelGameEngine class.
+struct PixFuDemo {
 
-// Thanks to this dirty trick, the JNI launcher, and the OLC  libs,
-// are independent shared libraries that have their own CMAKE, so it is really
-// easy to link them into new projects, package, distribute, etc ... vs. manually
-// having to craft a big CMAKE everytime.
-
-struct PixFuDemos {
-
-	PixFuDemos() {
-
-		rgl::PixFu *engine = new DemoEngine();
+	PixFuDemo() {
 
 //		rgl::PixFu *engine = new Demo1();
+
+//		rgl::PixFu *engine = new DemoEngine();
 //		rgl::PixFu *engine = new DemoGyro2();
+//		rgl::PixFu *engine = new CirclePhysics();
 //		rgl::PixFu *engine = new DemoGyro();
+		rgl::PixFu *engine = new DemoWorld();
 //		rgl::PixFu *engine = new DemoControls();
 
 		rgl::PixFuPlatform::init(new rgl::PixFuPlatformAndroid(engine));
@@ -30,5 +27,5 @@ struct PixFuDemos {
 
 };
 
-PixFuDemos rules;
+PixFuDemo rules; // !!!
 

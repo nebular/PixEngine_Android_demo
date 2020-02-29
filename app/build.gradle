@@ -1,10 +1,18 @@
 apply plugin: 'com.android.application'
 
-def platformVersion = 24      // openGLES 3.2 min api level
-// def platformVersion = 18    //openGLES 3 min api level
-// def platformVersion = 12    //openGLES 2 min api level
+def platformVersion = 24      // openGLE S 3.2 min api level
+// def platformVersion = 18hk   //openGLES 3  min api level
+// def platformVersion  = 12    //o penGLES 2 min api level
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('/Volumes/git.root/ks/funqkeystore')
+            storePassword 'Mimi6300'
+            keyAlias = 'funq'
+            keyPassword 'Mimi6300'
+        }
+    }
     compileSdkVersion 29
     defaultConfig {
         applicationId 'tv.nebular.olcpxe.samples'
@@ -19,6 +27,7 @@ android {
     buildTypes {
         release {
             minifyEnabled = false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'),
                     'proguard-rules.pro'
         }
@@ -64,6 +73,7 @@ task extractSoHeaders(type: Copy) {
 }
 /*
 
+
 */
 
 task unpackSoHeaders(type: Copy) {
@@ -73,7 +83,9 @@ task unpackSoHeaders(type: Copy) {
     include "*.h"
     include "**/*.h"
     include "**/**/*.h"
+    include "**/**/*.*"
     include "*.hpp"
+    include "*.*"
     include "**/*.hpp"
     include "**/**/*.hpp"
 
