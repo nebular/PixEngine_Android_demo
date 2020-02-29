@@ -1,7 +1,7 @@
 PixFu Template Project and Demos
 ================================
 
-![screenshot](doc/screen2.png)
+![screenshot](doc/img1.jpeg)
 
 What is PixFu
 =============
@@ -30,9 +30,11 @@ Other Features:
     
     - 100% modular structure allows to enable just the features you need. Even the primary UI surface is an extension that maybe you don't need to enable to get some fps!
 
+
+![screenshot](doc/page1.png)
+
 How To Start
 =============
-
 
 This is a template Android Studio project that you can use to create your PixFu based applications.
 
@@ -40,8 +42,11 @@ It includes the PixFu/Android core as an AAR, and all build scripts and CMAKE co
 
 Please refer to the root project PixFu https://github.com/nebular/PixFu_Android for technical details.
 
+![screenshot](doc/page4.png)
+
 Pre-requisites
 --------------
+
 - Android Studio 3.5.2+ (lower may work)
 - (not sure if you also need to install the NDK, easy anyways:  [NDK] (https://developer.android.com/ndk/) bundle.
 
@@ -56,36 +61,16 @@ Getting Started
 1. Press Play
 
 
-![screenshot](doc/screen1.png)
+![screenshot](doc/olcemu.jpeg)
 
-![screenshot](doc/screen4.png)
-![screenshot](doc/screen5.png)
-
-What works / How it works / What does not work yet
+Examples
 --------------------------------------
 
-- You just compile your classes without the "main" function and your application should at least be displayed.
-- In order to send keys and mouse, keep reading below, there are is a helper class to do it. 
+- Mouse and Key events, with Virtual Mouse and Virtual Keybpard support
 
-- graphics: there not seem to be many problems in this area, other than some Android peculiarities 
-(...) main of which is, your OnUserCreate() can be called several times: When the application
-is sent to background Android destroys the OpenGL context and frees all textures, so when bringing the
-app back into foreground we have to recreate all OpenGL context. You might need to keep this in mind
-in your onUserCreate.
+![screenshot](doc/img2.jpeg)
 
-- I haven't tested any extension yet, I guess that complex extensions will better be integrated in the core project. You are encouraged to fork the root project and submit pull requests with your extensions!
-
-- Mouse events: I wrote a simple touch emulator. The goal was rather to quickly have something that accurately
-simulates the basic mouse actions (click/drag/move) from touch. After some tests I decided to go with a system where
-you use one finger to point anywhere, then there are 2 virtual buttons on screen you can
-press with the other finger. This way you will be able to click/drag/move with primary and secondary button
-predictably. In order to support gestures, etc.. I'd go with an extension to properly support touch separate from the mouse. 
-Keep in mind in the mouse click detections radiuses have to be coarser as the fingers are less precise than the mouse. I have found a *2-*3 ratio is OK.
-
-![screenshot](doc/screen6.png)
-
-- Keys Events: You can easily add virtual keys anywhere on the screen and build control clusters (look at the boxes near the top corners):
-
+You can easily add virtual keys anywhere on the screen and build control clusters (look at the boxes near the top corners):
 
 `		
 
@@ -101,12 +86,15 @@ Keep in mind in the mouse click detections radiuses have to be coarser as the fi
  
 - gyroscope sensor data is provided as a courtesy of the Java layer. An object tCurrentSensorEvent is available in the update loop.
 
-  ![screenshot](doc/screen7.png)
+  ![screenshot](doc/img3.png)
 
     - At the moment the gyroscope is "always on", that consumes a lot of battery, will add methods to start and stop.
     
-- So please feel free to contribute!
+- OLC Pixel Game Engine Compatibility Layer
 
+A Base class follows OLC/PGE interface (no extensions) and allows to run examples from the popular YouTube channel.
+
+  ![screenshot](doc/olcemu.png)
 
 Start Developing
 ---------------
@@ -118,9 +106,9 @@ Start Developing
 
 Support
 -------
-If you've found an error please [file an issue] (https://github.com/nebular/olcPGE_Android/issues/new).
+If you've found an error please [file an issue] (https://github.com/nebular/PixFu_Android/issues/new).
 
-Patches are encouraged, and may be submitted by [forking this project](https://github.com/nebular/olcPGE_Android/fork) and submitting a pull request through GitHub.
+Patches are encouraged, and may be submitted by [forking this project](https://github.com/nebular/PixFu_Android/fork) and submitting a pull request through GitHub.
 
 License
 -------

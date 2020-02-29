@@ -52,14 +52,14 @@ inline bool DemoGyro::onUserUpdate(float fElapsedTime) {
 	float azimuth = tCurrentEvent.vector.azimuth;
 	float pich = tCurrentEvent.vector.pitch;
 
-	canvas()->drawString(50, 270, "ROLL", rgl::Colors::RED, 2.0);
-	canvas()->drawString(250, 270, "AZIMUTH", rgl::Colors::RED, 2.0);
+	canvas()->drawString(250, 270, "ROLL", rgl::Colors::RED, 2.0);
+	canvas()->drawString(50, 270, "AZIMUTH", rgl::Colors::RED, 2.0);
 	canvas()->drawString(530, 270, "PITCH", rgl::Colors::RED, 2.0);
-	canvas()->drawString(50, 300, std::to_string(todeg(roll)), rgl::Colors::YELLOW, 2.0);
-	canvas()->drawString(250, 300, std::to_string(todeg(azimuth)), rgl::Colors::YELLOW, 2.0);
+	canvas()->drawString(250, 300, std::to_string(todeg(roll)), rgl::Colors::YELLOW, 2.0);
+	canvas()->drawString(50, 300, std::to_string(todeg(azimuth)), rgl::Colors::YELLOW, 2.0);
 	canvas()->drawString(450, 300, std::to_string(todeg(pich)), rgl::Colors::YELLOW, 2.0);
 
-	canvas()->drawWireFrameModel(stVecModelCar, 100, 125, -roll, 20.0, {rgl::Colors::YELLOW});
+	canvas()->drawWireFrameModel(stVecModelCar, 300, 125, -roll, 20.0, {rgl::Colors::YELLOW});
 
 	rgl::GyroController::instance()->drawSelf(canvas(), rgl::Colors::CYAN);
 

@@ -68,8 +68,6 @@ David Barr, aka javidx9, ©OneLoneCoder 2018
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 #define OLC_PGE_APPLICATION
 
 #include "support/olcPixFu.hpp"
@@ -101,9 +99,9 @@ struct sLineSegment {
 class CirclePhysics : public rgl::olcPixFu {
 
 private:
-	vector<sBall> vecBalls;
-	vector<sLineSegment> vecLines;
-	vector<pair<float, float>> modelCircle;
+	std::vector<sBall> vecBalls;
+	std::vector<sLineSegment> vecLines;
+	std::vector<std::pair<float, float>> modelCircle;
 	sBall *pSelectedBall = nullptr;
 //	olc::Sprite *spriteBalls = nullptr;
 	sLineSegment *pSelectedLine = nullptr;
@@ -230,8 +228,8 @@ public:
 		}
 
 
-		vector<pair<sBall *, sBall *>> vecCollidingPairs;
-		vector<sBall *> vecFakeBalls;
+		std::vector<std::pair<sBall *, sBall *>> vecCollidingPairs;
+		std::vector<sBall *> vecFakeBalls;
 
 		// Threshold indicating stability of object
 		float fStable = 0.005f;

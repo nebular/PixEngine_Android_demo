@@ -1,7 +1,7 @@
 // #include "olcPixelGameEngine.h"
 
 #include "demo/Demo.h"
-#include "lonekart/headers/Main.hpp"
+#include "lonekart/inc/Main.hpp"
 #include "videos/OneLoneCoder_PGE_Balls2.h"
 #include "arch/android/platform_android.hpp"
 
@@ -17,8 +17,8 @@ struct PixFuDemo {
 //		rgl::PixFu *engine = new DemoEngine();
 //		rgl::PixFu *engine = new DemoGyro2();
 //		rgl::PixFu *engine = new CirclePhysics();
-//		rgl::PixFu *engine = new DemoGyro();
-		rgl::PixFu *engine = new DemoWorld();
+		rgl::PixFu *engine = new DemoGyro();
+//		rgl::PixFu *engine = new DemoWorld();
 //		rgl::PixFu *engine = new DemoControls();
 
 		rgl::PixFuPlatform::init(new rgl::PixFuPlatformAndroid(engine));

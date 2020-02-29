@@ -2,4 +2,4 @@
 .cxx
 .gradle
 jniLibs
-headers
+./headers

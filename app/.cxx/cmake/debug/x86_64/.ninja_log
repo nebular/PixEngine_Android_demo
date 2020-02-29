@@ -83,3 +83,11 @@
 2	1771	1582952136	CMakeFiles/pixapp.dir/app/lonekart/Arena.cpp.o	49ce9a4b9730b5b7
 1771	1814	1582952136	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	289a4ee5747fdff4
 0	7	0	clean	c4ad5cb393780fc9
+0	58	1582982338	build.ninja	be06c36d6cabb237
+4	2166	1582982340	CMakeFiles/pixapp.dir/app/lonekart/ArenaLevel.cpp.o	3c00144d6ee1a2bd
+3	2296	1582982340	CMakeFiles/pixapp.dir/app/lonekart/Main.cpp.o	86f0d4f2dfef64ed
+3	2440	1582982340	CMakeFiles/pixapp.dir/app/lonekart/Arena.cpp.o	2dc48664607e60fe
+2	2441	1582982340	CMakeFiles/pixapp.dir/run.cpp.o	a4f99674a8fd1754
+2441	2544	1582982340	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	289a4ee5747fdff4
+2	1368	1582982429	CMakeFiles/pixapp.dir/run.cpp.o	a4f99674a8fd1754
+1368	1525	1582982429	/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86_64/libpixapp.so	289a4ee5747fdff4

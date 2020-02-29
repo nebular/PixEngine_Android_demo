@@ -72,7 +72,6 @@ set_target_properties(pixFu_ext PROPERTIES IMPORTED_LOCATION
 
 include_directories(../headers/arch/android/libpng)
 include_directories(../headers/core)
-include_directories(../headers/glm)
 include_directories(../headers/input)
 include_directories(../headers/items)
 include_directories(../headers)
@@ -80,7 +79,7 @@ include_directories(../headers)
 
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/app)
-include_directories(${CMAKE_SOURCE_DIR}/app/lonekart/headers)
+include_directories(${CMAKE_SOURCE_DIR}/app/lonekart/inc)
 
 # Now, just add your application source code together with the "run.cpp" to launch the main class.
 # The library name has to be "olcapp" as this is hardcoded into the JAVA launcher.

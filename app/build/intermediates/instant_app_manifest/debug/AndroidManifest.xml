@@ -24,7 +24,9 @@
 
     <uses-feature android:glEsVersion="0x00030000" />
 
-    <application android:debuggable="true" >
+    <application
+        android:debuggable="true"
+        android:testOnly="true" >
         <activity
             android:name="tv.nebular.pixFu.launcher.Runner"
             android:configChanges="orientation|keyboardHidden"

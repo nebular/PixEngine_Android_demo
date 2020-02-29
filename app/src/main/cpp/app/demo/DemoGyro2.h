@@ -56,6 +56,7 @@ inline bool DemoGyro2::onUserUpdate(float fElapsedTime) {
 
 	fPosX = screenWidth() / 2 +
 			(screenWidth() / 2) * rgl::GyroController::instance()->xInterp() * 1.4F;
+
 	fPosY = screenHeight() / 2 +
 			(screenHeight() / 2) * rgl::GyroController::instance()->yInterp() * 1.4F;
 
@@ -64,4 +65,5 @@ inline bool DemoGyro2::onUserUpdate(float fElapsedTime) {
 	rgl::GyroController::instance()->drawSelf(canvas(), rgl::Colors::CYAN);
 
 	return true;
+
 }

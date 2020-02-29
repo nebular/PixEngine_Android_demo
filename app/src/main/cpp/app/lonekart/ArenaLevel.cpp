@@ -42,8 +42,8 @@ bool ArenaLevel_t::LoadV3(std::string circuitName, int scaleFactor) {
 	float f = 1/(1.0+scaleFactor);
 	for (int x = 0; x < l; x++)
 	{
-		sLineSegment segment;
-		file.read( (char*)&segment, sizeof(sLineSegment));
+		LineSegment_t segment;
+		file.read( (char*)&segment, sizeof(LineSegment_t));
 		vecLines.push_back({segment.sx*f, segment.sy*f, segment.ex*f, segment.ey*f, segment.radius});
 	}
 	
@@ -89,13 +89,13 @@ bool ArenaLevel_t::SaveV3(std::string sFilename, int scaleFactor)
 	
 	for (long x = 0; x < l; x++)
 	{
-		sLineSegment segment = vecLines.at(x);
+		LineSegment_t segment = vecLines.at(x);
 		
 		if (scaleFactor != 0) {
 			float f = (1+scaleFactor);
 			segment={segment.sx*f, segment.sy*f, segment.ex*f, segment.ey*f, segment.radius};
 		}
-		file.write( (char*)&segment, sizeof(sLineSegment));
+		file.write( (char*)&segment, sizeof(LineSegment_t));
 	}
 	
 	file.write((char*)&fTrackWidth, sizeof(float));
@@ -146,8 +146,8 @@ bool ArenaLevel_t::LoadV4(std::string sFilename, int scaleFactor)
 	float f = 1/(1.0+scaleFactor);
 	for (int x = 0; x < l; x++)
 	{
-		sLineSegment segment;
-		file.read( (char*)&segment, sizeof(sLineSegment));
+		LineSegment_t segment;
+		file.read( (char*)&segment, sizeof(LineSegment_t));
 		vecLines.push_back({segment.sx*f, segment.sy*f, segment.ex*f, segment.ey*f, segment.radius});
 	}
 	
@@ -195,13 +195,13 @@ bool ArenaLevel_t::SaveV4(std::string sFilename, int scaleFactor)
 	
 	for (long x = 0; x < l; x++)
 	{
-		sLineSegment segment = vecLines.at(x);
+		LineSegment_t segment = vecLines.at(x);
 		
 		if (scaleFactor != 0) {
 			float f = (1+scaleFactor);
 			segment={segment.sx*f, segment.sy*f, segment.ex*f, segment.ey*f, segment.radius};
 		}
-		file.write( (char*)&segment, sizeof(sLineSegment));
+		file.write( (char*)&segment, sizeof(LineSegment_t));
 	}
 	
 	file.write((char*)&fTrackWidth, sizeof(float));
