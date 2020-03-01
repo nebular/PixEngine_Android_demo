@@ -39,7 +39,7 @@ void main()
 	float dampedFactor = pow(specularFactor,shineDamper);
 	vec3 finalSpecular = dampedFactor * reflectivity * lightColour;
 
-//	gl_FragColor =  fincolor; // vec4(diffuse,1.0) * fincolor + vec4(finalSpecular,1.0);
-	gl_FragColor =  vec4(diffuse,1.0) * fincolor + vec4(finalSpecular,1.0);
+	gl_FragColor =  fincolor; // vec4(diffuse,1.0) * fincolor + vec4(finalSpecular,1.0);
+//	gl_FragColor =  vec4(diffuse,1.0) * fincolor + vec4(finalSpecular,1.0);
 
 }

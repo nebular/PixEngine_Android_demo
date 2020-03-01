@@ -8,15 +8,15 @@
 //
 
 #include "ArenaLevel.hpp"
-#include "PixFu.hpp"
+#include "Fu.hpp"
 #include "ext/world/Config.hpp"
 #include <fstream>
 #include <iostream>
 
-namespace rgl {
+namespace Pix {
 
 std::string ArenaLevel_t::getPath(std::string filename) {
-	return PixFuPlatform::getPath(std::string(PATH_LEVELS)+"/"+NAME+"/"+filename);
+	return FuPlatform::getPath(std::string(PATH_LEVELS)+"/"+NAME+"/"+filename);
 }
 
 // current circuit loader / saver

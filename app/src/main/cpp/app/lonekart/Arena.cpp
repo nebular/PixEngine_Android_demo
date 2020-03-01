@@ -18,7 +18,7 @@
 
 #define DBG_NOHEIGHTMAPCOLLISIONS
 
-namespace rgl {
+namespace Pix {
 
 	// heigh over which
 	std::string Arena::TAG = "Arena";
@@ -30,14 +30,14 @@ namespace rgl {
 		add({name});
 	}
 
-	bool Arena::init(PixFu *engine) {
+	bool Arena::init(Fu *engine) {
 		
 		if (!World::init(engine)) return false;
 
 
-		rgl::LoneScreenKey::currentInstance->clear();
-		rgl::LoneScreenKey::currentInstance->reset();
-		rgl::LoneScreenKey::currentInstance->addCursors(0, 120);
+		Pix::LoneScreenKey::currentInstance->clear();
+		Pix::LoneScreenKey::currentInstance->reset();
+		Pix::LoneScreenKey::currentInstance->addCursors(0, 120);
 
 		pCamPlayer =
 		pHumanPlayer =  new Player(this,
@@ -95,11 +95,11 @@ namespace rgl {
 			
 	}
 
-	void Arena::tick(PixFu *engine,float fElapsedTime) {
+	void Arena::tick(Fu *engine,float fElapsedTime) {
 
 		auto toDeg = [] (float rad) { return (int)(rad*180/M_PI); };
 
-		rgl::LoneScreenKey::currentInstance->DrawSelf(engine->canvas(), rgl::Colors::WHITE, true);
+		Pix::LoneScreenKey::currentInstance->DrawSelf(engine->canvas(), Pix::Colors::WHITE, true);
 
 	//	driveSpline(fElapsedTime);
 		processCollisions(LEVEL->vecLines, fElapsedTime);
@@ -108,40 +108,40 @@ namespace rgl {
 		World::tick(engine, fElapsedTime);
 
 //		return;
-		engine->canvas()->drawString(0,70,rgl::SF("PLY spdxz %f %f, %f",
+		engine->canvas()->drawString(0,70,Pix::SF("PLY spdxz %f %f, %f",
 												  pHumanPlayer->velocity().x,
 												  pHumanPlayer->velocity().z,
 												  pHumanPlayer->speed()),
-												rgl::Colors::WHITE, 2);
+												Pix::Colors::WHITE, 2);
 
-		engine->canvas()->drawString(0,50,rgl::SF("PLY accxz %f %f",
+		engine->canvas()->drawString(0,50,Pix::SF("PLY accxz %f %f",
 												  pHumanPlayer->acceleration().x,
 												  pHumanPlayer->acceleration().z
 												  ),
-												rgl::Colors::WHITE, 2);
+												Pix::Colors::WHITE, 2);
 		
-		engine->canvas()->drawString(0,30,rgl::SF("PLY ang %d x %f y %f z %f sag %d",
+		engine->canvas()->drawString(0,30,Pix::SF("PLY ang %d x %f y %f z %f sag %d",
 												  toDeg(pHumanPlayer->angle()),
 										  pHumanPlayer->position().x,
 										  pHumanPlayer->position().y,
 										  pHumanPlayer->position().z,
 												  toDeg(pHumanPlayer->fSteerAngle)
 												  ),
-							 rgl::Colors::WHITE, 2);
+							 Pix::Colors::WHITE, 2);
 		
-		engine->canvas()->drawString(0,10,rgl::SF("CAM x %f y %f z %f",
+		engine->canvas()->drawString(0,10,Pix::SF("CAM x %f y %f z %f",
 										  camera()->getPosition().x,
 										  camera()->getPosition().y,
 										  camera()->getPosition().z),
-							 rgl::Colors::YELLOW, 2);
+							 Pix::Colors::YELLOW, 2);
 
 		
-		engine->canvas()->drawRect(1024-375,576-225, 375,225,rgl::Colors::YELLOW);
-		engine->canvas()->fillCircle(1024-365+pHumanPlayer->position().x/5, 576-225+pHumanPlayer->position().z / 5,10, rgl::Colors::RED);
+		engine->canvas()->drawRect(1024-375,576-225, 375,225,Pix::Colors::YELLOW);
+		engine->canvas()->fillCircle(1024-365+pHumanPlayer->position().x/5, 576-225+pHumanPlayer->position().z / 5,10, Pix::Colors::RED);
 
 	}
 
-	void Arena::processInput(PixFu *engine, float fElapsedTime) {
+	void Arena::processInput(Fu *engine, float fElapsedTime) {
 
 		
 		if (Keyboard::isPressed(Keys::SPACE)) {
@@ -151,8 +151,8 @@ namespace rgl {
 		
 		// Select mode with ALT/CMD
 		CameraKeyControlMode_t mode =
-				Keyboard::isHeld(Keys::ALT) ? rgl::ADJUST_ANGLES :
-				Keyboard::isHeld(Keys::COMMAND) ? rgl::ADJUST_POSITION : rgl::MOVE;
+				Keyboard::isHeld(Keys::ALT) ? Pix::ADJUST_ANGLES :
+				Keyboard::isHeld(Keys::COMMAND) ? Pix::ADJUST_POSITION : Pix::MOVE;
 
 		float xdelta = 0, ydelta = 0, K = 0.01;
 
@@ -205,10 +205,10 @@ namespace rgl {
 			}
 		}
 
-		GyroController::instance()->drawSelf(engine->canvas(), rgl::Colors::RED);
+		GyroController::instance()->drawSelf(engine->canvas(), Pix::Colors::RED);
 		
 //		if (useInput) {
-//			ASensorEvent tCurrentEvent = rgl::GyroController::currentInstance()->raw();
+//			ASensorEvent tCurrentEvent = Pix::GyroController::currentInstance()->raw();
 //			float roll = tCurrentEvent.vector.roll;
 //			float azimuth = tCurrentEvent.vector.azimuth;
 //			float pich = tCurrentEvent.vector.pitch;

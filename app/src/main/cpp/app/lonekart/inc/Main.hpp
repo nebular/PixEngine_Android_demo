@@ -13,10 +13,10 @@
 #include "ext/world/World.hpp"
 #include "Arena.hpp"
 
-using namespace rgl;
+using namespace Pix;
 
 
-class DemoWorld : public rgl::PixFu {
+class DemoWorld : public Pix::Fu {
 	
 	float pop = 0;
 	Arena *pArena;

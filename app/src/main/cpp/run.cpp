@@ -12,16 +12,16 @@ struct PixFuDemo {
 
 	PixFuDemo() {
 
-//		rgl::PixFu *engine = new Demo1();
+//		Pix::PixFu *engine = new Demo1();
 
-//		rgl::PixFu *engine = new DemoEngine();
-//		rgl::PixFu *engine = new DemoGyro2();
-//		rgl::PixFu *engine = new CirclePhysics();
-		rgl::PixFu *engine = new DemoGyro();
-//		rgl::PixFu *engine = new DemoWorld();
-//		rgl::PixFu *engine = new DemoControls();
+//		Pix::PixFu *engine = new DemoEngine();
+//		Pix::PixFu *engine = new DemoGyro2();
+//		Pix::PixFu *engine = new CirclePhysics();
+//		Pix::PixFu *engine = new DemoGyro();
+		Pix::Fu *engine = new DemoWorld();
+//		Pix::PixFu *engine = new DemoControls();
 
-		rgl::PixFuPlatform::init(new rgl::PixFuPlatformAndroid(engine));
+		Pix::FuPlatform::init(new Pix::PixFuPlatformAndroid(engine));
 
 	}
 

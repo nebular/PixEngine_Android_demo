@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp
+# Install script for directory: /Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/res/merged/debug/raw_pixfu_headers.zip.flat",
+        "source": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/pixFu_android/build/.transforms/bcdb9135c5df3a5f7f3f616b4324b66c/pixFu_android/res/raw/pixfu_headers.zip"
     },
     {
-        "merged": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/raw_pixfu_headers.zip.flat",
-        "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/pixFu_android/build/.transforms/dd16eced074b003e1b0f0e5030b7c232/pixFu_android/res/raw/pixfu_headers.zip"
+        "merged": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

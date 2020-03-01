@@ -70,7 +70,7 @@ David Barr, aka javidx9, ©OneLoneCoder 2018
 
 #define OLC_PGE_APPLICATION
 
-#include "support/olcPixFu.hpp"
+#include "support/FuOLC.hpp"
 
 #define SIMUPDATES 2
 #define NUMBALLS 40
@@ -86,7 +86,7 @@ struct sBall {
 	int score;
 	int id;
 	float fSimTimeRemaining;
-	rgl::Pixel col;
+	Pix::Pixel col;
 };
 
 struct sLineSegment {
@@ -96,7 +96,7 @@ struct sLineSegment {
 };
 
 
-class CirclePhysics : public rgl::olcPixFu {
+class CirclePhysics : public Pix::FuOLC {
 
 private:
 	std::vector<sBall> vecBalls;
@@ -125,7 +125,7 @@ private:
 		b.score = s;
 		b.fSimTimeRemaining = 0.0f;
 		b.id = vecBalls.size();
-		b.col = rgl::Pixel(rand() % 200 + 55, rand() % 200 + 55, rand() % 200 + 55);
+		b.col = Pix::Pixel(rand() % 200 + 55, rand() % 200 + 55, rand() % 200 + 55);
 		vecBalls.emplace_back(b);
 	}
 
@@ -137,7 +137,7 @@ public:
 		if (isRestarted())
 			return true;
 
-		rgl::LoneScreenKey::currentInstance->addMouse(ScreenWidth() - 100, 0);
+		Pix::LoneScreenKey::currentInstance->addMouse(ScreenWidth() - 100, 0);
 
 		float fBallRadius = 4.0f;
 		for (int i = 0; i < NUMBALLS; i++)
@@ -438,15 +438,15 @@ public:
 			}
 		}
 
-		Clear(rgl::Colors::BLACK);
+		Clear(Pix::Colors::BLACK);
 
 		// Draw Lines
 		for (auto &line : vecLines) {
 
-			rgl::Pixel c = (pSelectedLine == &line) ? rgl::Colors::ORANGE:rgl::Colors::WHITE;
+			Pix::Pixel c = (pSelectedLine == &line) ? Pix::Colors::ORANGE:Pix::Colors::WHITE;
 
-			FillCircle(line.sx, line.sy, line.radius, rgl::Pixel(255, 255, 255));
-			FillCircle(line.ex, line.ey, line.radius, rgl::Pixel(128, 128, 128));
+			FillCircle(line.sx, line.sy, line.radius, Pix::Pixel(255, 255, 255));
+			FillCircle(line.ex, line.ey, line.radius, Pix::Pixel(128, 128, 128));
 
 			float nx = -(line.ey - line.sy);
 			float ny = (line.ex - line.sx);
@@ -464,16 +464,16 @@ public:
 
 		// Draw Balls
 		for (auto &ball : vecBalls) {
-			FillCircle(ball.px, ball.py, ball.radius, pSelectedBall==&ball?rgl::Colors::RED:ball.col);
+			FillCircle(ball.px, ball.py, ball.radius, pSelectedBall==&ball?Pix::Colors::RED:ball.col);
 
 		}
 
-		DrawString(10,340,"fps "+std::to_string(1/fElapsedTime), rgl::Colors::ORANGE);
+		DrawString(10,340,"fps "+std::to_string(1/fElapsedTime), Pix::Colors::ORANGE);
 
 		// Draw Cue
 		if (pSelectedBall != nullptr)
 			DrawLine(pSelectedBall->px, pSelectedBall->py, GetMouseX(), GetMouseY(),
-					 rgl::Pixel(0, 0, 255));
+					 Pix::Pixel(0, 0, 255));
 
 
 		return true;

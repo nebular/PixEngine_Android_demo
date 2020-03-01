@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__pixapp
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp -B/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/debug/arm64-v8a
+  command = /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp -B/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

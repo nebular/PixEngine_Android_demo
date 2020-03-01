@@ -4,10 +4,10 @@
 
 #pragma once
 
-#include "PixFu.hpp"
+#include "core/Fu.hpp"
 #include "input/GyroController.hpp"
 
-class DemoGyro : public rgl::PixFu {
+class DemoGyro : public Pix::Fu {
 
 public:
 
@@ -34,8 +34,8 @@ inline
 
 bool DemoGyro::onUserCreate(bool restarted) {
 
-	rgl::GyroController::enable(100, 100);
-	addInputDevice(rgl::GyroController::instance());
+	Pix::GyroController::enable(100, 100);
+	addInputDevice(Pix::GyroController::instance());
 
 	return true;
 }
@@ -44,24 +44,24 @@ inline bool DemoGyro::onUserUpdate(float fElapsedTime) {
 
 	auto todeg = [](float rad) { return rad * 180 / 3.14159265; };
 
-	canvas()->clear(rgl::Colors::BLUE);
-	rgl::LoneScreenKey::currentInstance->DrawSelf(canvas(), rgl::Colors::WHITE);
+	canvas()->clear(Pix::Colors::BLUE);
+	Pix::LoneScreenKey::currentInstance->DrawSelf(canvas(), Pix::Colors::WHITE);
 
-	ASensorEvent tCurrentEvent = rgl::GyroController::instance()->raw();
+	ASensorEvent tCurrentEvent = Pix::GyroController::instance()->raw();
 	float roll = tCurrentEvent.vector.roll;
 	float azimuth = tCurrentEvent.vector.azimuth;
 	float pich = tCurrentEvent.vector.pitch;
 
-	canvas()->drawString(250, 270, "ROLL", rgl::Colors::RED, 2.0);
-	canvas()->drawString(50, 270, "AZIMUTH", rgl::Colors::RED, 2.0);
-	canvas()->drawString(530, 270, "PITCH", rgl::Colors::RED, 2.0);
-	canvas()->drawString(250, 300, std::to_string(todeg(roll)), rgl::Colors::YELLOW, 2.0);
-	canvas()->drawString(50, 300, std::to_string(todeg(azimuth)), rgl::Colors::YELLOW, 2.0);
-	canvas()->drawString(450, 300, std::to_string(todeg(pich)), rgl::Colors::YELLOW, 2.0);
+	canvas()->drawString(250, 270, "ROLL", Pix::Colors::RED, 2.0);
+	canvas()->drawString(50, 270, "AZIMUTH", Pix::Colors::RED, 2.0);
+	canvas()->drawString(530, 270, "PITCH", Pix::Colors::RED, 2.0);
+	canvas()->drawString(250, 300, std::to_string(todeg(roll)), Pix::Colors::YELLOW, 2.0);
+	canvas()->drawString(50, 300, std::to_string(todeg(azimuth)), Pix::Colors::YELLOW, 2.0);
+	canvas()->drawString(450, 300, std::to_string(todeg(pich)), Pix::Colors::YELLOW, 2.0);
 
-	canvas()->drawWireFrameModel(stVecModelCar, 300, 125, -roll, 20.0, {rgl::Colors::YELLOW});
+	canvas()->drawWireFrameModel(stVecModelCar, 300, 125, -roll, 20.0, {Pix::Colors::YELLOW});
 
-	rgl::GyroController::instance()->drawSelf(canvas(), rgl::Colors::CYAN);
+	Pix::GyroController::instance()->drawSelf(canvas(), Pix::Colors::CYAN);
 
 	return true;
 }

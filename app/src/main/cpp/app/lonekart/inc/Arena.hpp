@@ -12,10 +12,10 @@
 #include "ext/world/BallWorld.hpp"
 #include "ArenaLevel.hpp"
 
-namespace rgl {
+namespace Pix {
 
 class Ball;
-class PixFu;
+class Fu;
 class GameObject;
 class Player;
 
@@ -33,11 +33,11 @@ public:
 	
 protected:
 
-	bool init(PixFu *engine) override;
+	bool init(Fu *engine) override;
 	
-	void tick(PixFu *engine, float fElapsedTime) override;
+	void tick(Fu *engine, float fElapsedTime) override;
 
-	void processInput(PixFu *engine, float fElapsedTime);
+	void processInput(Fu *engine, float fElapsedTime);
 	void driveSpline(float fElapsedTime);
 
 };

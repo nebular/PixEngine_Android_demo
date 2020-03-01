@@ -14,12 +14,12 @@
 #include "ext/world/Player.hpp"
 #include "input/GyroController.hpp"
 
-using namespace rgl;
+using namespace Pix;
 
 
-DemoWorld::DemoWorld() : rgl::PixFu("Hello World") {
-	rgl::GyroController::enable(100, 100);
-	addInputDevice(rgl::GyroController::instance());
+DemoWorld::DemoWorld() : Pix::Fu("Hello World") {
+	Pix::GyroController::enable(100, 100);
+	addInputDevice(Pix::GyroController::instance());
 }
 
 DemoWorld::~DemoWorld() {
@@ -52,12 +52,12 @@ bool DemoWorld::onUserUpdate(float fElapsedTime)  {
 	canvas()->blank();
 
 	canvas()->fillCircle(
-						 rgl::Mouse::x(),
-						 rgl::Mouse::y(),
+						 Pix::Mouse::x(),
+						 Pix::Mouse::y(),
 						 30,
-						 rgl::Mouse::isHeld(0)
-						 ? rgl::Pixel(255,0,0,255)
-						 : rgl::Pixel(255,255,255,255)
+						 Pix::Mouse::isHeld(0)
+						 ? Pix::Pixel(255,0,0,255)
+						 : Pix::Pixel(255,255,255,255)
 						 );
 
 	return true;

@@ -4,11 +4,11 @@
 
 #pragma once
 
-#include "PixFu.hpp"
+#include "Fu.hpp"
 #include "arch/android/plugins/lonescreenkey.h"
 #include "input/Keyboard.hpp"
 
-class DemoControls : public rgl::PixFu {
+class DemoControls : public Pix::Fu {
 
 	int nX, nY, lastClickX, lastClickY;
 
@@ -26,10 +26,10 @@ public:
 
 inline bool DemoControls::onUserCreate(bool restarted) {
 
-	rgl::LoneScreenKey::currentInstance->clear();
-	rgl::LoneScreenKey::currentInstance->reset();
-	rgl::LoneScreenKey::currentInstance->addCursors(0, 120);
-	rgl::LoneScreenKey::currentInstance->addMouse(screenWidth() - 100, 0);
+	Pix::LoneScreenKey::currentInstance->clear();
+	Pix::LoneScreenKey::currentInstance->reset();
+	Pix::LoneScreenKey::currentInstance->addCursors(0, 120);
+	Pix::LoneScreenKey::currentInstance->addMouse(screenWidth() - 100, 0);
 
 	nX = 160;
 	nY = 200;
@@ -39,50 +39,50 @@ inline bool DemoControls::onUserCreate(bool restarted) {
 
 inline bool DemoControls::onUserUpdate(float fElapsedTime) {
 
-	canvas()->clear(rgl::Colors::BLUE);
+	canvas()->clear(Pix::Colors::BLUE);
 
-	rgl::LoneScreenKey::currentInstance->DrawSelf(canvas(), rgl::Colors::WHITE, true);
+	Pix::LoneScreenKey::currentInstance->DrawSelf(canvas(), Pix::Colors::WHITE, true);
 
-	canvas()->fillCircle(nX, nY, 14, rgl::Colors::CYAN);
+	canvas()->fillCircle(nX, nY, 14, Pix::Colors::CYAN);
 
-	if (rgl::Mouse::isPressed(0)) {
-		lastClickX = rgl::Mouse::x();
-		lastClickY = rgl::Mouse::y();
+	if (Pix::Mouse::isPressed(0)) {
+		lastClickX = Pix::Mouse::x();
+		lastClickY = Pix::Mouse::y();
 	}
 
 
 	canvas()->drawString(130, 0,
-						 "Mouse X " + std::to_string(rgl::Mouse::x()) + " Y " +
-						 std::to_string(rgl::Mouse::y()), rgl::Colors::WHITE, 2);
+						 "Mouse X " + std::to_string(Pix::Mouse::x()) + " Y " +
+						 std::to_string(Pix::Mouse::y()), Pix::Colors::WHITE, 2);
 	canvas()->drawString(130, 20,
-						 "B0 Pres " + std::to_string(rgl::Mouse::isPressed(0))
-						 + " Held " + std::to_string(rgl::Mouse::isHeld(0))
-						 + " Rels " + std::to_string(rgl::Mouse::isReleased(0)), rgl::Colors::WHITE,
+						 "B0 Pres " + std::to_string(Pix::Mouse::isPressed(0))
+						 + " Held " + std::to_string(Pix::Mouse::isHeld(0))
+						 + " Rels " + std::to_string(Pix::Mouse::isReleased(0)), Pix::Colors::WHITE,
 						 2);
 	canvas()->drawString(130, 40,
-						 "B1 Pres " + std::to_string(rgl::Mouse::isPressed(1))
-						 + " Held " + std::to_string(rgl::Mouse::isHeld(1))
-						 + " Rels " + std::to_string(rgl::Mouse::isReleased(1)), rgl::Colors::WHITE,
+						 "B1 Pres " + std::to_string(Pix::Mouse::isPressed(1))
+						 + " Held " + std::to_string(Pix::Mouse::isHeld(1))
+						 + " Rels " + std::to_string(Pix::Mouse::isReleased(1)), Pix::Colors::WHITE,
 						 2);
 
 	canvas()->drawString(130, 60,
 						 "B0clk X " + std::to_string(lastClickX)
-						 + " Y " + std::to_string(lastClickY), rgl::Colors::WHITE, 2);
+						 + " Y " + std::to_string(lastClickY), Pix::Colors::WHITE, 2);
 
 
-	if (rgl::Keyboard::isHeld(rgl::Keys::LEFT)) {
+	if (Pix::Keyboard::isHeld(Pix::Keys::LEFT)) {
 		nX--;
 		if (nX < 0) nX = 0;
 	}
-	if (rgl::Keyboard::isHeld(rgl::Keys::RIGHT)) {
+	if (Pix::Keyboard::isHeld(Pix::Keys::RIGHT)) {
 		nX++;
 		if (nX > screenWidth() - 200) nX = screenWidth() - 200;
 	}
-	if (rgl::Keyboard::isHeld(rgl::Keys::UP)) {
+	if (Pix::Keyboard::isHeld(Pix::Keys::UP)) {
 		nY--;
 		if (nY < 0) nY = 0;
 	}
-	if (rgl::Keyboard::isHeld(rgl::Keys::DOWN)) {
+	if (Pix::Keyboard::isHeld(Pix::Keys::DOWN)) {
 		nY++;
 		if (nY > screenHeight() - 100) nY = screenHeight() - 100;
 	}

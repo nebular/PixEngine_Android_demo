@@ -2,18 +2,18 @@
   "buildFiles": [
     "/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
     "/Volumes/git.root/sdk/ndk-bundle/build/cmake/platforms.cmake",
-    "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/src/main/cpp/CMakeLists.txt"
+    "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" clean"
+    "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "pixapp-Release-arm64-v8a": {
       "artifactName": "pixapp",
-      "buildCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" pixapp",
+      "buildCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/release/arm64-v8a\" pixapp",
       "abi": "arm64-v8a",
-      "output": "/Volumes/git.root/projs/gaming/engPIX/PixFu_Android_demos/app/build/intermediates/cmake/release/obj/arm64-v8a/libpixapp.so"
+      "output": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/cmake/release/obj/arm64-v8a/libpixapp.so"
     }
   }
 }

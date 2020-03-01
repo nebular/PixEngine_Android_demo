@@ -15,7 +15,7 @@
 #include "ext/world/Splines.hpp"
 #include "ext/world/Config.hpp"
 
-namespace rgl {
+namespace Pix {
 
 	typedef struct sObjectPlacement {
 		float x, y;
