@@ -8,3 +8,4 @@
 #include "DemoControls.h"
 #include "DemoGyro.h"
 #include "DemoGyro2.h"
+#include "Demo3d.h"

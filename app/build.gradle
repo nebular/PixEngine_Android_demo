@@ -43,8 +43,13 @@ android {
 }
 
 task extractSo(type: Copy) {
-    println 'Extracting *.so file(s)....'
-    from zipTree("${project.rootDir}/pixFu_android/pixFu_android.aar")
+    println "-----------------"
+    println "PixFu for Android"
+    println "-----------------"
+    println "(C) 2020 Nebular Streams"
+    println ""
+    println '* Extracting *.so file(s)....'
+    from zipTree("${project.rootDir}/pixFu_android_lib/pixFu_android.aar")
     into "${project.rootDir}/${project.name}/src/main/jniLibs/"
     include "jni/**/*.so"
     eachFile {
@@ -59,8 +64,8 @@ task extractSo(type: Copy) {
 
 
 task extractSoHeaders(type: Copy) {
-    println 'Extracting header file(s)....'
-    from zipTree("${project.rootDir}/pixFu_android/pixFu_android.aar")
+    println '* Extracting header file(s)....'
+    from zipTree("${project.rootDir}/pixFu_android_lib/pixFu_android.aar")
     into "${project.buildDir}/headers/"
     include "res/raw/*.zip"
     eachFile {
@@ -77,7 +82,7 @@ task extractSoHeaders(type: Copy) {
 */
 
 task unpackSoHeaders(type: Copy) {
-    println 'Unpacking header file(s)....'
+    println '* Unpacking header file(s)....'
     from zipTree("${project.buildDir}/headers/raw/pixFu_headers.zip")
     into "${project.rootDir}/${project.name}/src/main/headers/"
     include "*.h"
@@ -93,7 +98,7 @@ task unpackSoHeaders(type: Copy) {
 }
 
 dependencies {
-    implementation project(path: ':pixFu_android')
+    implementation project(path: ':pixFu_android_lib')
 }
 
 
