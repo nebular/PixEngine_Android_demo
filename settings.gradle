@@ -1,2 +1,2 @@
-include ':app', ':pixFu_android'
+include ':app', ':pixFu_android_lib'
 

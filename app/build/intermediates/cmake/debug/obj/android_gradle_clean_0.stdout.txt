@@ -1,0 +1,1 @@
+ninja: Entering directory `/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/armeabi-v7a'

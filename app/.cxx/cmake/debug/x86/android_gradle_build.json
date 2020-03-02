@@ -1,53 +1,53 @@
 {
   "stringTable": {
-    "0": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpixapp_EXPORTS -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/../headers/core -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/../headers/input -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/../headers/items -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/../headers -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app/lonekart/inc -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++17 -frtti -fexceptions -Wall -Wno-unknown-pragmas -O0 -g -fPIC"
+    "0": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android24 --gcc-toolchain=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/git.root/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpixapp_EXPORTS -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/../headers/arch/android/libpng -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/../headers/core -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/../headers/input -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/../headers/items -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/../headers -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app -I/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app/lonekart/inc -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++17 -frtti -fexceptions -Wall -Wno-unknown-pragmas -O0 -g -fPIC"
   },
   "buildFiles": [
     "/Volumes/git.root/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
     "/Volumes/git.root/sdk/ndk-bundle/build/cmake/platforms.cmake",
-    "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/CMakeLists.txt"
+    "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86\" clean"
+    "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "pixapp-Debug-x86": {
-      "buildCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86\" pixapp",
+      "buildCommand": "/Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86\" pixapp",
       "buildType": "debug",
       "toolchain": "1002305126",
       "abi": "x86",
       "artifactName": "pixapp",
       "files": [
         {
-          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/run.cpp",
+          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/run.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app/lonekart/Main.cpp",
+          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app/lonekart/Main.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app/lonekart/Arena.cpp",
+          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app/lonekart/Arena.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app/lonekart/ArenaLevel.cpp",
+          "src": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app/lonekart/ArenaLevel.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [
         {
-          "header": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h",
+          "header": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/src/main/cpp/app/videos/OneLoneCoder_PGE_Balls2.h",
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so"
+      "output": "/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/build/intermediates/cmake/debug/obj/x86/libpixapp.so"
     }
   },
   "toolchains": {

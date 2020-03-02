@@ -1,0 +1,7 @@
+Executable : /Volumes/git.root/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/armeabi-v7a
+clean
+jvmArgs : 
+

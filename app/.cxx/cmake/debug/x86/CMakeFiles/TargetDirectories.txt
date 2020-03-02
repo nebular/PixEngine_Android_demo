@@ -1,3 +1,3 @@
-/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android_demos/app/.cxx/cmake/debug/x86/CMakeFiles/pixapp.dir
+/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Volumes/git.root/gaming/pixFu/Platforms/Android/PixFu_Android/app/.cxx/cmake/debug/x86/CMakeFiles/pixapp.dir
